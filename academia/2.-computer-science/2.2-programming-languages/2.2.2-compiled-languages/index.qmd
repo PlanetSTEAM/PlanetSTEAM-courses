@@ -1,0 +1,39 @@
+﻿---
+title: "2.2.2 Compiled Languages"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../index.qmd' class='btn btn-secondary'>Go Back to Programming Languages</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='2.2.2.1-java.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>2.2.2.1 Java</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='2.2.2.2-c-cpp.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>2.2.2.2 C/C++</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='2.2.2.3-go.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>2.2.2.3 Go</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='2.2.2.4-rust.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>2.2.2.4 Rust</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

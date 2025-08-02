@@ -1,0 +1,18 @@
+﻿---
+title: "4.3.4 Transformers"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../index.qmd' class='btn btn-secondary'>Go Back to Deep Learning</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='4.3.4.1-attention-mechanism.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.3.4.1 Attention Mechanism</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

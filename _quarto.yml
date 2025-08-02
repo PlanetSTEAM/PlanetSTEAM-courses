@@ -1,0 +1,53 @@
+﻿project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Planet STEAM"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Courses
+        menu:
+          - href: academia/index.qmd
+            text: Overview
+          - href: academia/1.-mathematical-scientific-fundamentals/index.qmd
+            text: 1. Mathematical and Scientific Fundamentals
+          - href: academia/2.-computer-science/index.qmd
+            text: 2. Computer Science
+          - href: academia/3.-software-development/index.qmd
+            text: 3. Software Development
+          - href: academia/4.-artificial-intelligence-ml/index.qmd
+            text: 4. Artificial Intelligence and Machine Learning
+          - href: academia/5.-data-science-engineering/index.qmd
+            text: 5. Data Science and Engineering
+          - href: academia/6.-cloud-computing-devops/index.qmd
+            text: 6. Cloud Computing and DevOps
+          - href: academia/7.-automation-low-code/index.qmd
+            text: 7. Automation and Low-Code/No-Code
+          - href: academia/8.-innovation-emerging-trends/index.qmd
+            text: 8. Innovation and Emerging Trends
+          - href: academia/9.-business-applications-management/index.qmd
+            text: 9. Business Applications and Management
+          - href: academia/10.-research-academic-publications/index.qmd
+            text: 10. Research and Academic Publications
+    right:
+      - icon: github
+        href: https://github.com/lcarrenoy
+      - icon: linkedin
+        href: https://www.linkedin.com/in/luis-alberto-carreño/
+
+format:
+  html:
+    light: zephyr
+    fontsize: 1.1em
+    mainfont: arial
+    monofont: courier new
+    css: styles.css
+    toc: false
+    code-link: true
+    code-fold: show
+    code-block-bg: "#C3B1E1"
+
+editor: visual

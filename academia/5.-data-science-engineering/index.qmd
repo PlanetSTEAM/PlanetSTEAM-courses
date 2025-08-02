@@ -1,0 +1,46 @@
+﻿---
+title: "5. Data Science and Engineering"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../../index.qmd' class='btn btn-secondary'>Go Back to Home</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='5.1-data-science-fundamentals/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>5.1 Data Science Fundamentals</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='5.2-data-engineering/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>5.2 Data Engineering</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='5.3-big-data/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>5.3 Big Data</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='5.4-data-visualization/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>5.4 Data Visualization</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='5.5-business-intelligence/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>5.5 Business Intelligence (BI)</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

@@ -1,0 +1,9 @@
+﻿---
+title: "4.5.1 GANs"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to Generative AI</a>
+</div>
+
+<p>Contenido detallado para 4.5.1 GANs...</p>

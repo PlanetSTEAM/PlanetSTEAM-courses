@@ -1,0 +1,39 @@
+﻿---
+title: "1.3 Natural Sciences"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../index.qmd' class='btn btn-secondary'>Go Back to Fundamentals</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='1.3.1-physics/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>1.3.1 Physics</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='1.3.2-chemistry/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>1.3.2 Chemistry</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='1.3.3-biology/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>1.3.3 Biology</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='1.3.4-earth-sciences/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>1.3.4 Earth Sciences</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

@@ -1,0 +1,32 @@
+﻿---
+title: "2.1.2 Object-Oriented Programming"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../index.qmd' class='btn btn-secondary'>Go Back to Programming Fundamentals</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='2.1.2.1-classes-objects.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>2.1.2.1 Classes and Objects</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='2.1.2.2-inheritance-polymorphism.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>2.1.2.2 Inheritance and Polymorphism</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='2.1.2.3-encapsulation-abstraction.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>2.1.2.3 Encapsulation and Abstraction</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

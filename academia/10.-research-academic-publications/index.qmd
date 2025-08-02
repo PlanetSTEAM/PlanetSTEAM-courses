@@ -1,0 +1,32 @@
+﻿---
+title: "10. Research and Academic Publications"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../../index.qmd' class='btn btn-secondary'>Go Back to Home</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='10.1-thesis-dissertations.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>10.1 Thesis and Dissertations</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='10.2-scientific-articles.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>10.2 Scientific Articles</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='10.3-literature-review.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>10.3 Literature Review</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

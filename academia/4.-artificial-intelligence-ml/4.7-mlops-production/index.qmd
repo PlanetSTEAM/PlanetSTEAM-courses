@@ -1,0 +1,25 @@
+﻿---
+title: "4.7 MLOps and Production"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../index.qmd' class='btn btn-secondary'>Go Back to AI and ML</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='4.7.1-model-deployment.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.7.1 Model Deployment</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='4.7.2-monitoring.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.7.2 Monitoring</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

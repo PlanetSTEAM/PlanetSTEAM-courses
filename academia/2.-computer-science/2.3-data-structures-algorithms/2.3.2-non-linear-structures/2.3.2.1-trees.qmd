@@ -1,0 +1,9 @@
+﻿---
+title: "2.3.2.1 Trees"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to Non-Linear Structures</a>
+</div>
+
+<p>Contenido detallado para 2.3.2.1 Trees...</p>

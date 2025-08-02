@@ -1,0 +1,9 @@
+﻿---
+title: "7.3.2 Bubble"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to No-Code</a>
+</div>
+
+<p>Contenido detallado para 7.3.2 Bubble...</p>

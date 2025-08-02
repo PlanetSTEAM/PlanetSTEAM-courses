@@ -1,0 +1,9 @@
+﻿---
+title: "1.1.1.2 Geometry and Trigonometry"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to Basic Mathematics</a>
+</div>
+
+<p>Contenido detallado para 1.1.1.2 Geometry and Trigonometry...</p>

@@ -1,0 +1,32 @@
+﻿---
+title: "4.5 Generative AI"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../index.qmd' class='btn btn-secondary'>Go Back to AI and ML</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='4.5.1-gans.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.5.1 GANs (Generative Adversarial Networks)</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='4.5.2-vaes.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.5.2 VAEs (Variational Autoencoders)</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='4.5.3-diffusion-models.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.5.3 Diffusion Models</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

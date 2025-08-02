@@ -1,0 +1,60 @@
+﻿---
+title: "4. Artificial Intelligence and Machine Learning"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../../index.qmd' class='btn btn-secondary'>Go Back to Home</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='4.1-ai-fundamentals/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.1 AI Fundamentals</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='4.2-machine-learning/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.2 Machine Learning</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='4.3-deep-learning/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.3 Deep Learning</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='4.4-specialized-ai/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.4 Specialized AI</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='4.5-generative-ai/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.5 Generative AI</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='4.6-tools-frameworks/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.6 Tools and Frameworks</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='4.7-mlops-production/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>4.7 MLOps and Production</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

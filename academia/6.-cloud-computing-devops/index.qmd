@@ -1,0 +1,46 @@
+﻿---
+title: "6. Cloud Computing and DevOps"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../../index.qmd' class='btn btn-secondary'>Go Back to Home</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='6.1-cloud-fundamentals/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>6.1 Cloud Fundamentals</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='6.2-devops-practices/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>6.2 DevOps Practices</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='6.3-containerization/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>6.3 Containerization</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='6.4-serverless-computing/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>6.4 Serverless Computing</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='6.5-iac/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>6.5 Infrastructure as Code (IaC)</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

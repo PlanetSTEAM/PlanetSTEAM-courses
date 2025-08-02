@@ -1,0 +1,9 @@
+﻿---
+title: "6.4.1 AWS Lambda"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to Serverless Computing</a>
+</div>
+
+<p>Contenido detallado para 6.4.1 AWS Lambda...</p>

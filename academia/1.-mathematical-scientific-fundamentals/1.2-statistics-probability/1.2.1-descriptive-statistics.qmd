@@ -1,0 +1,9 @@
+﻿---
+title: "1.2.1 Descriptive Statistics"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to Statistics</a>
+</div>
+
+<p>Contenido detallado para 1.2.1 Descriptive Statistics...</p>

@@ -1,0 +1,85 @@
+---
+---
+
+
+<div class="courses-grid-simplified">
+<a href="academia/1.-mathematical-scientific-fundamentals/index.qmd" class="simplified-course-btn">
+<span class="simplified-btn-icon">🔢</span>
+<div class="simplified-btn-text">
+<h4>1. Mathematical and Scientific Fundamentals</h4>
+<p>Build a strong foundation in math, logic, and natural sciences for a career in technology.</p>
+</div>
+</a>
+
+<a href="academia/2.-computer-science/index.qmd" class="simplified-course-btn">
+<span class="simplified-btn-icon">💻</span>
+<div class="simplified-btn-text">
+<h4>2. Computer Science</h4>
+<p>Master the core principles of programming, data structures, and system architecture.</p>
+</div>
+</a>
+
+<a href="academia/3.-software-development/index.qmd" class="simplified-course-btn">
+<span class="simplified-btn-icon">📱</span>
+<div class="simplified-btn-text">
+<h4>3. Software Development</h4>
+<p>Learn to build applications for web, mobile, desktop, and games using modern tools and frameworks.</p>
+</div>
+</a>
+
+<a href="academia/4.-artificial-intelligence-ml/index.qmd" class="simplified-course-btn">
+<span class="simplified-btn-icon">🤖</span>
+<div class="simplified-btn-text">
+<h4>4. Artificial Intelligence and Machine Learning</h4>
+<p>Dive into AI, from foundational concepts to advanced deep learning and generative models.</p>
+</div>
+</a>
+
+<a href="academia/5.-data-science-engineering/index.qmd" class="simplified-course-btn">
+<span class="simplified-btn-icon">📊</span>
+<div class="simplified-btn-text">
+<h4>5. Data Science and Engineering</h4>
+<p>Acquire, process, analyze, and visualize data to drive business insights and create robust data pipelines.</p>
+</div>
+</a>
+
+<a href="academia/6.-cloud-computing-devops/index.qmd" class="simplified-course-btn">
+<span class="simplified-btn-icon">🚀</span>
+<div class="simplified-btn-text">
+<h4>6. Cloud Computing and DevOps</h4>
+<p>Explore cloud platforms, containerization, and practices for efficient software delivery.</p>
+</div>
+</a>
+
+<a href="academia/7.-automation-low-code/index.qmd" class="simplified-course-btn">
+<span class="simplified-btn-icon">⚡</span>
+<div class="simplified-btn-text">
+<h4>7. Automation and Low-Code/No-Code</h4>
+<p>Streamline processes and build applications with powerful automation and low-code tools.</p>
+</div>
+</a>
+
+<a href="academia/8.-innovation-emerging-trends/index.qmd" class="simplified-course-btn">
+<span class="simplified-btn-icon">✨</span>
+<div class="simplified-btn-text">
+<h4>8. Innovation and Emerging Trends</h4>
+<p>Stay ahead of the curve with courses on quantum computing, blockchain, and other cutting-edge technologies.</p>
+</div>
+</a>
+
+<a href="academia/9.-business-applications-management/index.qmd" class="simplified-course-btn">
+<span class="simplified-btn-icon">🏢</span>
+<div class="simplified-btn-text">
+<h4>9. Business Applications and Management</h4>
+<p>Apply technical knowledge to real-world business challenges in project management, finance, and strategy.</p>
+</div>
+</a>
+
+<a href="academia/10.-research-academic-publications/index.qmd" class="simplified-course-btn">
+<span class="simplified-btn-icon">🔬</span>
+<div class="simplified-btn-text">
+<h4>10. Research and Academic Publications</h4>
+<p>Learn the methodologies and best practices for conducting research and publishing academic papers.</p>
+</div>
+</a>
+</div>

@@ -1,0 +1,32 @@
+﻿---
+title: "7. Automation and Low-Code/No-Code"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../../index.qmd' class='btn btn-secondary'>Go Back to Home</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='7.1-rpa.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>7.1 Process Automation (RPA)</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='7.2-low-code-platforms/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>7.2 Low-Code Platforms</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='7.3-no-code-platforms/index.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>7.3 No-Code Platforms</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

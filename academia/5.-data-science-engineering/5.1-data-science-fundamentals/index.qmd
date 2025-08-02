@@ -1,0 +1,32 @@
+﻿---
+title: "5.1 Data Science Fundamentals"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../index.qmd' class='btn btn-secondary'>Go Back to Data Science</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='5.1.1-crisp-dm.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>5.1.1 CRISP-DM Methodology</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='5.1.2-python-data-science.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>5.1.2 Python for Data Science</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='5.1.3-r-data-science.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>5.1.3 R for Data Science</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

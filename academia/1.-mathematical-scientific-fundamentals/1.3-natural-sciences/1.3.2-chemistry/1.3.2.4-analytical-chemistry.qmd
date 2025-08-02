@@ -1,0 +1,9 @@
+﻿---
+title: "1.3.2.4 Analytical Chemistry"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to Chemistry</a>
+</div>
+
+<p>Contenido detallado para 1.3.2.4 Analytical Chemistry...</p>

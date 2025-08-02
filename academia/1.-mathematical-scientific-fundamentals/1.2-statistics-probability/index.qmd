@@ -1,0 +1,39 @@
+﻿---
+title: "1.2 Statistics and Probability"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../index.qmd' class='btn btn-secondary'>Go Back to Fundamentals</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='1.2.1-descriptive-statistics.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>1.2.1 Descriptive Statistics</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='1.2.2-statistical-inference.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>1.2.2 Statistical Inference</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='1.2.3-bayesian-statistics.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>1.2.3 Bayesian Statistics</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='1.2.4-regression-analysis.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>1.2.4 Regression Analysis</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

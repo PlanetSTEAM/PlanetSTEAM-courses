@@ -1,0 +1,9 @@
+﻿---
+title: "10.2 Scientific Articles"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to Research</a>
+</div>
+
+<p>Contenido detallado para 10.2 Scientific Articles...</p>

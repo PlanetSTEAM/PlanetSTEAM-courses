@@ -1,0 +1,9 @@
+﻿---
+title: "4.1.1 History and Concepts"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to AI Fundamentals</a>
+</div>
+
+<p>Contenido detallado para 4.1.1 History and Concepts...</p>

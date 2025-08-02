@@ -1,0 +1,25 @@
+﻿---
+title: "5.5 Business Intelligence (BI)"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='../index.qmd' class='btn btn-secondary'>Go Back to Data Science</a>
+</div>
+
+<div class="subtopic-grid">
+<a href='5.5.1-bi-tools.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>5.5.1 BI Tools and Reports</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+<a href='5.5.2-dashboards-kpis.qmd' class='subtopic-card'>
+<span><i class='bi-file-earmark-text'></i></span>
+<div>
+<h4>5.5.2 Dashboards and KPIs</h4>
+<p>Explora los detalles de este tema clave.</p>
+</div>
+</a>
+</div>
+

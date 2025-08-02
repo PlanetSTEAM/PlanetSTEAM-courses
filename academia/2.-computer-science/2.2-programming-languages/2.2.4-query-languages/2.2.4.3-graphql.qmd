@@ -1,0 +1,9 @@
+﻿---
+title: "2.2.4.3 GraphQL"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to Query Languages</a>
+</div>
+
+<p>Contenido detallado para 2.2.4.3 GraphQL...</p>

@@ -1,0 +1,9 @@
+﻿---
+title: "6.2.2 Monitoring and Logging"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to DevOps Practices</a>
+</div>
+
+<p>Contenido detallado para 6.2.2 Monitoring and Logging...</p>

@@ -1,0 +1,9 @@
+﻿---
+title: "8.4.1 Embedded Systems"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to IoT</a>
+</div>
+
+<p>Contenido detallado para 8.4.1 Embedded Systems...</p>

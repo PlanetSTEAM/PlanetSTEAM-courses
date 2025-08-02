@@ -1,0 +1,9 @@
+﻿---
+title: "5.2.3 Data Lakes"
+---
+
+<div class="navigation-buttons mt-4">
+<a href='index.qmd' class='btn btn-secondary'>Go Back to Data Engineering</a>
+</div>
+
+<p>Contenido detallado para 5.2.3 Data Lakes...</p>
