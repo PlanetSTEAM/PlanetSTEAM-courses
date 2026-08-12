@@ -1,0 +1,69 @@
+---
+title: "Python para Análisis de Datos"
+subtitle: "Curso introductorio — variables, pandas y tu primer gráfico"
+author: "Luis Carreño"
+lang_curso: python
+target_role: "Data Analyst"
+level: "Básico"
+is_free_preview: true
+format:
+  html:
+    toc: true
+    toc-location: left
+engine: jupyter
+---
+
+# 1. ¿Qué es Python?
+
+Python es un lenguaje de programación de propósito general, fácil de leer, muy usado en
+análisis de datos, automatización y ciencia de datos. A diferencia de R, que nace enfocado en
+estadística, Python sirve tanto para analizar datos como para construir el resto de una
+aplicación.
+
+# 2. Instalar Python
+
+- Descarga Python desde [python.org](https://www.python.org/downloads/).
+- Instala un editor como [VS Code](https://code.visualstudio.com/).
+- Verifica la instalación en una terminal:
+
+```bash
+python --version
+```
+
+# 3. Variables y tipos de datos
+
+```{python}
+nombre = "Planet STEAM"
+version = 2026
+activo = True
+print(f"{nombre} — versión {version} — activo: {activo}")
+```
+
+# 4. Tu primera tabla con pandas
+
+```{python}
+import pandas as pd
+
+ventas = pd.DataFrame({
+    "mes": ["Ene", "Feb", "Mar", "Abr", "May", "Jun"],
+    "ventas": [150, 200, 180, 250, 300, 220]
+})
+ventas
+```
+
+# 5. Tu primer gráfico
+
+```{python}
+import matplotlib.pyplot as plt
+
+plt.bar(ventas["mes"], ventas["ventas"], color="#22D3EE")
+plt.title("Ventas mensuales")
+plt.xlabel("Mes")
+plt.ylabel("Ventas")
+plt.show()
+```
+
+# 6. Practica
+
+Sin instalar nada, puedes probar código Python directo en el navegador en
+[programiz.com/python-programming/online-compiler](https://www.programiz.com/python-programming/online-compiler/).

@@ -1,85 +1,78 @@
 ---
+title: "🐍 Planet STEAM — Python Course"
+subtitle: "4 Tracks · 48 Modules · 720 Q&As · 35 Roles"
+format:
+  html:
+    toc: false
 ---
 
+```{=html}
+<div style="text-align: center; margin: 40px 0;">
+  <h1 style="color: #1B2A6B; font-size: 48px; margin-bottom: 10px;">🐍 Python Profesional</h1>
+  <p style="color: #6B7280; font-size: 18px; margin-bottom: 40px;">Elige tu especialización: 4 tracks, 48 módulos, 720 preguntas de entrevista</p>
 
-<div class="courses-grid-simplified">
-<a href="academia/1.-mathematical-scientific-fundamentals/index.qmd" class="simplified-course-btn">
-<span class="simplified-btn-icon">🔢</span>
-<div class="simplified-btn-text">
-<h4>1. Mathematical and Scientific Fundamentals</h4>
-<p>Build a strong foundation in math, logic, and natural sciences for a career in technology.</p>
-</div>
-</a>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 40px;">
 
-<a href="academia/2.-computer-science/index.qmd" class="simplified-course-btn">
-<span class="simplified-btn-icon">💻</span>
-<div class="simplified-btn-text">
-<h4>2. Computer Science</h4>
-<p>Master the core principles of programming, data structures, and system architecture.</p>
-</div>
-</a>
+    <!-- DATA ANALYST -->
+    <div style="background: rgba(255,255,255,0.95); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);">
+      <h3 style="color: #1B2A6B; font-size: 20px; margin-bottom: 8px;">📊 Data Analyst</h3>
+      <p style="color: #6B7280; font-size: 14px; margin-bottom: 16px;">Análisis de datos con pandas, NumPy, visualización y estadística</p>
+      <div style="margin-bottom: 12px;">
+        <strong style="color: #1B2A6B;">Módulos:</strong> 12 | <strong>Horas:</strong> 40-45 | <strong>Roles:</strong> 10
+      </div>
+      <p style="color: #059669; font-weight: 600; margin-bottom: 16px;">Salario LATAM: $40k-70k</p>
+      <a href="01-python/01-data-analyst/" style="display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #F5A623 0%, #D97706 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">Estudiar Track →</a>
+    </div>
 
-<a href="academia/3.-software-development/index.qmd" class="simplified-course-btn">
-<span class="simplified-btn-icon">📱</span>
-<div class="simplified-btn-text">
-<h4>3. Software Development</h4>
-<p>Learn to build applications for web, mobile, desktop, and games using modern tools and frameworks.</p>
-</div>
-</a>
+    <!-- DATA ENGINEER -->
+    <div style="background: rgba(255,255,255,0.95); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);">
+      <h3 style="color: #1B2A6B; font-size: 20px; margin-bottom: 8px;">🔧 Data Engineer</h3>
+      <p style="color: #6B7280; font-size: 14px; margin-bottom: 16px;">Pipelines ETL, Spark, Airflow, arquitecturas de datos</p>
+      <div style="margin-bottom: 12px;">
+        <strong style="color: #1B2A6B;">Módulos:</strong> 12 | <strong>Horas:</strong> 50-60 | <strong>Roles:</strong> 10
+      </div>
+      <p style="color: #059669; font-weight: 600; margin-bottom: 16px;">Salario LATAM: $50k-85k</p>
+      <a href="01-python/02-data-engineer/" style="display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #F5A623 0%, #D97706 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">Estudiar Track →</a>
+    </div>
 
-<a href="academia/4.-artificial-intelligence-ml/index.qmd" class="simplified-course-btn">
-<span class="simplified-btn-icon">🤖</span>
-<div class="simplified-btn-text">
-<h4>4. Artificial Intelligence and Machine Learning</h4>
-<p>Dive into AI, from foundational concepts to advanced deep learning and generative models.</p>
-</div>
-</a>
+    <!-- BACKEND DEVELOPER -->
+    <div style="background: rgba(255,255,255,0.95); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);">
+      <h3 style="color: #1B2A6B; font-size: 20px; margin-bottom: 8px;">⚙️ Backend Developer</h3>
+      <p style="color: #6B7280; font-size: 14px; margin-bottom: 16px;">APIs REST, bases de datos, autenticación, deployment</p>
+      <div style="margin-bottom: 12px;">
+        <strong style="color: #1B2A6B;">Módulos:</strong> 12 | <strong>Horas:</strong> 50-60 | <strong>Roles:</strong> 10
+      </div>
+      <p style="color: #059669; font-weight: 600; margin-bottom: 16px;">Salario LATAM: $45k-90k</p>
+      <a href="01-python/03-backend-developer/" style="display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #F5A623 0%, #D97706 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">Estudiar Track →</a>
+    </div>
 
-<a href="academia/5.-data-science-engineering/index.qmd" class="simplified-course-btn">
-<span class="simplified-btn-icon">📊</span>
-<div class="simplified-btn-text">
-<h4>5. Data Science and Engineering</h4>
-<p>Acquire, process, analyze, and visualize data to drive business insights and create robust data pipelines.</p>
-</div>
-</a>
+    <!-- ML/AI ENGINEER -->
+    <div style="background: rgba(255,255,255,0.95); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);">
+      <h3 style="color: #1B2A6B; font-size: 20px; margin-bottom: 8px;">🤖 ML/AI Engineer</h3>
+      <p style="color: #6B7280; font-size: 14px; margin-bottom: 16px;">Machine Learning, Deep Learning, Neural Networks, LLMs</p>
+      <div style="margin-bottom: 12px;">
+        <strong style="color: #1B2A6B;">Módulos:</strong> 12 | <strong>Horas:</strong> 60-70 | <strong>Roles:</strong> 8
+      </div>
+      <p style="color: #059669; font-weight: 600; margin-bottom: 16px;">Salario LATAM: $60k-120k</p>
+      <a href="01-python/04-ml-ai-engineer/" style="display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #F5A623 0%, #D97706 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">Estudiar Track →</a>
+    </div>
 
-<a href="academia/6.-cloud-computing-devops/index.qmd" class="simplified-course-btn">
-<span class="simplified-btn-icon">🚀</span>
-<div class="simplified-btn-text">
-<h4>6. Cloud Computing and DevOps</h4>
-<p>Explore cloud platforms, containerization, and practices for efficient software delivery.</p>
-</div>
-</a>
+  </div>
 
-<a href="academia/7.-automation-low-code/index.qmd" class="simplified-course-btn">
-<span class="simplified-btn-icon">⚡</span>
-<div class="simplified-btn-text">
-<h4>7. Automation and Low-Code/No-Code</h4>
-<p>Streamline processes and build applications with powerful automation and low-code tools.</p>
+  <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(24px); border-radius: 16px; padding: 24px; margin-top: 40px;">
+    <h2 style="color: white; margin-bottom: 20px;">📚 Recursos Adicionales</h2>
+    <ul style="color: white; text-align: left; max-width: 600px; margin: 0 auto;">
+      <li><a href="dashboard.html" style="color: #F5A623; text-decoration: none;">🎯 Dashboard Interactivo</a> — Ver por roles o categorías</li>
+      <li><a href="_metadata.json" style="color: #F5A623; text-decoration: none;">📋 Metadata Completa</a> — Config de todos los tracks</li>
+    </ul>
+  </div>
 </div>
-</a>
+```
 
-<a href="academia/8.-innovation-emerging-trends/index.qmd" class="simplified-course-btn">
-<span class="simplified-btn-icon">✨</span>
-<div class="simplified-btn-text">
-<h4>8. Innovation and Emerging Trends</h4>
-<p>Stay ahead of the curve with courses on quantum computing, blockchain, and other cutting-edge technologies.</p>
-</div>
-</a>
+---
 
-<a href="academia/9.-business-applications-management/index.qmd" class="simplified-course-btn">
-<span class="simplified-btn-icon">🏢</span>
-<div class="simplified-btn-text">
-<h4>9. Business Applications and Management</h4>
-<p>Apply technical knowledge to real-world business challenges in project management, finance, and strategy.</p>
-</div>
-</a>
+**Estado:** ✅ Phase 1 Complete
+**Módulos:** 48 · **Q&A:** 720 · **Roles:** 35
+**Certificaciones:** 12 · **Salario LATAM:** $40k-120k
 
-<a href="academia/10.-research-academic-publications/index.qmd" class="simplified-course-btn">
-<span class="simplified-btn-icon">🔬</span>
-<div class="simplified-btn-text">
-<h4>10. Research and Academic Publications</h4>
-<p>Learn the methodologies and best practices for conducting research and publishing academic papers.</p>
-</div>
-</a>
-</div>
+*Última actualización: 10 de agosto, 2026*

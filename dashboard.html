@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet STEAM — Cursos Profesionales</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --navy: #1B2A6B;
+            --navy-mid: #243480;
+            --navy-dark: #0F1D4A;
+            --gold: #F5A623;
+            --gold-dark: #D97706;
+            --text-1: #111827;
+            --text-2: #374151;
+            --text-3: #6B7280;
+            --border: #E5E7EB;
+            --bg: #F7F8FC;
+            --surface: #FFFFFF;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0A1535 0%, #1B2A6B 45%, #1E3A8A 100%);
+            min-height: 100vh;
+            color: var(--text-1);
+            padding: 40px 20px;
+        }
+
+        .container { max-width: 1400px; margin: 0 auto; }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 60px;
+        }
+
+        header h1 {
+            font-size: 56px;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 20px;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+
+        .stats-banner {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(24px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 32px;
+            margin-bottom: 50px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 32px;
+            text-align: center;
+            color: white;
+        }
+
+        .stat-item .number {
+            font-size: 40px;
+            font-weight: 700;
+            color: var(--gold);
+            margin-bottom: 8px;
+        }
+
+        .stat-item .label {
+            font-size: 14px;
+            opacity: 0.85;
+        }
+
+        .controls {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+        }
+
+        .control-group {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .control-label {
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .control-btn {
+            padding: 10px 20px;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            background: transparent;
+            color: white;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .control-btn.active {
+            background: var(--gold);
+            border-color: var(--gold);
+            color: var(--navy);
+            box-shadow: 0 8px 24px rgba(245, 166, 35, 0.4);
+        }
+
+        .control-btn:hover:not(.active) {
+            border-color: var(--gold);
+            transform: translateY(-2px);
+        }
+
+        .category-section {
+            margin-bottom: 60px;
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .category-icon {
+            font-size: 40px;
+        }
+
+        .category-title {
+            color: white;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .category-subtitle {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+            margin-top: 4px;
+        }
+
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .course-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(24px);
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .course-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 24px 48px rgba(245, 166, 35, 0.25);
+            border-color: var(--gold);
+        }
+
+        .course-header {
+            background: linear-gradient(135deg, rgba(27, 42, 107, 0.8) 0%, rgba(36, 52, 128, 0.8) 100%);
+            padding: 24px;
+            text-align: center;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        .course-icon {
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+
+        .course-name {
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .course-category {
+            color: var(--gold);
+            font-size: 12px;
+            font-weight: 600;
+            opacity: 0.9;
+        }
+
+        .course-body {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .course-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .stat {
+            background: var(--bg);
+            padding: 12px;
+            border-radius: 8px;
+            border-left: 3px solid var(--gold);
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: var(--text-3);
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .stat-value {
+            font-size: 20px;
+            color: var(--navy);
+            font-weight: 700;
+            margin-top: 4px;
+        }
+
+        .course-cta {
+            width: 100%;
+            padding: 12px;
+            margin-top: auto;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .course-cta:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 20px rgba(245, 166, 35, 0.4);
+        }
+
+        .hidden { display: none !important; }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+
+        .empty-state h3 {
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+
+        .empty-state p {
+            opacity: 0.7;
+        }
+
+        footer {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 12px;
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Planet STEAM Academy</h1>
+            <p>35+ Cursos Profesionales | 4 Tracks por Curso | 1,680+ Módulos</p>
+        </header>
+
+        <div class="stats-banner">
+            <div class="stat-item">
+                <div class="number">35+</div>
+                <div class="label">Cursos</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">140+</div>
+                <div class="label">Tracks</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">1,680+</div>
+                <div class="label">Módulos</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">25,200+</div>
+                <div class="label">Q&As</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="control-group">
+                <span class="control-label">Vista:</span>
+                <button class="control-btn active" onclick="setView('all')">Todos</button>
+                <button class="control-btn" onclick="setView('engineering')">Ingeniería</button>
+                <button class="control-btn" onclick="setView('cloud')">Cloud</button>
+                <button class="control-btn" onclick="setView('data')">Data</button>
+            </div>
+        </div>
+
+        <div id="coursesContainer"></div>
+
+        <footer>
+            <p>🚀 Planet STEAM | Cursos de Mastery para Profesionales STEAM | © 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        const COURSES_CONFIG = {
+            "1-SOFTWARE_ENGINEERING": {
+                "name": "Software Engineering & Languages",
+                "icon": "💻",
+                "view": "engineering",
+                "courses": [
+                    { "key": "python", "name": "Python", "icon": "🐍", "roles": 35, "tracks": 4 },
+                    { "key": "java", "name": "Java / JVM", "icon": "☕", "roles": 10, "tracks": 4 },
+                    { "key": "javascript", "name": "JavaScript / TypeScript", "icon": "🟨", "roles": 12, "tracks": 4 },
+                    { "key": "dotnet", "name": ".NET / C#", "icon": "📦", "roles": 6, "tracks": 4 },
+                    { "key": "go", "name": "Go / Rust / Systems", "icon": "⚙️", "roles": 6, "tracks": 4 }
+                ]
+            },
+            "2-CLOUD_INFRASTRUCTURE": {
+                "name": "Cloud & Infrastructure",
+                "icon": "☁️",
+                "view": "cloud",
+                "courses": [
+                    { "key": "aws", "name": "AWS", "icon": "☁️", "roles": 10, "tracks": 4 },
+                    { "key": "azure", "name": "Azure", "icon": "☁️", "roles": 10, "tracks": 4 },
+                    { "key": "gcp", "name": "Google Cloud", "icon": "☁️", "roles": 6, "tracks": 4 },
+                    { "key": "kubernetes", "name": "Kubernetes & Docker", "icon": "🐳", "roles": 8, "tracks": 4 },
+                    { "key": "devops", "name": "DevOps & CI/CD", "icon": "🚀", "roles": 7, "tracks": 4 }
+                ]
+            },
+            "3-DATA_AI": {
+                "name": "Data & AI",
+                "icon": "📊",
+                "view": "data",
+                "courses": [
+                    { "key": "data-engineering", "name": "Data Engineering", "icon": "🔧", "roles": 10, "tracks": 4 },
+                    { "key": "data-analytics", "name": "Data Analytics / BI", "icon": "📈", "roles": 10, "tracks": 4 },
+                    { "key": "ml", "name": "Machine Learning", "icon": "🤖", "roles": 10, "tracks": 4 },
+                    { "key": "dl", "name": "Deep Learning", "icon": "🧠", "roles": 8, "tracks": 4 },
+                    { "key": "llms", "name": "LLMs & Generative AI", "icon": "✨", "roles": 8, "tracks": 4 }
+                ]
+            },
+            "4-DATABASES_SECURITY": {
+                "name": "Databases & Security",
+                "icon": "🔐",
+                "view": "data",
+                "courses": [
+                    { "key": "sql", "name": "SQL / Databases", "icon": "🗄️", "roles": 9, "tracks": 4 },
+                    { "key": "security", "name": "Cybersecurity", "icon": "🔒", "roles": 10, "tracks": 4 },
+                    { "key": "blockchain", "name": "Blockchain & Web3", "icon": "⛓️", "roles": 4, "tracks": 4 }
+                ]
+            },
+            "5-MOBILE_DESIGN": {
+                "name": "Mobile & Design",
+                "icon": "📱",
+                "view": "engineering",
+                "courses": [
+                    { "key": "mobile", "name": "Mobile Development", "icon": "📱", "roles": 6, "tracks": 4 },
+                    { "key": "ux", "name": "UX/UI Design", "icon": "🎨", "roles": 5, "tracks": 4 }
+                ]
+            },
+            "6-PRODUCT_MANAGEMENT": {
+                "name": "Product & Management",
+                "icon": "📦",
+                "view": "engineering",
+                "courses": [
+                    { "key": "product", "name": "Product Management", "icon": "📦", "roles": 6, "tracks": 4 },
+                    { "key": "leadership", "name": "Technical Leadership", "icon": "👔", "roles": 5, "tracks": 4 }
+                ]
+            }
+        };
+
+        let currentView = 'all';
+
+        function setView(view) {
+            currentView = view;
+            document.querySelectorAll('.control-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent.toLowerCase().includes(view === 'all' ? 'todos' : view === 'engineering' ? 'ingeniería' : view === 'cloud' ? 'cloud' : 'data')) {
+                    btn.classList.add('active');
+                }
+            });
+            renderCourses();
+        }
+
+        function renderCourses() {
+            const container = document.getElementById('coursesContainer');
+            container.innerHTML = '';
+
+            Object.entries(COURSES_CONFIG).forEach(([catKey, category]) => {
+                if (currentView !== 'all' && category.view !== currentView) return;
+
+                const categoryHtml = `
+                    <div class="category-section">
+                        <div class="category-header">
+                            <div class="category-icon">${category.icon}</div>
+                            <div>
+                                <div class="category-title">${category.name}</div>
+                                <div class="category-subtitle">${category.courses.length} cursos profesionales</div>
+                            </div>
+                        </div>
+                        <div class="courses-grid">
+                            ${category.courses.map(course => `
+                                <div class="course-card">
+                                    <div class="course-header">
+                                        <div class="course-icon">${course.icon}</div>
+                                        <div class="course-name">${course.name}</div>
+                                        <div class="course-category">${category.name}</div>
+                                    </div>
+                                    <div class="course-body">
+                                        <div class="course-stats">
+                                            <div class="stat">
+                                                <div class="stat-label">Módulos</div>
+                                                <div class="stat-value">${course.tracks * 12}</div>
+                                            </div>
+                                            <div class="stat">
+                                                <div class="stat-label">Q&As</div>
+                                                <div class="stat-value">${course.tracks * 12 * 15}</div>
+                                            </div>
+                                        </div>
+                                        <div class="course-stats">
+                                            <div class="stat">
+                                                <div class="stat-label">Tracks</div>
+                                                <div class="stat-value">${course.tracks}</div>
+                                            </div>
+                                            <div class="stat">
+                                                <div class="stat-label">Roles</div>
+                                                <div class="stat-value">${course.roles}</div>
+                                            </div>
+                                        </div>
+                                        <button class="course-cta">Comenzar →</button>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+
+                container.innerHTML += categoryHtml;
+            });
+        }
+
+        renderCourses();
+    </script>
+</body>
+</html>

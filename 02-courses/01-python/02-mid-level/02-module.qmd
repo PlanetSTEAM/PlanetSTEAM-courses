@@ -1,0 +1,125 @@
+---
+title: "Módulo 2 — Mid-Level"
+subtitle: "Duración: 50-60 horas"
+author: "Luis Carreño"
+date: today
+course: "Python"
+track: "Mid-Level"
+module: 2
+duration: "50-60 horas"
+format:
+  html:
+    code-fold: false
+    toc: true
+    number-sections: true
+---
+
+## 📚 Introducción
+
+Módulo 2: Módulo 2 — Mid-Level
+
+**Curso:** Python
+**Track:** Mid-Level
+**Duración:** 50-60 horas
+
+---
+
+## 🎯 Learning Outcomes
+
+Al terminar este módulo, podrás:
+
+- ✅ Comprender los conceptos fundamentales
+- ✅ Aplicar en ejercicios prácticos
+- ✅ Resolver problemas reales
+
+---
+
+## 1️⃣ NIVEL BÁSICO — Conceptos Fundamentales
+
+### Teoría
+
+Conceptos básicos de Módulo 2 — Mid-Level.
+
+### Código Ejecutable
+
+```{python}
+# Ejemplo básico del módulo 2
+print("Hola desde Python — Módulo 2")
+```
+
+### Ejercicio 1: Nivel Básico
+
+Resuelve este problema básico.
+
+---
+
+## 2️⃣ NIVEL INTERMEDIO — Aplicación Práctica
+
+### Conceptos Avanzados
+
+Conceptos intermedios de Módulo 2 — Mid-Level.
+
+```{python}
+# Ejemplo intermedio
+data = {'A': [1, 2, 3], 'B': [4, 5, 6]}
+print("Datos de ejemplo:", data)
+```
+
+### Ejercicio 2: Nivel Intermedio
+
+Resuelve este problema más complejo.
+
+---
+
+## 3️⃣ NIVEL AVANZADO — Integración Completa
+
+### Patrones Profesionales
+
+Patrones y arquitecturas profesionales.
+
+### Proyecto Mini
+
+Implementa un mini-proyecto integrando todo lo aprendido.
+
+---
+
+## 🎤 INTERVIEW QUESTIONS
+
+### Básico (5 preguntas)
+
+1. ¿Qué es Módulo 2 — Mid-Level?
+2. ¿Para qué se utiliza?
+3. ¿Cuál es la diferencia entre...?
+4. ¿Cómo se implementa...?
+5. ¿Cuál es un caso de uso común?
+
+### Intermedio (5 preguntas)
+
+6. Explica un patrón avanzado
+7. ¿Cómo optimizarías...?
+8. ¿Cuál es la complejidad de...?
+9. ¿Cómo manejarías este edge case?
+10. Diseña una solución para...
+
+### Avanzado (5 preguntas)
+
+11. Arquitectura compleja
+12. Performance optimization
+13. Casos extremos
+14. Integración con otros sistemas
+15. Diseño a escala
+
+---
+
+## ✅ Checklist de Aprendizaje
+
+- [ ] Entiendo los conceptos básicos
+- [ ] Puedo ejecutar los ejemplos
+- [ ] Completé los ejercicios
+- [ ] Respondí las 15 preguntas de entrevista
+
+---
+
+**✅ Módulo 2 Completado**
+
+*Autor: Luis Carreño | Licencia: CC BY-SA*
