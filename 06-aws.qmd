@@ -1,0 +1,7 @@
+---
+title: "AWS — Cloud Computing & DevOps"
+subtitle: "4 levels, 48 modules, 250 hours, 20 projects"
+---
+Master **AWS** cloud platform for building scalable, secure, and cost-efficient infrastructure.
+### 📊 Stats | 4 Levels | 48 Modules | 250+ Hours | 20 Projects | 5 Certs
+**Timeline: 6-9 months**

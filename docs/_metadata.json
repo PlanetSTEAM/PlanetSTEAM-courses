@@ -1,0 +1,110 @@
+{
+  "course": "python",
+  "version": "1.0",
+  "phase": 1,
+  "generated": "2026-08-10",
+  "total_modules": 48,
+  "total_roles_covered": 35,
+  "tracks": {
+    "01-data-analyst": {
+      "id": "data-analyst",
+      "name": "Data Analyst",
+      "description": "Análisis de datos con pandas, NumPy, visualización y estadística",
+      "hours": "40-45",
+      "modules": 12,
+      "roles_count": 10,
+      "roles": ["Data Analyst", "Business Analyst", "Marketing Analyst", "Financial Analyst", "Sales Analyst", "Healthcare Data Analyst", "Research Analyst", "Product Analyst", "Analytics Manager", "Data Storyteller"],
+      "certifications": [
+        {"name": "PCAP: Certified Associate Python Programmer", "provider": "Python.org", "cost": "$99", "questions_in_course": 30},
+        {"name": "Google Analytics Certified Associate", "provider": "Google", "cost": "Free", "questions_in_course": 25},
+        {"name": "Microsoft Data Analyst (PL-300)", "provider": "Microsoft", "cost": "$99", "questions_in_course": 35}
+      ],
+      "salary_latam": {
+        "junior": "$35k-45k",
+        "mid": "$55k-75k",
+        "senior": "$80k-120k"
+      },
+      "skills": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "SQL", "Statistics", "Excel", "Tableau/PowerBI"]
+    },
+    "02-data-engineer": {
+      "id": "data-engineer",
+      "name": "Data Engineer",
+      "description": "Pipelines ETL, Apache Spark, Airflow, arquitecturas de datos",
+      "hours": "50-60",
+      "modules": 12,
+      "roles_count": 10,
+      "roles": ["Data Engineer", "ETL Developer", "Pipeline Engineer", "Data Architect", "Analytics Engineer", "Big Data Engineer", "Data Infrastructure Engineer", "Data Platform Engineer", "Databricks Engineer", "Data Lake Engineer"],
+      "certifications": [
+        {"name": "AWS Certified Data Analytics Specialty", "provider": "Amazon", "cost": "$150", "questions_in_course": 40},
+        {"name": "Google Cloud Professional Data Engineer", "provider": "Google", "cost": "$200", "questions_in_course": 50},
+        {"name": "Microsoft Certified: Azure Data Engineer Associate (DP-203)", "provider": "Microsoft", "cost": "$99", "questions_in_course": 45}
+      ],
+      "salary_latam": {
+        "junior": "$40k-55k",
+        "mid": "$65k-85k",
+        "senior": "$100k-150k"
+      },
+      "skills": ["PySpark", "Apache Airflow", "Kafka", "SQL Advanced", "Cloud Platforms", "Docker", "dbt", "Data Warehousing"]
+    },
+    "03-backend-developer": {
+      "id": "backend-dev",
+      "name": "Backend Developer",
+      "description": "APIs REST, bases de datos, autenticación, deployment",
+      "hours": "50-60",
+      "modules": 12,
+      "roles_count": 10,
+      "roles": ["Python Developer", "Backend Developer", "Full Stack Developer", "Django Developer", "FastAPI Developer", "API Developer", "Microservices Developer", "Systems Software Engineer", "Application Engineer", "Software Engineer"],
+      "certifications": [
+        {"name": "AWS Certified Developer - Associate", "provider": "Amazon", "cost": "$150", "questions_in_course": 40},
+        {"name": "Microsoft Certified: Azure Developer Associate (AZ-204)", "provider": "Microsoft", "cost": "$99", "questions_in_course": 35},
+        {"name": "Linux Foundation Certified Associate Cloud Engineer (LFCA)", "provider": "Linux Foundation", "cost": "$395", "questions_in_course": 50}
+      ],
+      "salary_latam": {
+        "junior": "$35k-50k",
+        "mid": "$60k-80k",
+        "senior": "$90k-140k"
+      },
+      "skills": ["Django/FastAPI", "REST APIs", "SQLAlchemy", "Authentication", "Docker", "CI/CD", "Kubernetes", "Testing"]
+    },
+    "04-ml-ai-engineer": {
+      "id": "ml-ai",
+      "name": "ML/AI Engineer",
+      "description": "Machine Learning, Deep Learning, Neural Networks, LLMs",
+      "hours": "60-70",
+      "modules": 12,
+      "roles_count": 8,
+      "roles": ["Machine Learning Engineer", "Data Scientist", "AI Engineer", "Deep Learning Engineer", "Computer Vision Engineer", "NLP Engineer", "LLM Engineer", "ML Ops Engineer"],
+      "certifications": [
+        {"name": "TensorFlow Developer Certificate", "provider": "Google/TensorFlow", "cost": "$100", "questions_in_course": 30},
+        {"name": "AWS Certified Machine Learning - Specialty", "provider": "Amazon", "cost": "$300", "questions_in_course": 50},
+        {"name": "Google Cloud Professional Machine Learning Engineer", "provider": "Google", "cost": "$200", "questions_in_course": 50}
+      ],
+      "salary_latam": {
+        "junior": "$50k-70k",
+        "mid": "$85k-110k",
+        "senior": "$130k-200k"
+      },
+      "skills": ["TensorFlow", "PyTorch", "scikit-learn", "Neural Networks", "NLP", "Computer Vision", "MLOps", "Statistics"]
+    }
+  },
+  "interview_qa": {
+    "total_per_module": 15,
+    "distribution": {
+      "basic": 5,
+      "intermediate": 5,
+      "advanced": 5
+    },
+    "total_across_course": 720
+  },
+  "quiz_system": {
+    "pass_score": 75,
+    "questions_per_track_quiz": "Dynamic (15-25 questions)",
+    "score_impacts_roadmap": true,
+    "scoring_multiplier_by_role": {
+      "data-analyst": 1.0,
+      "data-engineer": 1.2,
+      "backend-dev": 1.1,
+      "ml-ai": 1.3
+    }
+  }
+}

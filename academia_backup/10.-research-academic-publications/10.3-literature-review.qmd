@@ -1,9 +1,0 @@
-﻿---
-title: "10.3 Literature Review"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Research</a>
-</div>
-
-<p>Contenido detallado para 10.3 Literature Review...</p>

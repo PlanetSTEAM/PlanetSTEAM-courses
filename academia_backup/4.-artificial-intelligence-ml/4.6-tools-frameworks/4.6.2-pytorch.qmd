@@ -1,9 +1,0 @@
-﻿---
-title: "4.6.2 PyTorch"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Tools and Frameworks</a>
-</div>
-
-<p>Contenido detallado para 4.6.2 PyTorch...</p>

@@ -1,9 +1,0 @@
-﻿---
-title: "2.2.3.2 Haskell"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Functional Languages</a>
-</div>
-
-<p>Contenido detallado para 2.2.3.2 Haskell...</p>

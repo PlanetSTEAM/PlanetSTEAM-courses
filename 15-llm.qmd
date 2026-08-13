@@ -1,0 +1,6 @@
+---
+title: "LLMs & Generative AI — Large Language Models"
+subtitle: "4 levels, 48 modules, 280 hours, 20 projects"
+---
+Master **LLMs** and Generative AI for building advanced AI applications.
+**Timeline: 6-9 months | 4 Levels | 48 Modules | 280+ Hours | 3 Certs**

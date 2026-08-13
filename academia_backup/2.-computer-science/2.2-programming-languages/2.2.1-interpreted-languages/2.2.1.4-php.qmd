@@ -1,9 +1,0 @@
-﻿---
-title: "2.2.1.4 PHP"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Interpreted Languages</a>
-</div>
-
-<p>Contenido detallado para 2.2.1.4 PHP...</p>

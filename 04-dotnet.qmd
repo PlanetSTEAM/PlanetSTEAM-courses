@@ -1,0 +1,9 @@
+---
+title: ".NET / C# — Enterprise & Cloud"
+subtitle: "4 levels, 48 modules, 230 hours, 20 projects"
+---
+Master **C#** and **.NET** for building enterprise applications, cloud services, and modern desktop apps with Azure integration.
+
+### 📊 Stats | 4 Levels | 48 Modules | 230+ Hours | 20 Projects | 3 Certs
+### Topics: C# Fundamentals | OOP & Design | ASP.NET Core | Entity Framework | Azure Cloud | Microservices
+**Timeline: 6-9 months**

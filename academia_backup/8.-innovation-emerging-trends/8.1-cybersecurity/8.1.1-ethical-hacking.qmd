@@ -1,9 +1,0 @@
-﻿---
-title: "8.1.1 Ethical Hacking"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Cybersecurity</a>
-</div>
-
-<p>Contenido detallado para 8.1.1 Ethical Hacking...</p>

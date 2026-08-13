@@ -1,0 +1,6 @@
+---
+title: "Machine Learning — AI/ML Fundamentals"
+subtitle: "4 levels, 48 modules, 280 hours, 20 projects"
+---
+Master **Machine Learning** for building intelligent systems and predictive models.
+**Timeline: 6-9 months | 4 Levels | 48 Modules | 280+ Hours | 4 Certs**

@@ -1,0 +1,6 @@
+---
+title: "Kubernetes — Container Orchestration"
+subtitle: "4 levels, 48 modules, 200 hours, 20 projects"
+---
+Master **Kubernetes** for orchestrating containerized applications at scale.
+**Timeline: 6-9 months | 4 Levels | 48 Modules | 200+ Hours | 2 Certs**

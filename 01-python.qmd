@@ -1,0 +1,156 @@
+---
+title: "Python — Data Processing & Scripting"
+subtitle: "4 levels, 48 modules, 235 hours, 20 projects, 3 certifications"
+author: "Planet STEAM"
+date: 2026-08-13
+image: "🐍"
+---
+
+## Course Overview
+
+**Python** is the go-to language for data processing, scripting, and machine learning. Master object-oriented programming, data manipulation, and scientific computing.
+
+### 📊 Course Stats
+
+| Metric | Value |
+|--------|-------|
+| **Levels** | 4 (Junior → Mid → Senior → Lead) |
+| **Modules** | 48 total (12 per level) |
+| **Learning Hours** | 235+ hours |
+| **Projects** | 20 real-world projects |
+| **Certifications** | 3 (PCEP, PCAP, PCPP1) |
+| **Ideal For** | Data Analyst, Backend Dev, ML/AI Engineer |
+
+---
+
+## 🌱 Level 1: Junior (Beginner)
+
+### Modules (12 total)
+
+1. **Basics & Fundamentals** — Variables, data types, control flow
+2. **Setup & Environment** — Install Python, VS Code, virtual environments
+3. **Core Concepts** — Functions, modules, packages
+4. **Functions & Methods** — Def, args, kwargs, lambda
+5. **Data Structures** — Lists, tuples, dicts, sets
+6. **Best Practices** — Code style, naming, documentation
+7. **Debugging & Testing** — Print debugging, unittest, pytest
+8. **Integration** — Working with APIs and libraries
+9. **Performance** — Time complexity, optimization basics
+10. **Security** — Input validation, safe practices
+11. **Advanced Topics** — Decorators, generators, context managers
+12. **Capstone Project** — Build a complete Python application
+
+### Learning Path
+
+```
+Week 1-2:   Basics (Modules 1-2)
+Week 3-4:   Core Concepts (Modules 3-5)
+Week 5-6:   Best Practices (Modules 6-7)
+Week 7-8:   Integration (Module 8)
+Week 9:     Projects & Capstone
+```
+
+---
+
+## ⚡ Level 2: Mid-Level (Intermediate)
+
+### Object-Oriented Programming
+
+- Classes and objects
+- Inheritance and polymorphism
+- Encapsulation and abstraction
+- Design patterns
+
+### Advanced Data Structures
+
+- Custom data structures
+- Algorithms (sorting, searching, graphs)
+- Complexity analysis
+
+### Real-World Projects (5)
+
+1. **Web Scraper** — Extract data from websites
+2. **Data Pipeline** — Process and transform large datasets
+3. **REST API** — Build a Python web service
+4. **CLI Tool** — Command-line application
+5. **Database App** — SQLAlchemy ORM integration
+
+---
+
+## 🔥 Level 3: Senior (Advanced)
+
+### Advanced Topics
+
+- Async/await and concurrency
+- Metaprogramming and reflection
+- Performance optimization
+- Memory management
+
+### Specializations
+
+- **Data Science**: NumPy, Pandas, Scikit-learn
+- **Web**: Django, Flask, FastAPI
+- **ML**: TensorFlow, PyTorch basics
+
+### Advanced Projects (5)
+
+1. **Machine Learning Model** — Classification or regression
+2. **High-Performance App** — Optimize for speed
+3. **Distributed System** — Multi-processing/threading
+4. **Cloud Deployment** — AWS Lambda or similar
+5. **Open Source Contribution** — Real GitHub project
+
+---
+
+## 💎 Level 4: Lead (Expert)
+
+### Expert Topics
+
+- Framework internals
+- Writing C extensions
+- Production deployment
+- Architecture and scalability
+
+### Certifications
+
+1. **PCEP** (Python Institute Entry Level)
+   - 40 questions in 45 minutes
+   - Focus: Basics, functions, data types
+
+2. **PCAP** (Python Associate Programmer)
+   - 65 questions in 130 minutes
+   - Focus: OOP, modules, advanced features
+
+3. **PCPP1** (Python Professional)
+   - 100 questions in 240 minutes
+   - Focus: Expert-level Python
+
+---
+
+## 📚 Resources
+
+### Free Tools
+
+- [Python.org](https://python.org) — Official Python
+- [VS Code](https://code.visualstudio.com) — Editor
+- [Anaconda](https://anaconda.com) — Data science platform
+
+### Paid Resources
+
+- [Real Python](https://realpython.com) — Comprehensive tutorials
+- [Coursera Python for Data Science](https://coursera.org)
+- [DataCamp Python Courses](https://datacamp.com)
+
+---
+
+## 🎯 Success Criteria
+
+After completing this course, you'll be able to:
+
+✅ Write clean, Pythonic code
+✅ Build full-stack applications
+✅ Optimize performance
+✅ Pass PCEP/PCAP/PCPP1 exams
+✅ Lead Python teams
+
+**Estimated Time: 235 hours | Timeline: 6-9 months (25 hrs/week)**

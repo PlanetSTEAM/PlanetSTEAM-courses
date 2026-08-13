@@ -1,0 +1,6 @@
+---
+title: "Databases & SQL — Database Design & Optimization"
+subtitle: "4 levels, 48 modules, 200 hours, 20 projects"
+---
+Master **SQL** and database design for building scalable data systems.
+**Timeline: 6-9 months | 4 Levels | 48 Modules | 200+ Hours | 3 Certs**

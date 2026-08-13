@@ -1,9 +1,0 @@
-﻿---
-title: "6.1.2 Cloud Providers"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Cloud Fundamentals</a>
-</div>
-
-<p>Contenido detallado para 6.1.2 Cloud Providers...</p>

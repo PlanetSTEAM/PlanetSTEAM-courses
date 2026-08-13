@@ -1,0 +1,6 @@
+---
+title: "Data Engineering — Big Data & Pipelines"
+subtitle: "4 levels, 48 modules, 250 hours, 20 projects"
+---
+Master **Data Engineering** for building scalable data pipelines and infrastructure.
+**Timeline: 6-9 months | 4 Levels | 48 Modules | 250+ Hours | 4 Certs**

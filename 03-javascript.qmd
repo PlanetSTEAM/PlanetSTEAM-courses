@@ -1,0 +1,14 @@
+---
+title: "JavaScript / TypeScript — Web Development"
+subtitle: "4 levels, 48 modules, 220 hours, 20 projects, 3 certifications"
+author: "Planet STEAM"
+---
+
+## Course Overview
+Master **JavaScript/TypeScript** for modern web development, from fundamentals to advanced frameworks like React, Vue, and Node.js.
+
+### 📊 Stats | 4 Levels | 48 Modules | 220+ Hours | 20 Projects | 3 Certs
+
+### Topics: Variables & Types | DOM & Events | Async Programming | Modern Frameworks | TypeScript | Node.js
+
+**Timeline: 6-9 months**

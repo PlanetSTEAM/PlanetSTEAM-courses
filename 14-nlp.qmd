@@ -1,0 +1,6 @@
+---
+title: "Deep Learning / NLP — Neural Networks"
+subtitle: "4 levels, 48 modules, 300 hours, 20 projects"
+---
+Master **Deep Learning** and **NLP** for advanced AI applications and language understanding.
+**Timeline: 6-9 months | 4 Levels | 48 Modules | 300+ Hours | 3 Certs**

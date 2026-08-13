@@ -1,9 +1,0 @@
-﻿---
-title: "7.1 Process Automation (RPA)"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Automation</a>
-</div>
-
-<p>Contenido detallado para 7.1 Process Automation (RPA)...</p>

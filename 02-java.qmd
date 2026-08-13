@@ -1,0 +1,28 @@
+---
+title: "Java / JVM — Enterprise Systems"
+subtitle: "4 levels, 48 modules, 240 hours, 20 projects, 3 certifications"
+author: "Planet STEAM"
+---
+
+## Course Overview
+
+**Java** powers enterprise applications worldwide. Master object-oriented design, Spring Framework, and distributed systems.
+
+### 📊 Course Stats
+| Metric | Value |
+|--------|-------|
+| **Levels** | 4 (Junior → Lead) |
+| **Modules** | 48 (12 per level) |
+| **Hours** | 240+ |
+| **Projects** | 20 real-world |
+| **Certs** | 3 (OCA, OCP, OCPJP) |
+| **Ideal For** | Backend Dev, Enterprise Architect |
+
+### Key Topics
+- OOP fundamentals & design patterns
+- Spring Boot & microservices
+- Database design (JPA/Hibernate)
+- Multithreading & concurrency
+- RESTful APIs & web services
+
+**Timeline: 6-9 months (25 hrs/week)**

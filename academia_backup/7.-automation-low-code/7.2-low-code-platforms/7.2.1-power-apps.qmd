@@ -1,9 +1,0 @@
-﻿---
-title: "7.2.1 Power Apps"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Low-Code</a>
-</div>
-
-<p>Contenido detallado para 7.2.1 Power Apps...</p>

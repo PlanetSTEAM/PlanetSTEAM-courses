@@ -1,9 +1,0 @@
-﻿---
-title: "2.4.1 Operating Systems"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Systems and Architecture</a>
-</div>
-
-<p>Contenido detallado para 2.4.1 Operating Systems...</p>

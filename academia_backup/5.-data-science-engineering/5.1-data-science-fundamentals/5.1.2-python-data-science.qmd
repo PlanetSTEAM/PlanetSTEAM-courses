@@ -1,9 +1,0 @@
-﻿---
-title: "5.1.2 Python for Data Science"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Data Science Fundamentals</a>
-</div>
-
-<p>Contenido detallado para 5.1.2 Python for Data Science...</p>

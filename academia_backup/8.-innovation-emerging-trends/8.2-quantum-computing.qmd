@@ -1,9 +1,0 @@
-﻿---
-title: "8.2 Quantum Computing"
----
-
-<div class="navigation-buttons mt-4">
-<a href='../index.qmd' class='btn btn-secondary'>Go Back to Innovation</a>
-</div>
-
-<p>Contenido detallado para 8.2 Quantum Computing...</p>

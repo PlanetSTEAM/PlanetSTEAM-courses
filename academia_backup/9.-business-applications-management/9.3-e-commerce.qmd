@@ -1,9 +1,0 @@
-﻿---
-title: "9.3 E-commerce"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Business Applications</a>
-</div>
-
-<p>Contenido detallado para 9.3 E-commerce...</p>

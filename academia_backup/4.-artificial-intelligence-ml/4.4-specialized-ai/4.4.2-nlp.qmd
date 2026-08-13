@@ -1,9 +1,0 @@
-﻿---
-title: "4.4.2 Natural Language Processing (NLP)"
----
-
-<div class="navigation-buttons mt-4">
-<a href='index.qmd' class='btn btn-secondary'>Go Back to Specialized AI</a>
-</div>
-
-<p>Contenido detallado para 4.4.2 Natural Language Processing (NLP)...</p>
