@@ -1,14 +1,71 @@
 ---
-title: "JavaScript / TypeScript — Web Development"
-subtitle: "4 levels, 48 modules, 220 hours, 20 projects, 3 certifications"
+title: "🟨 JavaScript/TypeScript"
 author: "Planet STEAM"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
 ---
 
-## Course Overview
-Master **JavaScript/TypeScript** for modern web development, from fundamentals to advanced frameworks like React, Vue, and Node.js.
+# 🟨 JavaScript/TypeScript
 
-### 📊 Stats | 4 Levels | 48 Modules | 220+ Hours | 20 Projects | 3 Certs
+**4 levels • 48 modules • 235+ hours • 50+ projects • 3 certifications**
 
-### Topics: Variables & Types | DOM & Events | Async Programming | Modern Frameworks | TypeScript | Node.js
+## Module 1: Fundamentals
 
-**Timeline: 6-9 months**
+### Theory
+
+# Contenido Teórico - Módulo 1
+
+Fundamentos y conceptos clave del curso. Este módulo introduce los conceptos básicos necesarios para comprender el resto del programa.
+
+### Code Examples
+
+\\\
+# Ejemplo de código
+# Inserta aquí código de ejemplo real del curso
+\\\
+
+### Exercises
+
+## Ejercicio 1
+Descripción del primer ejercicio.
+
+## Ejercicio 2
+Descripción del segundo ejercicio.
+
+## Ejercicio 3
+Descripción del tercer ejercicio.
+
+### Practical Project
+
+## Proyecto Capstone
+Descripción del proyecto del módulo.
+
+### Knowledge Check
+
+## Quiz
+3 preguntas para validar el aprendizaje.
+
+## Modules 2-12
+
+| Module | Title | Duration |
+|--------|-------|----------|
+| 2 | Core Concepts | 12-15 hrs |
+| 3 | Advanced Topics | 15-20 hrs |
+| 4 | Real-world Applications | 20-25 hrs |
+| 5 | Best Practices & Patterns | 15-20 hrs |
+| 6 | Performance & Optimization | 20-25 hrs |
+| 7 | Security & Reliability | 15-20 hrs |
+| 8 | Testing & Quality | 15-20 hrs |
+| 9 | Integration & DevOps | 20-25 hrs |
+| 10 | Advanced Patterns | 20-25 hrs |
+| 11 | Production Deployment | 15-20 hrs |
+| 12 | Capstone Project | 25-30 hrs |
+
+---
+
+**Start Learning:** [View in Module Player](https://planet-steam-app.vercel.app/academy/3-javascript-typescript/junior/1)
+
+Built with Quarto | Planet STEAM

@@ -1,6 +1,64 @@
 ---
-title: "Machine Learning — AI/ML Fundamentals"
-subtitle: "4 levels, 48 modules, 280 hours, 20 projects"
+title: "🤖 Machine Learning"
+author: "Planet STEAM"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
 ---
-Master **Machine Learning** for building intelligent systems and predictive models.
-**Timeline: 6-9 months | 4 Levels | 48 Modules | 280+ Hours | 4 Certs**
+
+# 🤖 Machine Learning
+
+**4 levels • 48 modules • 235+ hours • 50+ projects • 3 certifications**
+
+## Module 1: Fundamentals
+
+### Theory
+
+# Module 1 - Fundamentals
+
+Contenido teórico del módulo 1.
+
+### Code Examples
+
+\\\
+# Ejemplo de código
+\\\
+
+### Exercises
+
+## Ejercicios
+Descripciones de ejercicios.
+
+### Practical Project
+
+## Proyecto
+Descripción del proyecto.
+
+### Knowledge Check
+
+## Quiz
+Preguntas de validación.
+
+## Modules 2-12
+
+| Module | Title | Duration |
+|--------|-------|----------|
+| 2 | Core Concepts | 12-15 hrs |
+| 3 | Advanced Topics | 15-20 hrs |
+| 4 | Real-world Applications | 20-25 hrs |
+| 5 | Best Practices & Patterns | 15-20 hrs |
+| 6 | Performance & Optimization | 20-25 hrs |
+| 7 | Security & Reliability | 15-20 hrs |
+| 8 | Testing & Quality | 15-20 hrs |
+| 9 | Integration & DevOps | 20-25 hrs |
+| 10 | Advanced Patterns | 20-25 hrs |
+| 11 | Production Deployment | 15-20 hrs |
+| 12 | Capstone Project | 25-30 hrs |
+
+---
+
+**Start Learning:** [View in Module Player](https://planet-steam-app.vercel.app/academy/13-machine-learning/junior/1)
+
+Built with Quarto | Planet STEAM

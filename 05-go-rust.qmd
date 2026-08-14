@@ -1,51 +1,64 @@
 ---
 title: "🐹 Go/Rust"
-subtitle: "Systems Programming"
 author: "Planet STEAM"
 date: today
-categories: [Programming]
 format:
   html:
     toc: true
     toc-depth: 3
 ---
 
-# 🐹 Go/Rust — Systems Programming
+# 🐹 Go/Rust
 
-**4 levels • 48 modules • 235+ hours • 20+ projects • 3 certifications**
+**4 levels • 48 modules • 235+ hours • 50+ projects • 3 certifications**
 
-## Course Overview
+## Module 1: Fundamentals
 
-Master Go/Rust with comprehensive training across 4 progressive levels, from beginner to expert.
+### Theory
 
-## Course Stats
+# Module 1 - Fundamentals
 
-| Metric | Value |
-|--------|-------|
-| **Levels** | 4 (Junior → Mid → Senior → Lead) |
-| **Modules** | 48 total (12 per level) |
-| **Learning Hours** | 235+ hours |
-| **Projects** | 50+ real-world |
-| **Certifications** | 3 official |
+Contenido teórico del módulo 1.
 
-## Levels
+### Code Examples
 
-### 🌱 Level 1: Junior (Beginner)
-- Module 1: Basics & Fundamentals
-- Module 2-12: Core Concepts, Practice, Projects
+\\\
+# Ejemplo de código
+\\\
 
-### ⚡ Level 2: Mid-Level (Intermediate)
-- Advanced Patterns, Real-World Apps
+### Exercises
 
-### 🔥 Level 3: Senior (Advanced)
-- Expert Techniques, System Design
+## Ejercicios
+Descripciones de ejercicios.
 
-### 💎 Level 4: Lead (Expert)
-- Architecture, Leadership, Innovation
+### Practical Project
 
-## Start Learning
+## Proyecto
+Descripción del proyecto.
 
-[View in Module Player](https://planet-steam-app.vercel.app/academy/5-go-rust/junior/1)
+### Knowledge Check
+
+## Quiz
+Preguntas de validación.
+
+## Modules 2-12
+
+| Module | Title | Duration |
+|--------|-------|----------|
+| 2 | Core Concepts | 12-15 hrs |
+| 3 | Advanced Topics | 15-20 hrs |
+| 4 | Real-world Applications | 20-25 hrs |
+| 5 | Best Practices & Patterns | 15-20 hrs |
+| 6 | Performance & Optimization | 20-25 hrs |
+| 7 | Security & Reliability | 15-20 hrs |
+| 8 | Testing & Quality | 15-20 hrs |
+| 9 | Integration & DevOps | 20-25 hrs |
+| 10 | Advanced Patterns | 20-25 hrs |
+| 11 | Production Deployment | 15-20 hrs |
+| 12 | Capstone Project | 25-30 hrs |
 
 ---
-*Generated: 2026-08-14 | Planet STEAM*
+
+**Start Learning:** [View in Module Player](https://planet-steam-app.vercel.app/academy/5-go-rust/junior/1)
+
+Built with Quarto | Planet STEAM

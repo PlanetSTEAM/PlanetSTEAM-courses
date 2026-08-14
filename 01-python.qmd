@@ -1,51 +1,180 @@
 ---
 title: "🐍 Python"
-subtitle: "Data Processing & Scripting"
 author: "Planet STEAM"
 date: today
-categories: [Programming]
 format:
   html:
     toc: true
     toc-depth: 3
 ---
 
-# 🐍 Python — Data Processing & Scripting
+# 🐍 Python
 
-**4 levels • 48 modules • 235+ hours • 20+ projects • 3 certifications**
+**4 levels • 48 modules • 235+ hours • 50+ projects • 3 certifications**
 
-## Course Overview
+## Module 1: Fundamentals
 
-Master Python with comprehensive training across 4 progressive levels, from beginner to expert.
+### Theory
 
-## Course Stats
+# Python Basics & Fundamentals
 
-| Metric | Value |
-|--------|-------|
-| **Levels** | 4 (Junior → Mid → Senior → Lead) |
-| **Modules** | 48 total (12 per level) |
-| **Learning Hours** | 235+ hours |
-| **Projects** | 50+ real-world |
-| **Certifications** | 3 official |
+Python es un lenguaje de programación interpretado, dinámico y de alto nivel. Creado por Guido van Rossum en 1991, se ha convertido en uno de los lenguajes más populares para desarrollo general, ciencia de datos y automatización.
 
-## Levels
+## Por qué Python?
+- **Legibilidad:** Sintaxis clara y simple
+- **Versátil:** Web, data science, ML, automatización
+- **Comunidad:** Miles de librerías (pip)
+- **Demanda:** Top 3 en ofertas laborales LATAM
 
-### 🌱 Level 1: Junior (Beginner)
-- Module 1: Basics & Fundamentals
-- Module 2-12: Core Concepts, Practice, Projects
+## Instalación y Setup
+\\\ash
+python --version
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+\\\
 
-### ⚡ Level 2: Mid-Level (Intermediate)
-- Advanced Patterns, Real-World Apps
+## Tu primer programa
+\\\python
+print('¡Hola, Python!')
+\\\
 
-### 🔥 Level 3: Senior (Advanced)
-- Expert Techniques, System Design
+## Variables y tipos
+Variables, strings, números, listas, diccionarios con ejemplos prácticos.
 
-### 💎 Level 4: Lead (Expert)
-- Architecture, Leadership, Innovation
+### Code Examples
 
-## Start Learning
+\\\
+# Variables y tipos de datos
+nombre = 'Planet STEAM'
+estudiantes = 1000
+promedio = 4.8
+activo = True
 
-[View in Module Player](https://planet-steam-app.vercel.app/academy/1-python/junior/1)
+print(f'Plataforma: {nombre}')
+print(f'Estudiantes: {estudiantes}')
+
+# Operaciones
+a = 10
+b = 3
+print(f'Suma: {a + b}')
+print(f'Multiplicación: {a * b}')
+\\\
+
+### Exercises
+
+## Ejercicio 1: Variables y Strings
+Crea variables para nombre, edad y ciudad. Imprime un saludo personalizado.
+
+**Solución:**
+\\\python
+nombre = 'Juan'
+edad = 25
+ciudad = 'Lima'
+print(f'Hola {nombre}, tienes {edad} años y vives en {ciudad}')
+\\\
+
+**Hint:** Usa f-strings para interpolación
+
+## Ejercicio 2: Operaciones Matemáticas
+Calcula el promedio de 5 números.
+
+**Solución:**
+\\\python
+numeros = [87, 92, 78, 95, 88]
+promedio = sum(numeros) / len(numeros)
+print(f'Promedio: {promedio:.2f}')
+\\\
+
+**Hint:** Usa sum() y len()
+
+## Ejercicio 3: Conversión de Tipos
+Convierte edad de string a entero y suma 10.
+
+**Solución:**
+\\\python
+edad_str = input('Tu edad: ')
+edad = int(edad_str)
+edad_futura = edad + 10
+print(f'En 10 años: {edad_futura}')
+\\\
+
+**Hint:** Usa int() para conversión
+
+### Practical Project
+
+## Proyecto: Calculadora de IMC
+
+Crea un programa que calcule el IMC de una persona.
+
+**Requisitos:**
+1. Solicita peso (kg) y altura (metros)
+2. Calcula: IMC = peso / (altura²)
+3. Muestra categoría (bajo peso, normal, sobrepeso, obeso)
+
+**Código base:**
+\\\python
+peso = float(input('Tu peso (kg): '))
+altura = float(input('Tu altura (m): '))
+
+imc = peso / (altura ** 2)
+print(f'Tu IMC: {imc:.2f}')
+
+if imc < 18.5:
+    print('Bajo peso')
+elif imc < 25:
+    print('Peso normal')
+elif imc < 30:
+    print('Sobrepeso')
+else:
+    print('Obeso')
+\\\
+
+**Objetivos:**
+✓ Input del usuario
+✓ Cálculos matemáticos
+✓ Condicionales (if/elif/else)
+✓ Formateo de output
+
+### Knowledge Check
+
+## Quiz: Python Basics
+
+**Pregunta 1:** ¿Cuál es el tipo de dato de x = 3.14?
+- [ ] int
+- [x] float
+- [ ] string
+- [ ] bool
+
+**Pregunta 2:** ¿Cuál es el resultado de 10 / 3?
+- [ ] 3
+- [x] 3.333...
+- [ ] 3.0
+- [ ] Error
+
+**Pregunta 3:** ¿Qué imprime print(f'Hola {name}')?
+- [ ] Hola {name}
+- [x] Hola [valor de name]
+- [ ] Hola 'name'
+- [ ] Error
+
+## Modules 2-12
+
+| Module | Title | Duration |
+|--------|-------|----------|
+| 2 | Core Concepts | 12-15 hrs |
+| 3 | Advanced Topics | 15-20 hrs |
+| 4 | Real-world Applications | 20-25 hrs |
+| 5 | Best Practices & Patterns | 15-20 hrs |
+| 6 | Performance & Optimization | 20-25 hrs |
+| 7 | Security & Reliability | 15-20 hrs |
+| 8 | Testing & Quality | 15-20 hrs |
+| 9 | Integration & DevOps | 20-25 hrs |
+| 10 | Advanced Patterns | 20-25 hrs |
+| 11 | Production Deployment | 15-20 hrs |
+| 12 | Capstone Project | 25-30 hrs |
 
 ---
-*Generated: 2026-08-14 | Planet STEAM*
+
+**Start Learning:** [View in Module Player](https://planet-steam-app.vercel.app/academy/1-python/junior/1)
+
+Built with Quarto | Planet STEAM

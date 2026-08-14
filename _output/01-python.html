@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Planet STEAM">
+<meta name="dcterms.date" content="2026-08-14">
+
+<title>🐍 Python – Planet STEAM — 22 Courses</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-2c169b83e1fc2996b25bcc8774810429.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./🚀" alt="" class="navbar-logo light-content">
+    <img src="./🚀" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Planet STEAM — 22 Courses</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#python" id="toc-python" class="nav-link active" data-scroll-target="#python">🐍 Python</a>
+  <ul class="collapse">
+  <li><a href="#module-1-fundamentals" id="toc-module-1-fundamentals" class="nav-link" data-scroll-target="#module-1-fundamentals">Module 1: Fundamentals</a>
+  <ul class="collapse">
+  <li><a href="#theory" id="toc-theory" class="nav-link" data-scroll-target="#theory">Theory</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#python-basics-fundamentals" id="toc-python-basics-fundamentals" class="nav-link" data-scroll-target="#python-basics-fundamentals">Python Basics &amp; Fundamentals</a>
+  <ul class="collapse">
+  <li><a href="#por-qué-python" id="toc-por-qué-python" class="nav-link" data-scroll-target="#por-qué-python">Por qué Python?</a></li>
+  <li><a href="#instalación-y-setup" id="toc-instalación-y-setup" class="nav-link" data-scroll-target="#instalación-y-setup">Instalación y Setup</a></li>
+  <li><a href="#tu-primer-programa" id="toc-tu-primer-programa" class="nav-link" data-scroll-target="#tu-primer-programa">Tu primer programa</a></li>
+  <li><a href="#variables-y-tipos" id="toc-variables-y-tipos" class="nav-link" data-scroll-target="#variables-y-tipos">Variables y tipos</a>
+  <ul class="collapse">
+  <li><a href="#code-examples" id="toc-code-examples" class="nav-link" data-scroll-target="#code-examples">Code Examples</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#operaciones" id="toc-operaciones" class="nav-link" data-scroll-target="#operaciones">Operaciones</a>
+  <ul class="collapse">
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
+  <li><a href="#ejercicio-1-variables-y-strings" id="toc-ejercicio-1-variables-y-strings" class="nav-link" data-scroll-target="#ejercicio-1-variables-y-strings">Ejercicio 1: Variables y Strings</a></li>
+  <li><a href="#ejercicio-2-operaciones-matemáticas" id="toc-ejercicio-2-operaciones-matemáticas" class="nav-link" data-scroll-target="#ejercicio-2-operaciones-matemáticas">Ejercicio 2: Operaciones Matemáticas</a></li>
+  <li><a href="#ejercicio-3-conversión-de-tipos" id="toc-ejercicio-3-conversión-de-tipos" class="nav-link" data-scroll-target="#ejercicio-3-conversión-de-tipos">Ejercicio 3: Conversión de Tipos</a>
+  <ul class="collapse">
+  <li><a href="#practical-project" id="toc-practical-project" class="nav-link" data-scroll-target="#practical-project">Practical Project</a></li>
+  </ul></li>
+  <li><a href="#proyecto-calculadora-de-imc" id="toc-proyecto-calculadora-de-imc" class="nav-link" data-scroll-target="#proyecto-calculadora-de-imc">Proyecto: Calculadora de IMC</a>
+  <ul class="collapse">
+  <li><a href="#knowledge-check" id="toc-knowledge-check" class="nav-link" data-scroll-target="#knowledge-check">Knowledge Check</a></li>
+  </ul></li>
+  <li><a href="#quiz-python-basics" id="toc-quiz-python-basics" class="nav-link" data-scroll-target="#quiz-python-basics">Quiz: Python Basics</a></li>
+  <li><a href="#modules-2-12" id="toc-modules-2-12" class="nav-link" data-scroll-target="#modules-2-12">Modules 2-12</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">🐍 Python</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Planet STEAM </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 14, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="python" class="level1">
+<h1>🐍 Python</h1>
+<p><strong>4 levels • 48 modules • 235+ hours • 50+ projects • 3 certifications</strong></p>
+<section id="module-1-fundamentals" class="level2">
+<h2 class="anchored" data-anchor-id="module-1-fundamentals">Module 1: Fundamentals</h2>
+<section id="theory" class="level3">
+<h3 class="anchored" data-anchor-id="theory">Theory</h3>
+</section>
+</section>
+</section>
+<section id="python-basics-fundamentals" class="level1">
+<h1>Python Basics &amp; Fundamentals</h1>
+<p>Python es un lenguaje de programación interpretado, dinámico y de alto nivel. Creado por Guido van Rossum en 1991, se ha convertido en uno de los lenguajes más populares para desarrollo general, ciencia de datos y automatización.</p>
+<section id="por-qué-python" class="level2">
+<h2 class="anchored" data-anchor-id="por-qué-python">Por qué Python?</h2>
+<ul>
+<li><strong>Legibilidad:</strong> Sintaxis clara y simple</li>
+<li><strong>Versátil:</strong> Web, data science, ML, automatización</li>
+<li><strong>Comunidad:</strong> Miles de librerías (pip)</li>
+<li><strong>Demanda:</strong> Top 3 en ofertas laborales LATAM</li>
+</ul>
+</section>
+<section id="instalación-y-setup" class="level2">
+<h2 class="anchored" data-anchor-id="instalación-y-setup">Instalación y Setup</h2>
+<p>\ash python –version python -m venv venv source venv/bin/activate # macOS/Linux \<br>
+</p>
+</section>
+<section id="tu-primer-programa" class="level2">
+<h2 class="anchored" data-anchor-id="tu-primer-programa">Tu primer programa</h2>
+<p>\ print(‘¡Hola, Python!’) \<br>
+</p>
+</section>
+<section id="variables-y-tipos" class="level2">
+<h2 class="anchored" data-anchor-id="variables-y-tipos">Variables y tipos</h2>
+<p>Variables, strings, números, listas, diccionarios con ejemplos prácticos.</p>
+<section id="code-examples" class="level3">
+<h3 class="anchored" data-anchor-id="code-examples">Code Examples</h3>
+<p>\<br>
+# Variables y tipos de datos nombre = ‘Planet STEAM’ estudiantes = 1000 promedio = 4.8 activo = True</p>
+<p>print(f’Plataforma: {nombre}‘) print(f’Estudiantes: {estudiantes}’)</p>
+</section>
+</section>
+</section>
+<section id="operaciones" class="level1">
+<h1>Operaciones</h1>
+<p>a = 10 b = 3 print(f’Suma: {a + b}‘) print(f’Multiplicación: {a * b}’) \<br>
+</p>
+<section id="exercises" class="level3">
+<h3 class="anchored" data-anchor-id="exercises">Exercises</h3>
+</section>
+<section id="ejercicio-1-variables-y-strings" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-1-variables-y-strings">Ejercicio 1: Variables y Strings</h2>
+<p>Crea variables para nombre, edad y ciudad. Imprime un saludo personalizado.</p>
+<p><strong>Solución:</strong> \ nombre = ‘Juan’ edad = 25 ciudad = ‘Lima’ print(f’Hola {nombre}, tienes {edad} años y vives en {ciudad}’) \<br>
+</p>
+<p><strong>Hint:</strong> Usa f-strings para interpolación</p>
+</section>
+<section id="ejercicio-2-operaciones-matemáticas" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-2-operaciones-matemáticas">Ejercicio 2: Operaciones Matemáticas</h2>
+<p>Calcula el promedio de 5 números.</p>
+<p><strong>Solución:</strong> \ numeros = [87, 92, 78, 95, 88] promedio = sum(numeros) / len(numeros) print(f’Promedio: {promedio:.2f}’) \<br>
+</p>
+<p><strong>Hint:</strong> Usa sum() y len()</p>
+</section>
+<section id="ejercicio-3-conversión-de-tipos" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-3-conversión-de-tipos">Ejercicio 3: Conversión de Tipos</h2>
+<p>Convierte edad de string a entero y suma 10.</p>
+<p><strong>Solución:</strong> \ edad_str = input(‘Tu edad:’) edad = int(edad_str) edad_futura = edad + 10 print(f’En 10 años: {edad_futura}’) \<br>
+</p>
+<p><strong>Hint:</strong> Usa int() para conversión</p>
+<section id="practical-project" class="level3">
+<h3 class="anchored" data-anchor-id="practical-project">Practical Project</h3>
+</section>
+</section>
+<section id="proyecto-calculadora-de-imc" class="level2">
+<h2 class="anchored" data-anchor-id="proyecto-calculadora-de-imc">Proyecto: Calculadora de IMC</h2>
+<p>Crea un programa que calcule el IMC de una persona.</p>
+<p><strong>Requisitos:</strong> 1. Solicita peso (kg) y altura (metros) 2. Calcula: IMC = peso / (altura²) 3. Muestra categoría (bajo peso, normal, sobrepeso, obeso)</p>
+<p><strong>Código base:</strong> \ peso = float(input(‘Tu peso (kg):’)) altura = float(input(‘Tu altura (m):’))</p>
+<p>imc = peso / (altura ** 2) print(f’Tu IMC: {imc:.2f}’)</p>
+<p>if imc &lt; 18.5: print(‘Bajo peso’) elif imc &lt; 25: print(‘Peso normal’) elif imc &lt; 30: print(‘Sobrepeso’) else: print(‘Obeso’) \<br>
+</p>
+<p><strong>Objetivos:</strong> ✓ Input del usuario ✓ Cálculos matemáticos ✓ Condicionales (if/elif/else) ✓ Formateo de output</p>
+<section id="knowledge-check" class="level3">
+<h3 class="anchored" data-anchor-id="knowledge-check">Knowledge Check</h3>
+</section>
+</section>
+<section id="quiz-python-basics" class="level2">
+<h2 class="anchored" data-anchor-id="quiz-python-basics">Quiz: Python Basics</h2>
+<p><strong>Pregunta 1:</strong> ¿Cuál es el tipo de dato de x = 3.14? - [ ] int - [x] float - [ ] string - [ ] bool</p>
+<p><strong>Pregunta 2:</strong> ¿Cuál es el resultado de 10 / 3? - [ ] 3 - [x] 3.333… - [ ] 3.0 - [ ] Error</p>
+<p><strong>Pregunta 3:</strong> ¿Qué imprime print(f’Hola {name}‘)? - [ ] Hola {name} - [x] Hola [valor de name] - [ ] Hola ’name’ - [ ] Error</p>
+</section>
+<section id="modules-2-12" class="level2">
+<h2 class="anchored" data-anchor-id="modules-2-12">Modules 2-12</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Module</th>
+<th>Title</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>Core Concepts</td>
+<td>12-15 hrs</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Advanced Topics</td>
+<td>15-20 hrs</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Real-world Applications</td>
+<td>20-25 hrs</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Best Practices &amp; Patterns</td>
+<td>15-20 hrs</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Performance &amp; Optimization</td>
+<td>20-25 hrs</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Security &amp; Reliability</td>
+<td>15-20 hrs</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>Testing &amp; Quality</td>
+<td>15-20 hrs</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>Integration &amp; DevOps</td>
+<td>20-25 hrs</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>Advanced Patterns</td>
+<td>20-25 hrs</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>Production Deployment</td>
+<td>15-20 hrs</td>
+</tr>
+<tr class="odd">
+<td>12</td>
+<td>Capstone Project</td>
+<td>25-30 hrs</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Start Learning:</strong> <a href="https://planet-steam-app.vercel.app/academy/1-python/junior/1">View in Module Player</a></p>
+<p>Built with Quarto | Planet STEAM</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

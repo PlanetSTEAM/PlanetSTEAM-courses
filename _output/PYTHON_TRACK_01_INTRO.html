@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>python_track_01_intro – Planet STEAM — 22 Courses</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-2c169b83e1fc2996b25bcc8774810429.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./🚀" alt="" class="navbar-logo light-content">
+    <img src="./🚀" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Planet STEAM — 22 Courses</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#módulo-1-qué-es-python-setup-profesional" id="toc-módulo-1-qué-es-python-setup-profesional" class="nav-link active" data-scroll-target="#módulo-1-qué-es-python-setup-profesional">Módulo 1: ¿Qué es Python? + Setup Profesional</a>
+  <ul class="collapse">
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">🎯 Learning Outcomes</a></li>
+  <li><a href="#parte-1-qué-es-python-20-minutos" id="toc-parte-1-qué-es-python-20-minutos" class="nav-link" data-scroll-target="#parte-1-qué-es-python-20-minutos">📖 PARTE 1: ¿QUÉ ES PYTHON? (20 minutos)</a>
+  <ul class="collapse">
+  <li><a href="#python-es-un-lenguaje-de-programación" id="toc-python-es-un-lenguaje-de-programación" class="nav-link" data-scroll-target="#python-es-un-lenguaje-de-programación">Python es un lenguaje de programación</a></li>
+  <li><a href="#por-qué-python-para-data-analysis" id="toc-por-qué-python-para-data-analysis" class="nav-link" data-scroll-target="#por-qué-python-para-data-analysis">¿Por qué Python para Data Analysis?</a></li>
+  <li><a href="#python-vs-otros-lenguajes-para-data" id="toc-python-vs-otros-lenguajes-para-data" class="nav-link" data-scroll-target="#python-vs-otros-lenguajes-para-data">Python vs otros lenguajes para Data</a></li>
+  </ul></li>
+  <li><a href="#parte-2-instalación-paso-a-paso-40-minutos" id="toc-parte-2-instalación-paso-a-paso-40-minutos" class="nav-link" data-scroll-target="#parte-2-instalación-paso-a-paso-40-minutos">📖 PARTE 2: INSTALACIÓN PASO A PASO (40 minutos)</a>
+  <ul class="collapse">
+  <li><a href="#paso-1-descargar-python-3.11" id="toc-paso-1-descargar-python-3.11" class="nav-link" data-scroll-target="#paso-1-descargar-python-3.11">Paso 1: Descargar Python 3.11+</a></li>
+  <li><a href="#paso-2-instalar-vs-code" id="toc-paso-2-instalar-vs-code" class="nav-link" data-scroll-target="#paso-2-instalar-vs-code">Paso 2: Instalar VS Code</a></li>
+  <li><a href="#paso-3-extensión-python-en-vs-code" id="toc-paso-3-extensión-python-en-vs-code" class="nav-link" data-scroll-target="#paso-3-extensión-python-en-vs-code">Paso 3: Extensión Python en VS Code</a></li>
+  <li><a href="#paso-4-crear-carpeta-de-proyecto" id="toc-paso-4-crear-carpeta-de-proyecto" class="nav-link" data-scroll-target="#paso-4-crear-carpeta-de-proyecto">Paso 4: Crear carpeta de proyecto</a></li>
+  <li><a href="#paso-5-instalar-librerías-esenciales" id="toc-paso-5-instalar-librerías-esenciales" class="nav-link" data-scroll-target="#paso-5-instalar-librerías-esenciales">Paso 5: Instalar librerías esenciales</a></li>
+  <li><a href="#paso-6-abrir-proyecto-en-vs-code" id="toc-paso-6-abrir-proyecto-en-vs-code" class="nav-link" data-scroll-target="#paso-6-abrir-proyecto-en-vs-code">Paso 6: Abrir proyecto en VS Code</a></li>
+  </ul></li>
+  <li><a href="#parte-3-tu-primer-programa-20-minutos" id="toc-parte-3-tu-primer-programa-20-minutos" class="nav-link" data-scroll-target="#parte-3-tu-primer-programa-20-minutos">📖 PARTE 3: TU PRIMER PROGRAMA (20 minutos)</a>
+  <ul class="collapse">
+  <li><a href="#crear-archivo-python" id="toc-crear-archivo-python" class="nav-link" data-scroll-target="#crear-archivo-python">Crear archivo Python</a></li>
+  <li><a href="#ejecutar-el-programa" id="toc-ejecutar-el-programa" class="nav-link" data-scroll-target="#ejecutar-el-programa">Ejecutar el programa</a></li>
+  </ul></li>
+  <li><a href="#parte-4-estructura-profesional-de-proyecto-30-minutos" id="toc-parte-4-estructura-profesional-de-proyecto-30-minutos" class="nav-link" data-scroll-target="#parte-4-estructura-profesional-de-proyecto-30-minutos">📖 PARTE 4: ESTRUCTURA PROFESIONAL DE PROYECTO (30 minutos)</a>
+  <ul class="collapse">
+  <li><a href="#crear-estructura-de-carpetas" id="toc-crear-estructura-de-carpetas" class="nav-link" data-scroll-target="#crear-estructura-de-carpetas">Crear estructura de carpetas</a></li>
+  <li><a href="#crear-requirements.txt" id="toc-crear-requirements.txt" class="nav-link" data-scroll-target="#crear-requirements.txt">Crear requirements.txt</a></li>
+  <li><a href="#crear-readme.md" id="toc-crear-readme.md" class="nav-link" data-scroll-target="#crear-readme.md">Crear README.md</a></li>
+  </ul></li>
+  <li><a href="#uso" id="toc-uso" class="nav-link" data-scroll-target="#uso">Uso</a></li>
+  <li><a href="#preguntas-de-entrevista-15-total" id="toc-preguntas-de-entrevista-15-total" class="nav-link" data-scroll-target="#preguntas-de-entrevista-15-total">🎤 PREGUNTAS DE ENTREVISTA (15 total)</a>
+  <ul class="collapse">
+  <li><a href="#nivel-básico-5-preguntas" id="toc-nivel-básico-5-preguntas" class="nav-link" data-scroll-target="#nivel-básico-5-preguntas">Nivel Básico (5 preguntas)</a></li>
+  <li><a href="#nivel-intermedio-5-preguntas" id="toc-nivel-intermedio-5-preguntas" class="nav-link" data-scroll-target="#nivel-intermedio-5-preguntas">Nivel Intermedio (5 preguntas)</a></li>
+  <li><a href="#nivel-avanzado-5-preguntas" id="toc-nivel-avanzado-5-preguntas" class="nav-link" data-scroll-target="#nivel-avanzado-5-preguntas">Nivel Avanzado (5 preguntas)</a></li>
+  </ul></li>
+  <li><a href="#recursos-adicionales" id="toc-recursos-adicionales" class="nav-link" data-scroll-target="#recursos-adicionales">📚 RECURSOS ADICIONALES</a>
+  <ul class="collapse">
+  <li><a href="#documentación-oficial" id="toc-documentación-oficial" class="nav-link" data-scroll-target="#documentación-oficial">Documentación oficial</a></li>
+  <li><a href="#tutoriales-recomendados" id="toc-tutoriales-recomendados" class="nav-link" data-scroll-target="#tutoriales-recomendados">Tutoriales recomendados</a></li>
+  <li><a href="#comunidades-latam" id="toc-comunidades-latam" class="nav-link" data-scroll-target="#comunidades-latam">Comunidades LATAM</a></li>
+  </ul></li>
+  <li><a href="#checklist-de-módulo" id="toc-checklist-de-módulo" class="nav-link" data-scroll-target="#checklist-de-módulo">✅ CHECKLIST DE MÓDULO</a></li>
+  <li><a href="#siguiente-módulo" id="toc-siguiente-módulo" class="nav-link" data-scroll-target="#siguiente-módulo">🚀 SIGUIENTE MÓDULO</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="módulo-1-qué-es-python-setup-profesional" class="level1">
+<h1>Módulo 1: ¿Qué es Python? + Setup Profesional</h1>
+<p><strong>Duración:</strong> 2 horas<br>
+<strong>Nivel:</strong> 🌱 Principiante<br>
+<strong>Track:</strong> Data Analyst<br>
+<strong>Status:</strong> ✅ COMPLETO</p>
+<hr>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">🎯 Learning Outcomes</h2>
+<p>Al terminar este módulo, podrás: - ✅ Entender qué es Python y por qué es ideal para análisis de datos - ✅ Instalar Python 3.11+ en tu máquina - ✅ Configurar VS Code como IDE profesional - ✅ Instalar librerías esenciales (pandas, numpy, matplotlib) - ✅ Escribir y ejecutar tu primer programa Python - ✅ Entender la estructura de un proyecto profesional</p>
+<hr>
+</section>
+<section id="parte-1-qué-es-python-20-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="parte-1-qué-es-python-20-minutos">📖 PARTE 1: ¿QUÉ ES PYTHON? (20 minutos)</h2>
+<section id="python-es-un-lenguaje-de-programación" class="level3">
+<h3 class="anchored" data-anchor-id="python-es-un-lenguaje-de-programación">Python es un lenguaje de programación</h3>
+<p>Python es un <strong>lenguaje de programación de alto nivel</strong> creado en 1991 por Guido van Rossum. Se caracteriza por:</p>
+<ul>
+<li><strong>Legible:</strong> código que parece pseudocódigo en inglés</li>
+<li><strong>Versátil:</strong> web, data science, automatización, AI/ML</li>
+<li><strong>Popular:</strong> segundo lenguaje más usado en mundo</li>
+<li><strong>Comunidad:</strong> millones de desarrolladores, librerías infinitas</li>
+</ul>
+</section>
+<section id="por-qué-python-para-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="por-qué-python-para-data-analysis">¿Por qué Python para Data Analysis?</h3>
+<pre><code>┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│  1. Pandas: manipulación de datos más fácil del mundo  │
+│  2. NumPy: cálculos matemáticos vectorizados           │
+│  3. Matplotlib/Seaborn: visualizaciones profesionales  │
+│  4. Scikit-learn: machine learning en 3 líneas         │
+│  5. Jupyter: notebooks interactivos para análisis      │
+│  6. Comunidad LATAM: tutoriales en español             │
+│  7. Salarios: $50k-150k USD (vs Excel analyst $30k)   │
+│                                                         │
+└─────────────────────────────────────────────────────────┘</code></pre>
+</section>
+<section id="python-vs-otros-lenguajes-para-data" class="level3">
+<h3 class="anchored" data-anchor-id="python-vs-otros-lenguajes-para-data">Python vs otros lenguajes para Data</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Lenguaje</th>
+<th>Data Analysis</th>
+<th>Velocidad</th>
+<th>Curva Aprendizaje</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Python</strong></td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐ (fácil)</td>
+</tr>
+<tr class="even">
+<td>R</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr class="odd">
+<td>SQL</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr class="even">
+<td>Excel</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐</td>
+<td>⭐⭐⭐⭐⭐ (fácil)</td>
+</tr>
+<tr class="odd">
+<td>Java</td>
+<td>⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Conclusión:</strong> Python = mejor balance: fácil + poderoso + rápido</p>
+<hr>
+</section>
+</section>
+<section id="parte-2-instalación-paso-a-paso-40-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="parte-2-instalación-paso-a-paso-40-minutos">📖 PARTE 2: INSTALACIÓN PASO A PASO (40 minutos)</h2>
+<section id="paso-1-descargar-python-3.11" class="level3">
+<h3 class="anchored" data-anchor-id="paso-1-descargar-python-3.11">Paso 1: Descargar Python 3.11+</h3>
+<ol type="1">
+<li>Abre https://www.python.org/downloads/</li>
+<li>Descarga <strong>Python 3.11.x</strong> (o más reciente)</li>
+<li>En Windows: marca ✅ “Add Python to PATH”</li>
+<li>Instala normalmente (Next, Next, Finish)</li>
+</ol>
+<p><strong>Verificar instalación:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">--version</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Resultado esperado: Python 3.11.x</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="paso-2-instalar-vs-code" class="level3">
+<h3 class="anchored" data-anchor-id="paso-2-instalar-vs-code">Paso 2: Instalar VS Code</h3>
+<ol type="1">
+<li>Descargar: https://code.visualstudio.com/</li>
+<li>Instalar con opciones por defecto</li>
+<li>Abrir VS Code</li>
+</ol>
+</section>
+<section id="paso-3-extensión-python-en-vs-code" class="level3">
+<h3 class="anchored" data-anchor-id="paso-3-extensión-python-en-vs-code">Paso 3: Extensión Python en VS Code</h3>
+<ol type="1">
+<li>Click en Extensions (⬜ icon en lado izquierdo)</li>
+<li>Buscar “Python”</li>
+<li>Instalar “Python” de Microsoft</li>
+<li>Instalar “Pylance” (code intelligence)</li>
+<li>Instalar “Jupyter” (para notebooks)</li>
+</ol>
+<p><strong>Resultado:</strong> VS Code ahora entiende Python 100%</p>
+</section>
+<section id="paso-4-crear-carpeta-de-proyecto" class="level3">
+<h3 class="anchored" data-anchor-id="paso-4-crear-carpeta-de-proyecto">Paso 4: Crear carpeta de proyecto</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># En tu terminal/PowerShell</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> Mi-Curso-Python</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> Mi-Curso-Python</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear entorno virtual (RECOMENDADO)</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv venv</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Activar entorno (Windows)</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="ex">venv\Scripts\activate</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Activar entorno (Mac/Linux)</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> venv/bin/activate</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Resultado: verás (venv) en la terminal</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="paso-5-instalar-librerías-esenciales" class="level3">
+<h3 class="anchored" data-anchor-id="paso-5-instalar-librerías-esenciales">Paso 5: Instalar librerías esenciales</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Con el entorno virtual activado:</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install pandas numpy matplotlib seaborn jupyter scipy statsmodels scikit-learn</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Verificar instalación</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> list</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Resultado: verás todas las librerías listadas</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="paso-6-abrir-proyecto-en-vs-code" class="level3">
+<h3 class="anchored" data-anchor-id="paso-6-abrir-proyecto-en-vs-code">Paso 6: Abrir proyecto en VS Code</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Desde la carpeta del proyecto</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">code</span> .</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Se abre VS Code en tu carpeta</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="parte-3-tu-primer-programa-20-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="parte-3-tu-primer-programa-20-minutos">📖 PARTE 3: TU PRIMER PROGRAMA (20 minutos)</h2>
+<section id="crear-archivo-python" class="level3">
+<h3 class="anchored" data-anchor-id="crear-archivo-python">Crear archivo Python</h3>
+<ol type="1">
+<li>En VS Code: Click derecho → “New File”</li>
+<li>Nombra el archivo: <code>hola_mundo.py</code></li>
+<li>Escribe el código:</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Tu primer programa Python</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"¡Hola, Python Data Analyst!"</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Bienvenido al curso de análisis de datos"</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Variables básicas</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>nombre <span class="op">=</span> <span class="st">"Luis"</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>edad <span class="op">=</span> <span class="dv">25</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>salario <span class="op">=</span> <span class="fl">50000.50</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Imprimir variables</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Nombre: </span><span class="sc">{</span>nombre<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Edad: </span><span class="sc">{</span>edad<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Salario: $</span><span class="sc">{</span>salario<span class="sc">:,.2f}</span><span class="ss">"</span>)</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Operaciones matemáticas</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>promedio <span class="op">=</span> (<span class="dv">80</span> <span class="op">+</span> <span class="dv">90</span> <span class="op">+</span> <span class="dv">85</span>) <span class="op">/</span> <span class="dv">3</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Promedio de calificaciones: </span><span class="sc">{</span>promedio<span class="sc">:.1f}</span><span class="ss">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="ejecutar-el-programa" class="level3">
+<h3 class="anchored" data-anchor-id="ejecutar-el-programa">Ejecutar el programa</h3>
+<p><strong>Opción 1: Click en “Run” (arriba a la derecha)</strong></p>
+<p><strong>Opción 2: Terminal</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> hola_mundo.py</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Resultado esperado:</strong></p>
+<pre><code>¡Hola, Python Data Analyst!
+Bienvenido al curso de análisis de datos
+Nombre: Luis
+Edad: 25
+Salario: $50,000.50
+Promedio de calificaciones: 85.0</code></pre>
+<p>✅ <strong>¡Felicidades! Tu entorno funciona perfectamente.</strong></p>
+<hr>
+</section>
+</section>
+<section id="parte-4-estructura-profesional-de-proyecto-30-minutos" class="level2">
+<h2 class="anchored" data-anchor-id="parte-4-estructura-profesional-de-proyecto-30-minutos">📖 PARTE 4: ESTRUCTURA PROFESIONAL DE PROYECTO (30 minutos)</h2>
+<section id="crear-estructura-de-carpetas" class="level3">
+<h3 class="anchored" data-anchor-id="crear-estructura-de-carpetas">Crear estructura de carpetas</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Mi-Curso-Python/</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> venv/                    <span class="co"># Entorno virtual</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> data/                    <span class="co"># Datasets (CSV, Excel, etc)</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   ├── raw/                <span class="co"># Datos sin procesar</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   └── processed/          <span class="co"># Datos procesados</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> notebooks/              <span class="co"># Jupyter notebooks</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   └── 01-exploracion.ipynb</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> scripts/                <span class="co"># Scripts Python reutilizables</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   ├── data_loader.py</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   ├── data_cleaner.py</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   └── utils.py</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> results/                <span class="co"># Gráficos, reportes</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   ├── plots/</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a><span class="ex">│</span>   └── reports/</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="ex">├──</span> requirements.txt        <span class="co"># Lista de librerías</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a><span class="ex">└──</span> README.md              <span class="co"># Descripción del proyecto</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="crear-requirements.txt" class="level3">
+<h3 class="anchored" data-anchor-id="crear-requirements.txt">Crear requirements.txt</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># En la terminal</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> freeze <span class="op">&gt;</span> requirements.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Contenido de requirements.txt:</strong></p>
+<pre><code>pandas==2.1.0
+numpy==1.24.3
+matplotlib==3.7.2
+seaborn==0.12.2
+jupyter==1.0.0
+scipy==1.11.2
+statsmodels==0.14.0
+scikit-learn==1.3.1</code></pre>
+</section>
+<section id="crear-readme.md" class="level3">
+<h3 class="anchored" data-anchor-id="crear-readme.md">Crear README.md</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Mi Primer Proyecto de Data Analysis</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Descripción</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>Análisis exploratorio de datos de ventas</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="fu">## Estructura</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`data/`</span>: datasets</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`notebooks/`</span>: análisis exploratorio</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`scripts/`</span>: código reutilizable</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`results/`</span>: gráficos y reportes</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a><span class="fu">## Instalación</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv venv</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="ex">venv\Scripts\activate</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-r</span> requirements.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="uso" class="level2">
+<h2 class="anchored" data-anchor-id="uso">Uso</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">jupyter</span> notebook</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<pre><code>
+---
+
+## 🏋️ EJERCICIOS PRÁCTICOS
+
+### Ejercicio 1: Setup Básico (30 min)
+1. ✅ Instalar Python 3.11+
+2. ✅ Instalar VS Code + extensión Python
+3. ✅ Crear carpeta de proyecto
+4. ✅ Crear entorno virtual
+5. ✅ Instalar librerías
+
+**Validación:** Ejecuta `python --version` y `pip list`
+
+### Ejercicio 2: Tu primer script (20 min)
+1. Crea archivo `bienvenida.py`
+2. Escribe un programa que imprima:
+   - Tu nombre
+   - Tu edad
+   - Tu objetivo en data analysis
+3. Ejecuta el script
+
+### Ejercicio 3: Estructura profesional (30 min)
+1. Crea carpetas: data/, notebooks/, scripts/, results/
+2. Crea requirements.txt
+3. Crea README.md
+4. Valida que VS Code reconoce la estructura
+
+---
+
+## 💼 PROYECTO: Setup Profesional Completo
+
+**Objetivo:** Tener un entorno 100% funcional para los siguientes módulos
+
+**Entregables:**
+- ✅ Python 3.11+ instalado
+- ✅ VS Code configurado con Python
+- ✅ Entorno virtual creado
+- ✅ Librerías esenciales instaladas
+- ✅ Estructura de carpetas profesional
+- ✅ primer_script.py ejecutándose
+
+**Validación:**
+```bash
+# Desde tu carpeta del proyecto
+python -c "import pandas, numpy, matplotlib; print('✅ TODO FUNCIONA')"</code></pre>
+<hr>
+</section>
+<section id="preguntas-de-entrevista-15-total" class="level2">
+<h2 class="anchored" data-anchor-id="preguntas-de-entrevista-15-total">🎤 PREGUNTAS DE ENTREVISTA (15 total)</h2>
+<section id="nivel-básico-5-preguntas" class="level3">
+<h3 class="anchored" data-anchor-id="nivel-básico-5-preguntas">Nivel Básico (5 preguntas)</h3>
+<p><strong>1. ¿Por qué es Python popular para análisis de datos?</strong> Respuesta esperada: - Librerías poderosas (pandas, numpy) - Código legible y fácil de aprender - Gran comunidad - Versátil (data science, web, automatización)</p>
+<p><strong>2. ¿Qué es un virtual environment y por qué es importante?</strong> Respuesta esperada: - Aislamiento de dependencias por proyecto - Evita conflictos entre versiones de librerías - Reproducibilidad en otros equipos - Buena práctica profesional</p>
+<p><strong>3. ¿Cuál es la diferencia entre pip y conda?</strong> Respuesta esperada: - pip: gestor de paquetes Python - conda: gestor de paquetes + entornos - conda puede instalar dependencias no-Python - pip es más ligero y usado por defecto</p>
+<p><strong>4. ¿Qué es Jupyter y para qué se usa?</strong> Respuesta esperada: - Notebook interactivo para exploración - Combina código, output y markdown - Ideal para análisis exploratorio (EDA) - Popular en data science</p>
+<p><strong>5. ¿Por qué necesitas requirements.txt?</strong> Respuesta esperada: - Reproducibilidad: otro usuario instala las mismas versiones - Documentación de dependencias - Control de versiones - Facilita deployment en producción</p>
+</section>
+<section id="nivel-intermedio-5-preguntas" class="level3">
+<h3 class="anchored" data-anchor-id="nivel-intermedio-5-preguntas">Nivel Intermedio (5 preguntas)</h3>
+<p><strong>6. Explica la estructura de un proyecto profesional de data science</strong></p>
+<p><strong>7. ¿Cuál es la diferencia entre Python 2 y Python 3?</strong></p>
+<p><strong>8. ¿Qué es pip freeze y para qué sirve?</strong></p>
+<p><strong>9. ¿Cómo configurarías un proyecto si trabajas en equipo?</strong></p>
+<p><strong>10. ¿Qué es .gitignore y qué debería contener?</strong></p>
+</section>
+<section id="nivel-avanzado-5-preguntas" class="level3">
+<h3 class="anchored" data-anchor-id="nivel-avanzado-5-preguntas">Nivel Avanzado (5 preguntas)</h3>
+<p><strong>11. Diseña la estructura de un proyecto para un equipo de 5 data analysts</strong></p>
+<p><strong>12. ¿Cómo asegurarías reproducibilidad de código en diferentes máquinas?</strong></p>
+<p><strong>13. Explica las diferencias entre conda, virtualenv y poetry</strong></p>
+<p><strong>14. ¿Cómo versionarías tus datasets y modelos?</strong></p>
+<p><strong>15. Diseña un workflow completo: desarrollo → testing → producción</strong></p>
+<hr>
+</section>
+</section>
+<section id="recursos-adicionales" class="level2">
+<h2 class="anchored" data-anchor-id="recursos-adicionales">📚 RECURSOS ADICIONALES</h2>
+<section id="documentación-oficial" class="level3">
+<h3 class="anchored" data-anchor-id="documentación-oficial">Documentación oficial</h3>
+<ul>
+<li>Python: https://docs.python.org/3/</li>
+<li>Pandas: https://pandas.pydata.org/docs/</li>
+<li>NumPy: https://numpy.org/doc/</li>
+<li>Matplotlib: https://matplotlib.org/stable/contents.html</li>
+</ul>
+</section>
+<section id="tutoriales-recomendados" class="level3">
+<h3 class="anchored" data-anchor-id="tutoriales-recomendados">Tutoriales recomendados</h3>
+<ul>
+<li>Real Python: https://realpython.com/</li>
+<li>DataCamp: https://www.datacamp.com/ (primeras lecciones gratis)</li>
+<li>Kaggle Learn: https://www.kaggle.com/learn (gratis)</li>
+</ul>
+</section>
+<section id="comunidades-latam" class="level3">
+<h3 class="anchored" data-anchor-id="comunidades-latam">Comunidades LATAM</h3>
+<ul>
+<li>Python Chile: https://www.python.cl/</li>
+<li>Python México: https://www.python.mx/</li>
+<li>Python Argentina: https://www.python.org.ar/</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="checklist-de-módulo" class="level2">
+<h2 class="anchored" data-anchor-id="checklist-de-módulo">✅ CHECKLIST DE MÓDULO</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Python 3.11+ instalado</label></li>
+<li><label><input type="checkbox">VS Code instalado + extensión Python</label></li>
+<li><label><input type="checkbox">Entorno virtual creado y activado</label></li>
+<li><label><input type="checkbox">Librerías instaladas (pandas, numpy, matplotlib, etc)</label></li>
+<li><label><input type="checkbox">Primer script ejecutado correctamente</label></li>
+<li><label><input type="checkbox">Estructura de carpetas profesional creada</label></li>
+<li><label><input type="checkbox">requirements.txt generado</label></li>
+<li><label><input type="checkbox">README.md escrito</label></li>
+<li><label><input type="checkbox">5 ejercicios prácticos completados</label></li>
+<li><label><input type="checkbox">15 preguntas de entrevista revisadas</label></li>
+</ul>
+<p><strong>Progreso:</strong> Módulo 1/12 completado ✅</p>
+<hr>
+</section>
+<section id="siguiente-módulo" class="level2">
+<h2 class="anchored" data-anchor-id="siguiente-módulo">🚀 SIGUIENTE MÓDULO</h2>
+<p><strong>Módulo 2: Variables y Tipos de Datos</strong> (3 horas) - Strings: manipulación de texto - Integers: números enteros - Floats: números decimales - Booleans: operadores lógicos - Conversiones entre tipos - Proyecto: Calculadora de salario con impuestos</p>
+<p><em>¿Listo? Vamos al Módulo 2 →</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
