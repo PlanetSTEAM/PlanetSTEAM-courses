@@ -32,6 +32,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/11-data-engineering.html)
 
 ---
+
 ### 📈 Data Analytics & BI
 
 **Business Intelligence**
@@ -45,6 +46,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/12-data-analytics---bi.html)
 
 ---
+
 ### 🤖 Machine Learning
 
 **AI & Algorithms**
@@ -58,6 +60,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/13-machine-learning.html)
 
 ---
+
 ### 🧠 Deep Learning/NLP
 
 **Neural Networks**
@@ -71,6 +74,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/14-deep-learning-nlp.html)
 
 ---
+
 
 ## 📚 Programming Languages
 
@@ -87,6 +91,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/01-python.html)
 
 ---
+
 ### ☕ Java/JVM
 
 **Enterprise Development**
@@ -100,6 +105,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/02-java-jvm.html)
 
 ---
+
 ### 🟨 JavaScript/TypeScript
 
 **Web & Full-Stack**
@@ -113,6 +119,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/03-javascript-typescript.html)
 
 ---
+
 ### 🔵 .NET/C#
 
 **Microsoft Ecosystem**
@@ -126,6 +133,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/04--net-c-.html)
 
 ---
+
 ### 🐹 Go/Rust
 
 **Systems Programming**
@@ -139,6 +147,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/05-go-rust.html)
 
 ---
+
 
 ## 🤖 AI & Specialized
 
@@ -155,6 +164,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/15-llms---generative-ai.html)
 
 ---
+
 ### 🔐 Cybersecurity
 
 **Security & Privacy**
@@ -168,6 +178,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/16-cybersecurity.html)
 
 ---
+
 ### ⛓️ Blockchain/Web3
 
 **Distributed Systems**
@@ -181,6 +192,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/17-blockchain-web3.html)
 
 ---
+
 ### 📱 Mobile Development
 
 **iOS & Android**
@@ -194,6 +206,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/18-mobile-development.html)
 
 ---
+
 
 ## 🏢 Enterprise & Leadership
 
@@ -210,6 +223,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/19-databases---sql.html)
 
 ---
+
 ### 🎯 Product Management
 
 **Product Strategy**
@@ -223,6 +237,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/20-product-management.html)
 
 ---
+
 ### 🎨 UX/Design & No-Code
 
 **User Experience**
@@ -236,6 +251,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/21-ux-design---no-code.html)
 
 ---
+
 ### 🏗️ Leadership & Architecture
 
 **System Design**
@@ -249,6 +265,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/22-leadership---architecture.html)
 
 ---
+
 
 ## ☁️ Cloud & Infrastructure
 
@@ -265,6 +282,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/06-aws.html)
 
 ---
+
 ### 🔷 Azure
 
 **Microsoft Cloud**
@@ -278,6 +296,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/07-azure.html)
 
 ---
+
 ### 📊 Google Cloud
 
 **GCP Platform**
@@ -291,6 +310,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/08-google-cloud.html)
 
 ---
+
 ### 🐳 Kubernetes
 
 **Container Orchestration**
@@ -304,6 +324,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/09-kubernetes.html)
 
 ---
+
 ### 🛠️ DevOps/CI-CD
 
 **Infrastructure Automation**
@@ -317,6 +338,7 @@ Master the technologies shaping the future. Choose your specialization across 5 
 [View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/10-devops-ci-cd.html)
 
 ---
+
 
 ## 📊 By The Numbers
 
@@ -343,4 +365,4 @@ Master the technologies shaping the future. Choose your specialization across 5 
 
 **Built with Quarto | Planet STEAM**
 
-*Last updated: 2026-08-14 15:10*
+*Last updated: 2026-08-14 15:15*
