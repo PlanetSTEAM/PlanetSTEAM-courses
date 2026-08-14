@@ -1,16 +1,346 @@
 ---
 title: "Planet STEAM — 22 Professional Courses"
+subtitle: "Complete Bootcamp Programs for STEAM Professionals"
+author: "Planet STEAM"
+date: today
+format:
+  html:
+    toc: false
+    page-layout: full
 ---
 
 # 🚀 Planet STEAM
 
-## 22 Professional Bootcamp Courses
+## 22 Professional Mastery Programs
 
-[View All Courses](https://planet-steam-app.vercel.app/academy)
+Master the technologies shaping the future. Choose your specialization across 5 knowledge areas.
 
-- 🐍 Python | ☕ Java | 🟨 JavaScript
-- ☁️ AWS | 🔷 Azure | 🐳 Kubernetes
-- 📊 Data Eng | 🤖 ML | 🔐 Security
-- ... y 13 más
+---
 
-**1,056 modules | 5,200+ hours | 400+ projects**
+## 📊 Data & Analytics
+
+### 📊 Data Engineering
+
+**Pipelines & ETL**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/11-data-engineering.html)
+
+---
+### 📈 Data Analytics & BI
+
+**Business Intelligence**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/12-data-analytics---bi.html)
+
+---
+### 🤖 Machine Learning
+
+**AI & Algorithms**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/13-machine-learning.html)
+
+---
+### 🧠 Deep Learning/NLP
+
+**Neural Networks**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/14-deep-learning-nlp.html)
+
+---
+
+## 📚 Programming Languages
+
+### 🐍 Python
+
+**Data Processing & Scripting**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/01-python.html)
+
+---
+### ☕ Java/JVM
+
+**Enterprise Development**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/02-java-jvm.html)
+
+---
+### 🟨 JavaScript/TypeScript
+
+**Web & Full-Stack**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/03-javascript-typescript.html)
+
+---
+### 🔵 .NET/C#
+
+**Microsoft Ecosystem**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/04--net-c-.html)
+
+---
+### 🐹 Go/Rust
+
+**Systems Programming**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/05-go-rust.html)
+
+---
+
+## 🤖 AI & Specialized
+
+### 📝 LLMs & Generative AI
+
+**Large Language Models**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/15-llms---generative-ai.html)
+
+---
+### 🔐 Cybersecurity
+
+**Security & Privacy**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/16-cybersecurity.html)
+
+---
+### ⛓️ Blockchain/Web3
+
+**Distributed Systems**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/17-blockchain-web3.html)
+
+---
+### 📱 Mobile Development
+
+**iOS & Android**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/18-mobile-development.html)
+
+---
+
+## 🏢 Enterprise & Leadership
+
+### 🗄️ Databases & SQL
+
+**Data Storage**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/19-databases---sql.html)
+
+---
+### 🎯 Product Management
+
+**Product Strategy**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/20-product-management.html)
+
+---
+### 🎨 UX/Design & No-Code
+
+**User Experience**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/21-ux-design---no-code.html)
+
+---
+### 🏗️ Leadership & Architecture
+
+**System Design**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/22-leadership---architecture.html)
+
+---
+
+## ☁️ Cloud & Infrastructure
+
+### ☁️ AWS
+
+**Cloud Architecture**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/06-aws.html)
+
+---
+### 🔷 Azure
+
+**Microsoft Cloud**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/07-azure.html)
+
+---
+### 📊 Google Cloud
+
+**GCP Platform**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/08-google-cloud.html)
+
+---
+### 🐳 Kubernetes
+
+**Container Orchestration**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/09-kubernetes.html)
+
+---
+### 🛠️ DevOps/CI-CD
+
+**Infrastructure Automation**
+
+- **4 Levels**: Junior → Mid → Senior → Lead
+- **48 Modules**: 12 per level
+- **240+ Hours**: Comprehensive training
+- **100+ Q&As**: Interview preparation
+- **50+ Projects**: Real-world applications
+
+[View Course →](https://planetsteam.github.io/PlanetSTEAM-courses/10-devops-ci-cd.html)
+
+---
+
+## 📊 By The Numbers
+
+| Metric | Total |
+|--------|-------|
+| **Total Courses** | 22 |
+| **Total Modules** | 1,056 (48 per course) |
+| **Total Hours** | 5,200+ |
+| **Interview Q&As** | 720+ |
+| **Real Projects** | 400+ |
+| **Official Certs** | 60+ |
+| **LinkedIn Roles** | 140+ |
+
+---
+
+## 🎯 Choose Your Path
+
+1. **Select a category** above
+2. **Choose a course** that matches your goals
+3. **Pick a specialization track** within the course
+4. **Start learning** with your professional roadmap
+
+---
+
+**Built with Quarto | Planet STEAM**
+
+*Last updated: 2026-08-14 15:10*
