@@ -1,7 +1,51 @@
 ---
-title: "Go / Rust — Systems Programming"
-subtitle: "4 levels, 48 modules, 200 hours, 20 projects"
+title: "🐹 Go/Rust"
+subtitle: "Systems Programming"
+author: "Planet STEAM"
+date: today
+categories: [Programming]
+format:
+  html:
+    toc: true
+    toc-depth: 3
 ---
-Master **Go** and **Rust** for systems programming, performance-critical applications, and modern infrastructure.
-### 📊 Stats | 4 Levels | 48 Modules | 200+ Hours | 20 Projects | 3 Certs
-**Timeline: 6-9 months**
+
+# 🐹 Go/Rust — Systems Programming
+
+**4 levels • 48 modules • 235+ hours • 20+ projects • 3 certifications**
+
+## Course Overview
+
+Master Go/Rust with comprehensive training across 4 progressive levels, from beginner to expert.
+
+## Course Stats
+
+| Metric | Value |
+|--------|-------|
+| **Levels** | 4 (Junior → Mid → Senior → Lead) |
+| **Modules** | 48 total (12 per level) |
+| **Learning Hours** | 235+ hours |
+| **Projects** | 50+ real-world |
+| **Certifications** | 3 official |
+
+## Levels
+
+### 🌱 Level 1: Junior (Beginner)
+- Module 1: Basics & Fundamentals
+- Module 2-12: Core Concepts, Practice, Projects
+
+### ⚡ Level 2: Mid-Level (Intermediate)
+- Advanced Patterns, Real-World Apps
+
+### 🔥 Level 3: Senior (Advanced)
+- Expert Techniques, System Design
+
+### 💎 Level 4: Lead (Expert)
+- Architecture, Leadership, Innovation
+
+## Start Learning
+
+[View in Module Player](https://planet-steam-app.vercel.app/academy/5-go-rust/junior/1)
+
+---
+*Generated: 2026-08-14 | Planet STEAM*

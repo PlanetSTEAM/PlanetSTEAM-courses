@@ -1,78 +1,16 @@
 ---
-title: "🐍 Planet STEAM — Python Course"
-subtitle: "4 Tracks · 48 Modules · 720 Q&As · 35 Roles"
-format:
-  html:
-    toc: false
+title: "Planet STEAM — 22 Professional Courses"
 ---
 
-```{=html}
-<div style="text-align: center; margin: 40px 0;">
-  <h1 style="color: #1B2A6B; font-size: 48px; margin-bottom: 10px;">🐍 Python Profesional</h1>
-  <p style="color: #6B7280; font-size: 18px; margin-bottom: 40px;">Elige tu especialización: 4 tracks, 48 módulos, 720 preguntas de entrevista</p>
+# 🚀 Planet STEAM
 
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 40px;">
+## 22 Professional Bootcamp Courses
 
-    <!-- DATA ANALYST -->
-    <div style="background: rgba(255,255,255,0.95); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);">
-      <h3 style="color: #1B2A6B; font-size: 20px; margin-bottom: 8px;">📊 Data Analyst</h3>
-      <p style="color: #6B7280; font-size: 14px; margin-bottom: 16px;">Análisis de datos con pandas, NumPy, visualización y estadística</p>
-      <div style="margin-bottom: 12px;">
-        <strong style="color: #1B2A6B;">Módulos:</strong> 12 | <strong>Horas:</strong> 40-45 | <strong>Roles:</strong> 10
-      </div>
-      <p style="color: #059669; font-weight: 600; margin-bottom: 16px;">Salario LATAM: $40k-70k</p>
-      <a href="01-python/01-data-analyst/" style="display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #F5A623 0%, #D97706 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">Estudiar Track →</a>
-    </div>
+[View All Courses](https://planet-steam-app.vercel.app/academy)
 
-    <!-- DATA ENGINEER -->
-    <div style="background: rgba(255,255,255,0.95); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);">
-      <h3 style="color: #1B2A6B; font-size: 20px; margin-bottom: 8px;">🔧 Data Engineer</h3>
-      <p style="color: #6B7280; font-size: 14px; margin-bottom: 16px;">Pipelines ETL, Spark, Airflow, arquitecturas de datos</p>
-      <div style="margin-bottom: 12px;">
-        <strong style="color: #1B2A6B;">Módulos:</strong> 12 | <strong>Horas:</strong> 50-60 | <strong>Roles:</strong> 10
-      </div>
-      <p style="color: #059669; font-weight: 600; margin-bottom: 16px;">Salario LATAM: $50k-85k</p>
-      <a href="01-python/02-data-engineer/" style="display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #F5A623 0%, #D97706 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">Estudiar Track →</a>
-    </div>
+- 🐍 Python | ☕ Java | 🟨 JavaScript
+- ☁️ AWS | 🔷 Azure | 🐳 Kubernetes
+- 📊 Data Eng | 🤖 ML | 🔐 Security
+- ... y 13 más
 
-    <!-- BACKEND DEVELOPER -->
-    <div style="background: rgba(255,255,255,0.95); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);">
-      <h3 style="color: #1B2A6B; font-size: 20px; margin-bottom: 8px;">⚙️ Backend Developer</h3>
-      <p style="color: #6B7280; font-size: 14px; margin-bottom: 16px;">APIs REST, bases de datos, autenticación, deployment</p>
-      <div style="margin-bottom: 12px;">
-        <strong style="color: #1B2A6B;">Módulos:</strong> 12 | <strong>Horas:</strong> 50-60 | <strong>Roles:</strong> 10
-      </div>
-      <p style="color: #059669; font-weight: 600; margin-bottom: 16px;">Salario LATAM: $45k-90k</p>
-      <a href="01-python/03-backend-developer/" style="display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #F5A623 0%, #D97706 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">Estudiar Track →</a>
-    </div>
-
-    <!-- ML/AI ENGINEER -->
-    <div style="background: rgba(255,255,255,0.95); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);">
-      <h3 style="color: #1B2A6B; font-size: 20px; margin-bottom: 8px;">🤖 ML/AI Engineer</h3>
-      <p style="color: #6B7280; font-size: 14px; margin-bottom: 16px;">Machine Learning, Deep Learning, Neural Networks, LLMs</p>
-      <div style="margin-bottom: 12px;">
-        <strong style="color: #1B2A6B;">Módulos:</strong> 12 | <strong>Horas:</strong> 60-70 | <strong>Roles:</strong> 8
-      </div>
-      <p style="color: #059669; font-weight: 600; margin-bottom: 16px;">Salario LATAM: $60k-120k</p>
-      <a href="01-python/04-ml-ai-engineer/" style="display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #F5A623 0%, #D97706 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">Estudiar Track →</a>
-    </div>
-
-  </div>
-
-  <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(24px); border-radius: 16px; padding: 24px; margin-top: 40px;">
-    <h2 style="color: white; margin-bottom: 20px;">📚 Recursos Adicionales</h2>
-    <ul style="color: white; text-align: left; max-width: 600px; margin: 0 auto;">
-      <li><a href="dashboard.html" style="color: #F5A623; text-decoration: none;">🎯 Dashboard Interactivo</a> — Ver por roles o categorías</li>
-      <li><a href="_metadata.json" style="color: #F5A623; text-decoration: none;">📋 Metadata Completa</a> — Config de todos los tracks</li>
-    </ul>
-  </div>
-</div>
-```
-
----
-
-**Estado:** ✅ Phase 1 Complete
-**Módulos:** 48 · **Q&A:** 720 · **Roles:** 35
-**Certificaciones:** 12 · **Salario LATAM:** $40k-120k
-
-*Última actualización: 10 de agosto, 2026*
+**1,056 modules | 5,200+ hours | 400+ projects**

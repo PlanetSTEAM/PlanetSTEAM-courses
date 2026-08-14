@@ -1,84 +1,16 @@
 project:
   type: website
-  title: "Planet STEAM Courses"
-  output-dir: docs
-  render:
-    - "*.qmd"
-    - "01-python/"
+  title: "Planet STEAM"
+  output-dir: _output
 
 website:
-  title: "🚀 Planet STEAM — Cursos Profesionales STEAM"
+  title: "Planet STEAM — 22 Courses"
   navbar:
-    pinned: true
-    search: true
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Programming"
-        menu:
-          - text: "Python 🐍"
-            href: "01-python.qmd"
-          - text: "Java / JVM ☕"
-            href: "02-java.qmd"
-          - text: "JavaScript / TypeScript 🟨"
-            href: "03-javascript.qmd"
-          - text: ".NET / C# 🔵"
-            href: "04-dotnet.qmd"
-          - text: "Go / Rust 🐹"
-            href: "05-go-rust.qmd"
-      - text: "Cloud"
-        menu:
-          - text: "AWS ☁️"
-            href: "06-aws.qmd"
-          - text: "Azure 🔷"
-            href: "07-azure.qmd"
-          - text: "GCP 📊"
-            href: "08-gcp.qmd"
-          - text: "Kubernetes 🐳"
-            href: "09-kubernetes.qmd"
-          - text: "DevOps 🛠️"
-            href: "10-devops.qmd"
-      - text: "Data & AI"
-        menu:
-          - text: "Data Engineering 📊"
-            href: "11-dataeng.qmd"
-          - text: "Data Analytics 📈"
-            href: "12-analytics.qmd"
-          - text: "Machine Learning 🤖"
-            href: "13-ml.qmd"
-          - text: "Deep Learning / NLP 🧠"
-            href: "14-nlp.qmd"
-          - text: "LLMs & Gen AI 📝"
-            href: "15-llm.qmd"
-      - text: "Specialized"
-        menu:
-          - text: "Cybersecurity 🔐"
-            href: "16-security.qmd"
-          - text: "Blockchain / Web3 ⛓️"
-            href: "17-blockchain.qmd"
-          - text: "Mobile Development 📱"
-            href: "18-mobile.qmd"
-          - text: "Databases & SQL 🗄️"
-            href: "19-databases.qmd"
-      - text: "Leadership"
-        menu:
-          - text: "Product Management 🎯"
-            href: "20-product.qmd"
-          - text: "UX / Design 🎨"
-            href: "21-design.qmd"
-          - text: "Architecture 🏗️"
-            href: "22-leadership.qmd"
-
-  page-footer:
-    left: "© 2026 Planet STEAM — Luis Carreño"
-    center: "Built with Quarto"
-    right: "[GitHub](https://github.com/lcarrenoy/PlanetSTEAM-courses)"
+    logo: 🚀
+  search: true
 
 format:
   html:
-    theme: flatly
+    theme: cosmo
+    code-copy: true
     toc: true
-    toc-depth: 3
-    code-fold: false
-    code-tools: true
-    highlight-style: github

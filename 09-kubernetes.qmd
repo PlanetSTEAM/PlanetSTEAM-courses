@@ -1,6 +1,51 @@
 ---
-title: "Kubernetes — Container Orchestration"
-subtitle: "4 levels, 48 modules, 200 hours, 20 projects"
+title: "🐳 Kubernetes"
+subtitle: "Container Orchestration"
+author: "Planet STEAM"
+date: today
+categories: [Cloud]
+format:
+  html:
+    toc: true
+    toc-depth: 3
 ---
-Master **Kubernetes** for orchestrating containerized applications at scale.
-**Timeline: 6-9 months | 4 Levels | 48 Modules | 200+ Hours | 2 Certs**
+
+# 🐳 Kubernetes — Container Orchestration
+
+**4 levels • 48 modules • 235+ hours • 20+ projects • 3 certifications**
+
+## Course Overview
+
+Master Kubernetes with comprehensive training across 4 progressive levels, from beginner to expert.
+
+## Course Stats
+
+| Metric | Value |
+|--------|-------|
+| **Levels** | 4 (Junior → Mid → Senior → Lead) |
+| **Modules** | 48 total (12 per level) |
+| **Learning Hours** | 235+ hours |
+| **Projects** | 50+ real-world |
+| **Certifications** | 3 official |
+
+## Levels
+
+### 🌱 Level 1: Junior (Beginner)
+- Module 1: Basics & Fundamentals
+- Module 2-12: Core Concepts, Practice, Projects
+
+### ⚡ Level 2: Mid-Level (Intermediate)
+- Advanced Patterns, Real-World Apps
+
+### 🔥 Level 3: Senior (Advanced)
+- Expert Techniques, System Design
+
+### 💎 Level 4: Lead (Expert)
+- Architecture, Leadership, Innovation
+
+## Start Learning
+
+[View in Module Player](https://planet-steam-app.vercel.app/academy/9-kubernetes/junior/1)
+
+---
+*Generated: 2026-08-14 | Planet STEAM*
