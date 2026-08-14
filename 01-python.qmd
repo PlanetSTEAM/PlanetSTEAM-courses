@@ -17,6 +17,24 @@ format:
 
 Master 🐍 Python with a comprehensive, industry-aligned bootcamp spanning 4 progressive levels.
 
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
+
 **What You'll Achieve:**
 - Complete mastery of 🐍 Python fundamentals through advanced applications
 - 3+ official industry certifications
@@ -41,6 +59,24 @@ Master 🐍 Python with a comprehensive, industry-aligned bootcamp spanning 4 pr
 ### Overview
 
 Comprehensive guide to Fundamentals & Setup in 🐍 Python
+
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -106,6 +142,24 @@ Real-world application using Fundamentals & Setup concepts.
 
 Comprehensive guide to Core Concepts in 🐍 Python
 
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -169,6 +223,24 @@ Real-world application using Core Concepts concepts.
 ### Overview
 
 Comprehensive guide to Building Blocks in 🐍 Python
+
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -234,6 +306,24 @@ Real-world application using Building Blocks concepts.
 
 Comprehensive guide to First Applications in 🐍 Python
 
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -297,6 +387,24 @@ Real-world application using First Applications concepts.
 ### Overview
 
 Comprehensive guide to Advanced Patterns in 🐍 Python
+
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -362,6 +470,24 @@ Real-world application using Advanced Patterns concepts.
 
 Comprehensive guide to System Integration in 🐍 Python
 
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -425,6 +551,24 @@ Real-world application using System Integration concepts.
 ### Overview
 
 Comprehensive guide to Performance Optimization in 🐍 Python
+
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -490,6 +634,24 @@ Real-world application using Performance Optimization concepts.
 
 Comprehensive guide to Real-World Applications in 🐍 Python
 
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -553,6 +715,24 @@ Real-world application using Real-World Applications concepts.
 ### Overview
 
 Comprehensive guide to Best Practices in 🐍 Python
+
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -618,6 +798,24 @@ Real-world application using Best Practices concepts.
 
 Comprehensive guide to Project Integration in 🐍 Python
 
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -682,6 +880,24 @@ Real-world application using Project Integration concepts.
 
 Comprehensive guide to Certifications & Prep in 🐍 Python
 
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -745,6 +961,24 @@ Real-world application using Certifications & Prep concepts.
 ### Overview
 
 Comprehensive guide to Capstone & Interview in 🐍 Python
+
+
+## Specialization Tracks (4)
+
+This program offers 4 distinct specialization tracks:
+
+### Track 1 : Data Analyst
+Specialized path focusing on Data Analyst role requirements
+
+### Track 2 : Data Engineer
+Specialized path focusing on Data Engineer role requirements
+
+### Track 3 : Backend Developer
+Specialized path focusing on Backend Developer role requirements
+
+### Track 4 : ML Engineer
+Specialized path focusing on ML Engineer role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -886,4 +1120,5 @@ This program prepares you for official industry certifications.
 ---
 
 Built with Quarto | Planet STEAM
+
 

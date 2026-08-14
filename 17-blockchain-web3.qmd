@@ -17,6 +17,21 @@ format:
 
 Master ⛓️ Blockchain/Web3 with a comprehensive, industry-aligned bootcamp spanning 4 progressive levels.
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
+
 **What You'll Achieve:**
 - Complete mastery of ⛓️ Blockchain/Web3 fundamentals through advanced applications
 - 3+ official industry certifications
@@ -41,6 +56,21 @@ Master ⛓️ Blockchain/Web3 with a comprehensive, industry-aligned bootcamp sp
 ### Overview
 
 Comprehensive guide to Fundamentals & Setup in ⛓️ Blockchain/Web3
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -106,6 +136,21 @@ Real-world application using Fundamentals & Setup concepts.
 
 Comprehensive guide to Core Concepts in ⛓️ Blockchain/Web3
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -169,6 +214,21 @@ Real-world application using Core Concepts concepts.
 ### Overview
 
 Comprehensive guide to Building Blocks in ⛓️ Blockchain/Web3
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -234,6 +294,21 @@ Real-world application using Building Blocks concepts.
 
 Comprehensive guide to First Applications in ⛓️ Blockchain/Web3
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -297,6 +372,21 @@ Real-world application using First Applications concepts.
 ### Overview
 
 Comprehensive guide to Advanced Patterns in ⛓️ Blockchain/Web3
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -362,6 +452,21 @@ Real-world application using Advanced Patterns concepts.
 
 Comprehensive guide to System Integration in ⛓️ Blockchain/Web3
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -425,6 +530,21 @@ Real-world application using System Integration concepts.
 ### Overview
 
 Comprehensive guide to Performance Optimization in ⛓️ Blockchain/Web3
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -490,6 +610,21 @@ Real-world application using Performance Optimization concepts.
 
 Comprehensive guide to Real-World Applications in ⛓️ Blockchain/Web3
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -553,6 +688,21 @@ Real-world application using Real-World Applications concepts.
 ### Overview
 
 Comprehensive guide to Best Practices in ⛓️ Blockchain/Web3
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -618,6 +768,21 @@ Real-world application using Best Practices concepts.
 
 Comprehensive guide to Project Integration in ⛓️ Blockchain/Web3
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -682,6 +847,21 @@ Real-world application using Project Integration concepts.
 
 Comprehensive guide to Certifications & Prep in ⛓️ Blockchain/Web3
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -745,6 +925,21 @@ Real-world application using Certifications & Prep concepts.
 ### Overview
 
 Comprehensive guide to Capstone & Interview in ⛓️ Blockchain/Web3
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Blockchain Developer
+Specialized path focusing on Blockchain Developer role requirements
+
+### Track 2 : Smart Contract Engineer
+Specialized path focusing on Smart Contract Engineer role requirements
+
+### Track 3 : DeFi Specialist
+Specialized path focusing on DeFi Specialist role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -886,4 +1081,5 @@ This program prepares you for official industry certifications.
 ---
 
 Built with Quarto | Planet STEAM
+
 

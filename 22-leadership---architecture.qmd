@@ -17,6 +17,21 @@ format:
 
 Master 🏗️ Leadership & Architecture with a comprehensive, industry-aligned bootcamp spanning 4 progressive levels.
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
+
 **What You'll Achieve:**
 - Complete mastery of 🏗️ Leadership & Architecture fundamentals through advanced applications
 - 3+ official industry certifications
@@ -41,6 +56,21 @@ Master 🏗️ Leadership & Architecture with a comprehensive, industry-aligned 
 ### Overview
 
 Comprehensive guide to Fundamentals & Setup in 🏗️ Leadership & Architecture
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -106,6 +136,21 @@ Real-world application using Fundamentals & Setup concepts.
 
 Comprehensive guide to Core Concepts in 🏗️ Leadership & Architecture
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -169,6 +214,21 @@ Real-world application using Core Concepts concepts.
 ### Overview
 
 Comprehensive guide to Building Blocks in 🏗️ Leadership & Architecture
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -234,6 +294,21 @@ Real-world application using Building Blocks concepts.
 
 Comprehensive guide to First Applications in 🏗️ Leadership & Architecture
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -297,6 +372,21 @@ Real-world application using First Applications concepts.
 ### Overview
 
 Comprehensive guide to Advanced Patterns in 🏗️ Leadership & Architecture
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -362,6 +452,21 @@ Real-world application using Advanced Patterns concepts.
 
 Comprehensive guide to System Integration in 🏗️ Leadership & Architecture
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -425,6 +530,21 @@ Real-world application using System Integration concepts.
 ### Overview
 
 Comprehensive guide to Performance Optimization in 🏗️ Leadership & Architecture
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -490,6 +610,21 @@ Real-world application using Performance Optimization concepts.
 
 Comprehensive guide to Real-World Applications in 🏗️ Leadership & Architecture
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -553,6 +688,21 @@ Real-world application using Real-World Applications concepts.
 ### Overview
 
 Comprehensive guide to Best Practices in 🏗️ Leadership & Architecture
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -618,6 +768,21 @@ Real-world application using Best Practices concepts.
 
 Comprehensive guide to Project Integration in 🏗️ Leadership & Architecture
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -682,6 +847,21 @@ Real-world application using Project Integration concepts.
 
 Comprehensive guide to Certifications & Prep in 🏗️ Leadership & Architecture
 
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
+
 **Duration:** 3-5 hours | **Level:** Progressive
 
 ### Learning Objectives
@@ -745,6 +925,21 @@ Real-world application using Certifications & Prep concepts.
 ### Overview
 
 Comprehensive guide to Capstone & Interview in 🏗️ Leadership & Architecture
+
+
+## Specialization Tracks (3)
+
+This program offers 3 distinct specialization tracks:
+
+### Track 1 : Tech Lead
+Specialized path focusing on Tech Lead role requirements
+
+### Track 2 : Engineering Manager
+Specialized path focusing on Engineering Manager role requirements
+
+### Track 3 : Solutions Architect
+Specialized path focusing on Solutions Architect role requirements
+
 
 **Duration:** 3-5 hours | **Level:** Progressive
 
@@ -886,4 +1081,5 @@ This program prepares you for official industry certifications.
 ---
 
 Built with Quarto | Planet STEAM
+
 
