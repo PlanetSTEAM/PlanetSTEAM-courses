@@ -78,12 +78,34 @@
             transition: all 0.3s ease;
             text-decoration: none;
             color: #fff;
+            position: relative;
         }
         .course-card:hover {
             background: rgba(255, 255, 255, 0.1);
             border-color: #F5A623;
             transform: translateY(-4px);
             box-shadow: 0 12px 32px rgba(245, 166, 35, 0.2);
+        }
+        .course-card.coming-soon {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+        .course-card.coming-soon:hover {
+            transform: none;
+            box-shadow: none;
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+        .coming-soon-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(59, 130, 246, 0.8);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
         }
         .course-header {
             display: flex;
@@ -101,6 +123,9 @@
         }
         .course-card.expanded .expand-icon {
             transform: rotate(180deg);
+        }
+        .course-card.coming-soon .expand-icon {
+            display: none;
         }
         .course-name {
             font-size: 18px;
@@ -146,6 +171,11 @@
             margin: 40px 0 20px 0;
             color: #F5A623;
         }
+        .section-divider {
+            margin: 60px 0 40px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 40px;
+        }
         .footer {
             text-align: center;
             padding-top: 40px;
@@ -189,8 +219,13 @@
             </div>
         </div>
 
-        <h2 class="section-title">🎓 All Courses</h2>
-        <div class="courses-grid" id="coursesGrid"></div>
+        <h2 class="section-title">✅ Courses Live (8)</h2>
+        <div class="courses-grid" id="coursesGridLive"></div>
+
+        <div class="section-divider"></div>
+
+        <h2 class="section-title">⏳ Coming Soon (14)</h2>
+        <div class="courses-grid" id="coursesGridComingSoon"></div>
 
         <div class="footer">
             <p style="margin-bottom: 20px;">✅ MVP-1.3 Complete | Built with ❤️ by Planet STEAM Academy</p>
@@ -201,9 +236,11 @@
 
     <script>
         const courses = {
+            // ✅ LIVE COURSES (8)
             "01-Python": {
                 emoji: "🐍",
                 fullName: "Python",
+                status: "live",
                 certs: ["PCEP", "PCAP", "PCPP1"],
                 tracks: [
                     "Python Developer",
@@ -221,6 +258,7 @@
             "02-Java": {
                 emoji: "☕",
                 fullName: "Java / JVM",
+                status: "live",
                 certs: ["OCP Java SE 17", "Spring Professional"],
                 tracks: [
                     "Java Developer",
@@ -238,6 +276,7 @@
             "03-JavaScript": {
                 emoji: "🟨",
                 fullName: "JavaScript / TypeScript",
+                status: "live",
                 certs: ["Meta Front-End Cert"],
                 tracks: [
                     "Frontend Developer",
@@ -257,6 +296,7 @@
             "04-AWS": {
                 emoji: "☁️",
                 fullName: "AWS",
+                status: "live",
                 certs: ["CLF-C02", "SAA-C03", "DVA-C02"],
                 tracks: [
                     "AWS Developer",
@@ -274,6 +314,7 @@
             "05-Azure": {
                 emoji: "🔷",
                 fullName: "Azure",
+                status: "live",
                 certs: ["AZ-900", "AZ-104"],
                 tracks: [
                     "Azure Developer",
@@ -289,6 +330,7 @@
             "06-GCP": {
                 emoji: "📊",
                 fullName: "Google Cloud",
+                status: "live",
                 certs: ["Associate Cloud Engineer"],
                 tracks: [
                     "GCP Developer",
@@ -302,6 +344,7 @@
             "07-DataEngineering": {
                 emoji: "📈",
                 fullName: "Data Engineering",
+                status: "live",
                 certs: ["Databricks DEA"],
                 tracks: [
                     "Data Engineer",
@@ -319,6 +362,7 @@
             "08-DevOps": {
                 emoji: "🛠️",
                 fullName: "DevOps / Platform / SRE",
+                status: "live",
                 certs: ["CKA", "CKAD"],
                 tracks: [
                     "DevOps Engineer",
@@ -330,20 +374,127 @@
                     "Security Engineer",
                     "Observability Engineer"
                 ]
+            },
+
+            // ⏳ COMING SOON (14)
+            "09-DotNet": {
+                emoji: "🔵",
+                fullName: ".NET / C#",
+                status: "coming_soon",
+                certs: ["AZ-204"],
+                tracks: []
+            },
+            "10-GoRust": {
+                emoji: "🦀",
+                fullName: "Go / Rust",
+                status: "coming_soon",
+                certs: ["Rust Foundation"],
+                tracks: []
+            },
+            "11-Cybersecurity": {
+                emoji: "🔐",
+                fullName: "Cybersecurity",
+                status: "coming_soon",
+                certs: ["Security+"],
+                tracks: []
+            },
+            "12-Mobile": {
+                emoji: "📱",
+                fullName: "Mobile Development",
+                status: "coming_soon",
+                certs: ["Flutter"],
+                tracks: []
+            },
+            "13-Blockchain": {
+                emoji: "⛓️",
+                fullName: "Blockchain / Web3",
+                status: "coming_soon",
+                certs: ["Ethereum"],
+                tracks: []
+            },
+            "14-Databases": {
+                emoji: "🗄️",
+                fullName: "Databases & SQL",
+                status: "coming_soon",
+                certs: ["Oracle DBA"],
+                tracks: []
+            },
+            "15-Product": {
+                emoji: "🎯",
+                fullName: "Product Management",
+                status: "coming_soon",
+                certs: ["Reforge"],
+                tracks: []
+            },
+            "16-Design": {
+                emoji: "🎨",
+                fullName: "UX / Design & No-Code",
+                status: "coming_soon",
+                certs: ["Figma"],
+                tracks: []
+            },
+            "17-Leadership": {
+                emoji: "🏗️",
+                fullName: "Leadership & Architecture",
+                status: "coming_soon",
+                certs: ["TOGAF"],
+                tracks: []
+            },
+            "18-SAP": {
+                emoji: "🏢",
+                fullName: "SAP",
+                status: "coming_soon",
+                certs: ["SAP C_C4H620_24"],
+                tracks: []
+            },
+            "19-Salesforce": {
+                emoji: "☁️",
+                fullName: "Salesforce",
+                status: "coming_soon",
+                certs: ["Platform Developer"],
+                tracks: []
+            },
+            "20-Dynamics": {
+                emoji: "📊",
+                fullName: "Dynamics 365",
+                status: "coming_soon",
+                certs: ["PL-200"],
+                tracks: []
+            },
+            "21-Oracle": {
+                emoji: "🗄️",
+                fullName: "Oracle EBS",
+                status: "coming_soon",
+                certs: ["Oracle EBS"],
+                tracks: []
+            },
+            "22-HubSpot": {
+                emoji: "🔴",
+                fullName: "HubSpot",
+                status: "coming_soon",
+                certs: ["HubSpot Cert"],
+                tracks: []
             }
         };
 
-        const grid = document.getElementById('coursesGrid');
+        const gridLive = document.getElementById('coursesGridLive');
+        const gridComingSoon = document.getElementById('coursesGridComingSoon');
 
         Object.entries(courses).forEach(([id, course]) => {
             const card = document.createElement('div');
-            card.className = 'course-card';
+            card.className = `course-card ${course.status === 'coming_soon' ? 'coming-soon' : ''}`;
+
+            const badgeHtml = course.status === 'coming_soon'
+                ? '<div class="coming-soon-badge">Coming Soon</div>'
+                : '';
+
             card.innerHTML = `
+                ${badgeHtml}
                 <div class="course-header">
                     <div>
                         <div class="course-icon">${course.emoji}</div>
                         <div class="course-name">${course.fullName}</div>
-                        <div class="course-info">${course.tracks.length} tracks × 12 modules</div>
+                        <div class="course-info">${course.tracks.length > 0 ? course.tracks.length + ' tracks × 12 modules' : 'Launch Q4 2026'}</div>
                     </div>
                     <div class="expand-icon">▼</div>
                 </div>
@@ -354,11 +505,17 @@
                 </div>
             `;
 
-            card.addEventListener('click', function() {
-                this.classList.toggle('expanded');
-            });
+            if (course.status !== 'coming_soon') {
+                card.addEventListener('click', function() {
+                    this.classList.toggle('expanded');
+                });
+            }
 
-            grid.appendChild(card);
+            if (course.status === 'live') {
+                gridLive.appendChild(card);
+            } else {
+                gridComingSoon.appendChild(card);
+            }
         });
     </script>
 </body>
