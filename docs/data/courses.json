@@ -1,67 +1,70 @@
 {
   "courses": [
-    {"id": "01-Python", "name": "Python", "emoji": "🐍", "folder": "01-Python", "tracks": [
-      {"id": "T01", "folder": "T01-Python-Developer", "name": "Python Developer"}, {"id": "T02", "folder": "T02-Backend-Developer", "name": "Backend Developer"}, {"id": "T03", "folder": "T03-Data-Engineer", "name": "Data Engineer"}, {"id": "T04", "folder": "T04-ML-Engineer", "name": "ML Engineer"}, {"id": "T05", "folder": "T05-FastAPI-Dev", "name": "FastAPI Dev"}, {"id": "T06", "folder": "T06-Django-Dev", "name": "Django Dev"}, {"id": "T07", "folder": "T07-Automation-Engineer", "name": "Automation Engineer"}, {"id": "T08", "folder": "T08-Scraper-Dev", "name": "Scraper Dev"}, {"id": "T09", "folder": "T09-ETL-Developer", "name": "ETL Developer"}, {"id": "T10", "folder": "T10-AI-LLM-Engineer", "name": "AI-LLM Engineer"}
+    {"id": "01-Python", "name": "Python", "emoji": "🐍", "folder": "01-python", "tracks": [
+      {"id": "T01", "name": "Python Developer"}, {"id": "T02", "name": "Backend Developer"}, {"id": "T03", "name": "Data Engineer"}, {"id": "T04", "name": "ML Engineer"}, {"id": "T05", "name": "FastAPI Dev"}, {"id": "T06", "name": "Django Dev"}, {"id": "T07", "name": "Automation Engineer"}, {"id": "T08", "name": "Scraper Dev"}, {"id": "T09", "name": "ETL Developer"}, {"id": "T10", "name": "AI-LLM Engineer"}
     ]},
-    {"id": "02-Java", "name": "Java / JVM", "emoji": "☕", "folder": "02-Java", "tracks": [
-      {"id": "T01", "folder": "T01-Java-Developer", "name": "Java Developer"}, {"id": "T02", "folder": "T02-Backend-Developer", "name": "Backend Developer"}, {"id": "T03", "folder": "T03-Spring-Boot-Dev", "name": "Spring Boot Dev"}, {"id": "T04", "folder": "T04-Microservices-Dev", "name": "Microservices Dev"}, {"id": "T05", "folder": "T05-Full-Stack-Dev", "name": "Full Stack Dev"}, {"id": "T06", "folder": "T06-Kotlin-Developer", "name": "Kotlin Developer"}, {"id": "T07", "folder": "T07-Scala-Developer", "name": "Scala Developer"}, {"id": "T08", "folder": "T08-QA-Automation", "name": "QA Automation"}, {"id": "T09", "folder": "T09-Security-Engineer", "name": "Security Engineer"}, {"id": "T10", "folder": "T10-Integration-Dev", "name": "Integration Dev"}
+    {"id": "02-Java", "name": "Java / JVM", "emoji": "☕", "folder": "02-java", "tracks": [
+      {"id": "T01", "name": "Java Developer"}, {"id": "T02", "name": "Backend Developer"}, {"id": "T03", "name": "Spring Boot Dev"}, {"id": "T04", "name": "Microservices Dev"}, {"id": "T05", "name": "Full Stack Dev"}, {"id": "T06", "name": "Kotlin Developer"}, {"id": "T07", "name": "Scala Developer"}, {"id": "T08", "name": "QA Automation"}, {"id": "T09", "name": "Security Engineer"}, {"id": "T10", "name": "Integration Dev"}
     ]},
-    {"id": "03-JavaScript", "name": "JavaScript / TypeScript", "emoji": "🟨", "folder": "03-JavaScript", "tracks": [
-      {"id": "T01", "folder": "T01-Frontend-Developer", "name": "Frontend Developer"}, {"id": "T02", "folder": "T02-React-Developer", "name": "React Developer"}, {"id": "T03", "folder": "T03-Next.js-Developer", "name": "Next.js Developer"}, {"id": "T04", "folder": "T04-Node.js-Developer", "name": "Node.js Developer"}, {"id": "T05", "folder": "T05-Full-Stack-Dev", "name": "Full Stack Dev"}, {"id": "T06", "folder": "T06-Vue.js-Developer", "name": "Vue.js Developer"}, {"id": "T07", "folder": "T07-Angular-Developer", "name": "Angular Developer"}, {"id": "T08", "folder": "T08-TypeScript-Specialist", "name": "TypeScript Specialist"}, {"id": "T09", "folder": "T09-NestJS-Dev", "name": "NestJS Dev"}, {"id": "T10", "folder": "T10-Performance-Engineer", "name": "Performance Engineer"}, {"id": "T11", "folder": "T11-Mobile-Web-Dev", "name": "Mobile Web Dev"}, {"id": "T12", "folder": "T12-WebAssembly-Dev", "name": "WebAssembly Dev"}
+    {"id": "03-JavaScript", "name": "JavaScript / TypeScript", "emoji": "🟨", "folder": "03-javascript", "tracks": [
+      {"id": "T01", "name": "Frontend Developer"}, {"id": "T02", "name": "React Developer"}, {"id": "T03", "name": "Next.js Developer"}, {"id": "T04", "name": "Node.js Developer"}, {"id": "T05", "name": "Full Stack Dev"}, {"id": "T06", "name": "Vue.js Developer"}, {"id": "T07", "name": "Angular Developer"}, {"id": "T08", "name": "TypeScript Specialist"}, {"id": "T09", "name": "NestJS Dev"}, {"id": "T10", "name": "Performance Engineer"}, {"id": "T11", "name": "Mobile Web Dev"}, {"id": "T12", "name": "WebAssembly Dev"}
     ]},
-    {"id": "04-AWS", "name": "AWS", "emoji": "☁️", "folder": "04-AWS", "tracks": [
-      {"id": "T01", "folder": "T01-AWS-Developer", "name": "AWS Developer"}, {"id": "T02", "folder": "T02-Cloud-Engineer", "name": "Cloud Engineer"}, {"id": "T03", "folder": "T03-Solutions-Architect", "name": "Solutions Architect"}, {"id": "T04", "folder": "T04-DevOps-Engineer", "name": "DevOps Engineer"}, {"id": "T05", "folder": "T05-Data-Engineer", "name": "Data Engineer"}, {"id": "T06", "folder": "T06-ML-Engineer", "name": "ML Engineer"}, {"id": "T07", "folder": "T07-Security-Engineer", "name": "Security Engineer"}, {"id": "T08", "folder": "T08-Serverless-Architect", "name": "Serverless Architect"}, {"id": "T09", "folder": "T09-FinOps-Engineer", "name": "FinOps Engineer"}, {"id": "T10", "folder": "T10-Platform-Engineer", "name": "Platform Engineer"}
+    {"id": "04-AWS", "name": "AWS", "emoji": "☁️", "folder": "04-aws", "tracks": [
+      {"id": "T01", "name": "AWS Developer"}, {"id": "T02", "name": "Cloud Engineer"}, {"id": "T03", "name": "Solutions Architect"}, {"id": "T04", "name": "DevOps Engineer"}, {"id": "T05", "name": "Data Engineer"}, {"id": "T06", "name": "ML Engineer"}, {"id": "T07", "name": "Security Engineer"}, {"id": "T08", "name": "Serverless Architect"}, {"id": "T09", "name": "FinOps Engineer"}, {"id": "T10", "name": "Platform Engineer"}
     ]},
-    {"id": "05-Azure", "name": "Azure", "emoji": "🔷", "folder": "05-Azure", "tracks": [
-      {"id": "T01", "folder": "T01-Azure-Developer", "name": "Azure Developer"}, {"id": "T02", "folder": "T02-Azure-Architect", "name": "Azure Architect"}, {"id": "T03", "folder": "T03-AI-Engineer", "name": "AI Engineer"}, {"id": "T04", "folder": "T04-Data-Engineer", "name": "Data Engineer"}, {"id": "T05", "folder": "T05-DevOps-Engineer", "name": "DevOps Engineer"}, {"id": "T06", "folder": "T06-Security-Engineer", "name": "Security Engineer"}, {"id": "T07", "folder": "T07-Solutions-Expert", "name": "Solutions Expert"}, {"id": "T08", "folder": "T08-Enterprise-Architect", "name": "Enterprise Architect"}
+    {"id": "05-DataEngineering", "name": "Data Engineering", "emoji": "📈", "folder": "05-data-engineering", "tracks": [
+      {"id": "T01", "name": "Data Engineer"}, {"id": "T02", "name": "ETL Developer"}, {"id": "T03", "name": "Pipeline Architect"}, {"id": "T04", "name": "Spark Developer"}, {"id": "T05", "name": "Lakehouse Engineer"}, {"id": "T06", "name": "Quality Engineer"}, {"id": "T07", "name": "Streaming Engineer"}, {"id": "T08", "name": "Analytics Engineer"}, {"id": "T09", "name": "dbt Developer"}, {"id": "T10", "name": "Data Ops"}
     ]},
-    {"id": "06-GCP", "name": "Google Cloud", "emoji": "📊", "folder": "06-GCP", "tracks": [
-      {"id": "T01", "folder": "T01-GCP-Developer", "name": "GCP Developer"}, {"id": "T02", "folder": "T02-Cloud-Architect", "name": "Cloud Architect"}, {"id": "T03", "folder": "T03-BigQuery-Specialist", "name": "BigQuery Specialist"}, {"id": "T04", "folder": "T04-Data-Engineer", "name": "Data Engineer"}, {"id": "T05", "folder": "T05-ML-Engineer", "name": "ML Engineer"}, {"id": "T06", "folder": "T06-DevOps-Engineer", "name": "DevOps Engineer"}
+    {"id": "06-MachineLearning", "name": "Machine Learning", "emoji": "🤖", "folder": "06-machine-learning", "tracks": [
+      {"id": "T01", "name": "ML Engineer"}, {"id": "T02", "name": "Data Scientist"}, {"id": "T03", "name": "NLP Engineer"}, {"id": "T04", "name": "MLOps Engineer"}
     ]},
-    {"id": "07-DataEngineering", "name": "Data Engineering", "emoji": "📈", "folder": "07-DataEngineering", "tracks": [
-      {"id": "T01", "folder": "T01-Data-Engineer", "name": "Data Engineer"}, {"id": "T02", "folder": "T02-ETL-Developer", "name": "ETL Developer"}, {"id": "T03", "folder": "T03-Pipeline-Architect", "name": "Pipeline Architect"}, {"id": "T04", "folder": "T04-Spark-Developer", "name": "Spark Developer"}, {"id": "T05", "folder": "T05-Lakehouse-Engineer", "name": "Lakehouse Engineer"}, {"id": "T06", "folder": "T06-Quality-Engineer", "name": "Quality Engineer"}, {"id": "T07", "folder": "T07-Streaming-Engineer", "name": "Streaming Engineer"}, {"id": "T08", "folder": "T08-Analytics-Engineer", "name": "Analytics Engineer"}, {"id": "T09", "folder": "T09-dbt-Developer", "name": "dbt Developer"}, {"id": "T10", "folder": "T10-Data-Ops", "name": "Data Ops"}
+    {"id": "07-Azure", "name": "Azure", "emoji": "🔷", "folder": "07-azure", "tracks": [
+      {"id": "T01", "name": "Azure Developer"}, {"id": "T02", "name": "Azure Architect"}, {"id": "T03", "name": "AI Engineer"}, {"id": "T04", "name": "Data Engineer"}, {"id": "T05", "name": "DevOps Engineer"}, {"id": "T06", "name": "Security Engineer"}, {"id": "T07", "name": "Solutions Expert"}, {"id": "T08", "name": "Enterprise Architect"}
     ]},
-    {"id": "08-DevOps", "name": "DevOps / SRE", "emoji": "🛠️", "folder": "08-DevOps", "tracks": [
-      {"id": "T01", "folder": "T01-DevOps-Engineer", "name": "DevOps Engineer"}, {"id": "T02", "folder": "T02-Platform-Engineer", "name": "Platform Engineer"}, {"id": "T03", "folder": "T03-SRE-Engineer", "name": "SRE Engineer"}, {"id": "T04", "folder": "T04-Kubernetes-Engineer", "name": "Kubernetes Engineer"}, {"id": "T05", "folder": "T05-CI-CD-Specialist", "name": "CI-CD Specialist"}, {"id": "T06", "folder": "T06-Infrastructure-Engineer", "name": "Infrastructure Engineer"}, {"id": "T07", "folder": "T07-Security-Engineer", "name": "Security Engineer"}, {"id": "T08", "folder": "T08-Observability-Engineer", "name": "Observability Engineer"}
+    {"id": "08-GCP", "name": "Google Cloud", "emoji": "📊", "folder": "08-gcp", "tracks": [
+      {"id": "T01", "name": "GCP Developer"}, {"id": "T02", "name": "Cloud Architect"}, {"id": "T03", "name": "BigQuery Specialist"}, {"id": "T04", "name": "Data Engineer"}, {"id": "T05", "name": "ML Engineer"}, {"id": "T06", "name": "DevOps Engineer"}
     ]},
-    {"id": "09-Dotnet", "name": ".NET / C#", "emoji": "🔵", "folder": "09-Dotnet", "tracks": [
-      {"id": "T01", "folder": "T01-Dotnet-Developer", "name": ".NET Developer"}, {"id": "T02", "folder": "T02-Backend-Developer", "name": "Backend Developer"}, {"id": "T03", "folder": "T03-Architect", "name": "Architect"}, {"id": "T04", "folder": "T04-DevOps-Engineer", "name": "DevOps Engineer"}
+    {"id": "09-Kubernetes", "name": "Kubernetes", "emoji": "🐳", "folder": "09-kubernetes", "tracks": [
+      {"id": "T01", "name": "K8s Developer"}, {"id": "T02", "name": "K8s Architect"}, {"id": "T03", "name": "Platform Engineer"}
     ]},
-    {"id": "10-GoRust", "name": "Go / Rust", "emoji": "🐹", "folder": "10-GoRust", "tracks": [
-      {"id": "T01", "folder": "T01-Go-Developer", "name": "Go Developer"}, {"id": "T02", "folder": "T02-Rust-Developer", "name": "Rust Developer"}, {"id": "T03", "folder": "T03-Systems-Engineer", "name": "Systems Engineer"}, {"id": "T04", "folder": "T04-Performance-Engineer", "name": "Performance Engineer"}
+    {"id": "10-DevOps", "name": "DevOps / SRE", "emoji": "🛠️", "folder": "10-devops", "tracks": [
+      {"id": "T01", "name": "DevOps Engineer"}, {"id": "T02", "name": "Platform Engineer"}, {"id": "T03", "name": "SRE Engineer"}, {"id": "T04", "name": "Kubernetes Engineer"}, {"id": "T05", "name": "CI-CD Specialist"}, {"id": "T06", "name": "Infrastructure Engineer"}, {"id": "T07", "name": "Security Engineer"}, {"id": "T08", "name": "Observability Engineer"}
     ]},
-    {"id": "11-Kubernetes", "name": "Kubernetes", "emoji": "🐳", "folder": "11-Kubernetes", "tracks": [
-      {"id": "T01", "folder": "T01-K8s-Developer", "name": "K8s Developer"}, {"id": "T02", "folder": "T02-K8s-Architect", "name": "K8s Architect"}, {"id": "T03", "folder": "T03-Platform-Engineer", "name": "Platform Engineer"}
+    {"id": "11-Dotnet", "name": ".NET / C#", "emoji": "🔵", "folder": "11-dotnet", "tracks": [
+      {"id": "T01", "name": ".NET Developer"}, {"id": "T02", "name": "Backend Developer"}, {"id": "T03", "name": "Architect"}, {"id": "T04", "name": "DevOps Engineer"}
     ]},
-    {"id": "12-MachineLearning", "name": "Machine Learning", "emoji": "🤖", "folder": "12-MachineLearning", "tracks": [
-      {"id": "T01", "folder": "T01-ML-Engineer", "name": "ML Engineer"}, {"id": "T02", "folder": "T02-Data-Scientist", "name": "Data Scientist"}, {"id": "T03", "folder": "T03-NLP-Engineer", "name": "NLP Engineer"}, {"id": "T04", "folder": "T04-MLOps-Engineer", "name": "MLOps Engineer"}
+    {"id": "12-GoRust", "name": "Go / Rust", "emoji": "🐹", "folder": "12-go-rust", "tracks": [
+      {"id": "T01", "name": "Go Developer"}, {"id": "T02", "name": "Rust Developer"}, {"id": "T03", "name": "Systems Engineer"}, {"id": "T04", "name": "Performance Engineer"}
     ]},
-    {"id": "13-DeepLearning", "name": "Deep Learning / NLP", "emoji": "🧠", "folder": "13-DeepLearning", "tracks": [
-      {"id": "T01", "folder": "T01-DL-Engineer", "name": "DL Engineer"}, {"id": "T02", "folder": "T02-NLP-Specialist", "name": "NLP Specialist"}, {"id": "T03", "folder": "T03-Computer-Vision", "name": "Computer Vision"}
+    {"id": "13-Mobile", "name": "Mobile Development", "emoji": "📱", "folder": "13-mobile", "tracks": [
+      {"id": "T01", "name": "iOS Developer"}, {"id": "T02", "name": "Android Developer"}, {"id": "T03", "name": "Flutter Dev"}
     ]},
-    {"id": "14-LLM", "name": "LLMs & Generative AI", "emoji": "📝", "folder": "14-LLM", "tracks": [
-      {"id": "T01", "folder": "T01-LLM-Engineer", "name": "LLM Engineer"}, {"id": "T02", "folder": "T02-Prompt-Engineer", "name": "Prompt Engineer"}, {"id": "T03", "folder": "T03-Fine-tuning", "name": "Fine-tuning Specialist"}
+    {"id": "14-Security", "name": "Cybersecurity", "emoji": "🔐", "folder": "14-security", "tracks": [
+      {"id": "T01", "name": "Security Engineer"}, {"id": "T02", "name": "Pentester"}, {"id": "T03", "name": "Security Architect"}, {"id": "T04", "name": "Compliance Specialist"}
     ]},
-    {"id": "15-Cybersecurity", "name": "Cybersecurity", "emoji": "🔐", "folder": "15-Cybersecurity", "tracks": [
-      {"id": "T01", "folder": "T01-Security-Engineer", "name": "Security Engineer"}, {"id": "T02", "folder": "T02-Pentester", "name": "Pentester"}, {"id": "T03", "folder": "T03-Architect", "name": "Security Architect"}, {"id": "T04", "folder": "T04-Compliance", "name": "Compliance Specialist"}
+    {"id": "15-Blockchain", "name": "Blockchain / Web3", "emoji": "⛓️", "folder": "15-blockchain", "tracks": [
+      {"id": "T01", "name": "Blockchain Dev"}, {"id": "T02", "name": "Smart Contract Dev"}
     ]},
-    {"id": "16-Blockchain", "name": "Blockchain / Web3", "emoji": "⛓️", "folder": "16-Blockchain", "tracks": [
-      {"id": "T01", "folder": "T01-Blockchain-Dev", "name": "Blockchain Dev"}, {"id": "T02", "folder": "T02-Smart-Contract", "name": "Smart Contract Dev"}
+    {"id": "16-Databases", "name": "Databases & SQL", "emoji": "🗄️", "folder": "16-databases", "tracks": [
+      {"id": "T01", "name": "Database Admin"}, {"id": "T02", "name": "Database Architect"}, {"id": "T03", "name": "SQL Developer"}
     ]},
-    {"id": "17-Mobile", "name": "Mobile Development", "emoji": "📱", "folder": "17-Mobile", "tracks": [
-      {"id": "T01", "folder": "T01-iOS-Developer", "name": "iOS Developer"}, {"id": "T02", "folder": "T02-Android-Developer", "name": "Android Developer"}, {"id": "T03", "folder": "T03-Flutter-Dev", "name": "Flutter Dev"}
+    {"id": "17-Product", "name": "Product Management", "emoji": "🎯", "folder": "17-product", "tracks": [
+      {"id": "T01", "name": "PM Associate"}, {"id": "T02", "name": "Senior PM"}
     ]},
-    {"id": "18-Databases", "name": "Databases & SQL", "emoji": "🗄️", "folder": "18-Databases", "tracks": [
-      {"id": "T01", "folder": "T01-DBA", "name": "Database Admin"}, {"id": "T02", "folder": "T02-Database-Architect", "name": "Database Architect"}, {"id": "T03", "folder": "T03-SQL-Developer", "name": "SQL Developer"}
+    {"id": "18-Design", "name": "UX / Design & No-Code", "emoji": "🎨", "folder": "18-design", "tracks": [
+      {"id": "T01", "name": "UX Designer"}, {"id": "T02", "name": "No-Code Developer"}
     ]},
-    {"id": "19-ProductManagement", "name": "Product Management", "emoji": "🎯", "folder": "19-ProductManagement", "tracks": [
-      {"id": "T01", "folder": "T01-PM-Associate", "name": "PM Associate"}, {"id": "T02", "folder": "T02-Senior-PM", "name": "Senior PM"}
+    {"id": "19-Leadership", "name": "Leadership & Architecture", "emoji": "🏗️", "folder": "19-leadership", "tracks": [
+      {"id": "T01", "name": "Tech Lead"}, {"id": "T02", "name": "Solution Architect"}
     ]},
-    {"id": "20-UXDesign", "name": "UX / Design & No-Code", "emoji": "🎨", "folder": "20-UXDesign", "tracks": [
-      {"id": "T01", "folder": "T01-UX-Designer", "name": "UX Designer"}, {"id": "T02", "folder": "T02-No-Code-Developer", "name": "No-Code Developer"}
+    {"id": "20-CloudNative", "name": "Cloud Native", "emoji": "☁️✨", "folder": "20-cloud-native", "tracks": [
+      {"id": "T01", "name": "Cloud Native Developer"}, {"id": "T02", "name": "Container Architect"}
     ]},
-    {"id": "21-Leadership", "name": "Leadership & Architecture", "emoji": "🏗️", "folder": "21-Leadership", "tracks": [
-      {"id": "T01", "folder": "T01-Tech-Lead", "name": "Tech Lead"}, {"id": "T02", "folder": "T02-Solution-Architect", "name": "Solution Architect"}
+    {"id": "21-SRE", "name": "SRE Engineering", "emoji": "⚡", "folder": "21-sre", "tracks": [
+      {"id": "T01", "name": "SRE Engineer"}, {"id": "T02", "name": "Reliability Engineer"}
+    ]},
+    {"id": "22-Enterprise", "name": "Enterprise Integration", "emoji": "🔗", "folder": "22-enterprise-integration", "tracks": [
+      {"id": "T01", "name": "Enterprise Architect"}, {"id": "T02", "name": "Integration Engineer"}
     ]}
   ],
   "modules": [

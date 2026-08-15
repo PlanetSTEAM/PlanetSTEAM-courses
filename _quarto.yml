@@ -1,17 +1,23 @@
 project:
   type: website
-  title: "Planet STEAM"
-  output-dir: docs/courses/_output
+  output-dir: docs
 
 website:
-  title: "Planet STEAM — 22 Courses"
+  title: "Planet STEAM Academy"
   navbar:
-    logo: 🚀
-  search: true
+    left:
+      - href: index.html
+        text: Home
 
 format:
   html:
-    theme: cosmo
-    code-copy: true
+    theme: darkly
     toc: true
-
+    number-sections: true
+    code-fold: false
+    code-tools: true
+    execute:
+      freeze: false
+      eval: true
+      warning: false
+      message: false
