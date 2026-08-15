@@ -23,6 +23,45 @@
     ]},
     {"id": "08-DevOps", "name": "DevOps / SRE", "emoji": "🛠️", "folder": "08-DevOps", "tracks": [
       {"id": "T01", "folder": "T01-DevOps-Engineer", "name": "DevOps Engineer"}, {"id": "T02", "folder": "T02-Platform-Engineer", "name": "Platform Engineer"}, {"id": "T03", "folder": "T03-SRE-Engineer", "name": "SRE Engineer"}, {"id": "T04", "folder": "T04-Kubernetes-Engineer", "name": "Kubernetes Engineer"}, {"id": "T05", "folder": "T05-CI-CD-Specialist", "name": "CI-CD Specialist"}, {"id": "T06", "folder": "T06-Infrastructure-Engineer", "name": "Infrastructure Engineer"}, {"id": "T07", "folder": "T07-Security-Engineer", "name": "Security Engineer"}, {"id": "T08", "folder": "T08-Observability-Engineer", "name": "Observability Engineer"}
+    ]},
+    {"id": "09-Dotnet", "name": ".NET / C#", "emoji": "🔵", "folder": "09-Dotnet", "tracks": [
+      {"id": "T01", "folder": "T01-Dotnet-Developer", "name": ".NET Developer"}, {"id": "T02", "folder": "T02-Backend-Developer", "name": "Backend Developer"}, {"id": "T03", "folder": "T03-Architect", "name": "Architect"}, {"id": "T04", "folder": "T04-DevOps-Engineer", "name": "DevOps Engineer"}
+    ]},
+    {"id": "10-GoRust", "name": "Go / Rust", "emoji": "🐹", "folder": "10-GoRust", "tracks": [
+      {"id": "T01", "folder": "T01-Go-Developer", "name": "Go Developer"}, {"id": "T02", "folder": "T02-Rust-Developer", "name": "Rust Developer"}, {"id": "T03", "folder": "T03-Systems-Engineer", "name": "Systems Engineer"}, {"id": "T04", "folder": "T04-Performance-Engineer", "name": "Performance Engineer"}
+    ]},
+    {"id": "11-Kubernetes", "name": "Kubernetes", "emoji": "🐳", "folder": "11-Kubernetes", "tracks": [
+      {"id": "T01", "folder": "T01-K8s-Developer", "name": "K8s Developer"}, {"id": "T02", "folder": "T02-K8s-Architect", "name": "K8s Architect"}, {"id": "T03", "folder": "T03-Platform-Engineer", "name": "Platform Engineer"}
+    ]},
+    {"id": "12-MachineLearning", "name": "Machine Learning", "emoji": "🤖", "folder": "12-MachineLearning", "tracks": [
+      {"id": "T01", "folder": "T01-ML-Engineer", "name": "ML Engineer"}, {"id": "T02", "folder": "T02-Data-Scientist", "name": "Data Scientist"}, {"id": "T03", "folder": "T03-NLP-Engineer", "name": "NLP Engineer"}, {"id": "T04", "folder": "T04-MLOps-Engineer", "name": "MLOps Engineer"}
+    ]},
+    {"id": "13-DeepLearning", "name": "Deep Learning / NLP", "emoji": "🧠", "folder": "13-DeepLearning", "tracks": [
+      {"id": "T01", "folder": "T01-DL-Engineer", "name": "DL Engineer"}, {"id": "T02", "folder": "T02-NLP-Specialist", "name": "NLP Specialist"}, {"id": "T03", "folder": "T03-Computer-Vision", "name": "Computer Vision"}
+    ]},
+    {"id": "14-LLM", "name": "LLMs & Generative AI", "emoji": "📝", "folder": "14-LLM", "tracks": [
+      {"id": "T01", "folder": "T01-LLM-Engineer", "name": "LLM Engineer"}, {"id": "T02", "folder": "T02-Prompt-Engineer", "name": "Prompt Engineer"}, {"id": "T03", "folder": "T03-Fine-tuning", "name": "Fine-tuning Specialist"}
+    ]},
+    {"id": "15-Cybersecurity", "name": "Cybersecurity", "emoji": "🔐", "folder": "15-Cybersecurity", "tracks": [
+      {"id": "T01", "folder": "T01-Security-Engineer", "name": "Security Engineer"}, {"id": "T02", "folder": "T02-Pentester", "name": "Pentester"}, {"id": "T03", "folder": "T03-Architect", "name": "Security Architect"}, {"id": "T04", "folder": "T04-Compliance", "name": "Compliance Specialist"}
+    ]},
+    {"id": "16-Blockchain", "name": "Blockchain / Web3", "emoji": "⛓️", "folder": "16-Blockchain", "tracks": [
+      {"id": "T01", "folder": "T01-Blockchain-Dev", "name": "Blockchain Dev"}, {"id": "T02", "folder": "T02-Smart-Contract", "name": "Smart Contract Dev"}
+    ]},
+    {"id": "17-Mobile", "name": "Mobile Development", "emoji": "📱", "folder": "17-Mobile", "tracks": [
+      {"id": "T01", "folder": "T01-iOS-Developer", "name": "iOS Developer"}, {"id": "T02", "folder": "T02-Android-Developer", "name": "Android Developer"}, {"id": "T03", "folder": "T03-Flutter-Dev", "name": "Flutter Dev"}
+    ]},
+    {"id": "18-Databases", "name": "Databases & SQL", "emoji": "🗄️", "folder": "18-Databases", "tracks": [
+      {"id": "T01", "folder": "T01-DBA", "name": "Database Admin"}, {"id": "T02", "folder": "T02-Database-Architect", "name": "Database Architect"}, {"id": "T03", "folder": "T03-SQL-Developer", "name": "SQL Developer"}
+    ]},
+    {"id": "19-ProductManagement", "name": "Product Management", "emoji": "🎯", "folder": "19-ProductManagement", "tracks": [
+      {"id": "T01", "folder": "T01-PM-Associate", "name": "PM Associate"}, {"id": "T02", "folder": "T02-Senior-PM", "name": "Senior PM"}
+    ]},
+    {"id": "20-UXDesign", "name": "UX / Design & No-Code", "emoji": "🎨", "folder": "20-UXDesign", "tracks": [
+      {"id": "T01", "folder": "T01-UX-Designer", "name": "UX Designer"}, {"id": "T02", "folder": "T02-No-Code-Developer", "name": "No-Code Developer"}
+    ]},
+    {"id": "21-Leadership", "name": "Leadership & Architecture", "emoji": "🏗️", "folder": "21-Leadership", "tracks": [
+      {"id": "T01", "folder": "T01-Tech-Lead", "name": "Tech Lead"}, {"id": "T02", "folder": "T02-Solution-Architect", "name": "Solution Architect"}
     ]}
   ],
   "modules": [
