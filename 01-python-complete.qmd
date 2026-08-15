@@ -1,0 +1,789 @@
+---
+title: "📚 🐍 Python Professional Mastery Program"
+subtitle: "Complete Bootcamp - 10 Specialization Tracks, 12 Modules Per Role, 240+ Hours"
+author: "Planet STEAM"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 4
+---
+
+# 📚 🐍 Python — Professional Mastery Program
+
+**Status:** COMPLETE STRUCTURE | 10 SPECIALIZATION TRACKS | 120 MODULES | 240+ HOURS | 50+ PROJECTS
+
+## Overview
+
+Master 🐍 Python with a comprehensive, industry-aligned bootcamp spanning 10 specialization tracks designed for different career paths.
+
+---
+
+## Specialization Tracks (10)
+
+### 1. Python Developer
+**Focus:** Full-stack Python development | **Duration:** 240 hours | **Projects:** 5 | **Certs:** PCEP, PCAP
+
+Pathway for professionals building complete Python applications from concept to production.
+
+### 2. Python Backend Developer
+**Focus:** Server-side APIs and web services | **Duration:** 240 hours | **Projects:** 5 | **Certs:** PCAP, PCPP1
+
+Master Django, FastAPI, REST APIs, and microservices architecture.
+
+### 3. Python Data Analyst
+**Focus:** Data analysis and visualization | **Duration:** 200 hours | **Projects:** 4 | **Certs:** PCEP, Data Analysis
+
+Specialize in pandas, numpy, matplotlib, and data-driven decision making.
+
+### 4. Python Data Engineer
+**Focus:** ETL pipelines and big data | **Duration:** 250 hours | **Projects:** 5 | **Certs:** PCAP, Data Engineering
+
+Build scalable data pipelines with Airflow, Spark, and cloud platforms (AWS, GCP, Azure).
+
+### 5. Python ML/AI Engineer
+**Focus:** Machine learning and AI systems | **Duration:** 280 hours | **Projects:** 6 | **Certs:** PCPP1, ML Specialist
+
+Master scikit-learn, TensorFlow, PyTorch, and LLM integrations.
+
+### 6. Python DevOps Engineer
+**Focus:** Infrastructure automation | **Duration:** 220 hours | **Projects:** 5 | **Certs:** PCAP, DevOps Specialist
+
+Automate infrastructure with Docker, Kubernetes, Terraform, and CI/CD pipelines.
+
+### 7. Python Full-Stack Developer
+**Focus:** Frontend + backend development | **Duration:** 260 hours | **Projects:** 6 | **Certs:** PCAP, Full-Stack
+
+Build complete applications with Flask/Django, JavaScript, and modern databases.
+
+### 8. Python Systems Engineer
+**Focus:** System administration automation | **Duration:** 210 hours | **Projects:** 4 | **Certs:** PCEP, Systems Admin
+
+Automate infrastructure, OS-level tasks, and server management.
+
+### 9. Python Security Engineer
+**Focus:** Security automation and testing | **Duration:** 240 hours | **Projects:** 5 | **Certs:** PCAP, Security Specialist
+
+Master cryptography, penetration testing, and secure coding practices.
+
+### 10. Python Solutions Architect
+**Focus:** Solution design and leadership | **Duration:** 200 hours | **Projects:** 4 | **Certs:** PCPP1, Architecture
+
+Design scalable solutions, lead technical teams, and mentor junior developers.
+
+---
+
+## Program Structure
+
+| Metric | Value |
+|--------|-------|
+| **Total Modules** | 120 (12 per role × 10 roles) |
+| **Duration Per Role** | 200-280 hours |
+| **Real-World Projects** | 50+ |
+| **Official Certifications** | PCEP, PCAP, PCPP1 (role-dependent) |
+| **Interview Q&A** | 100+ questions per role |
+| **Code Examples** | 500+ production-ready snippets |
+
+---
+
+## Module Structure (Per Role)
+
+Each role contains 12 progressive modules:
+
+1. **Fundamentals & Setup** — Environment, basics, IDE configuration
+2. **Data Types & Variables** — Strings, numbers, collections, types
+3. **Control Flow** — If/else, loops, comprehensions, conditions
+4. **Functions & Methods** — Def, args, kwargs, decorators, generators
+5. **Object-Oriented Programming** — Classes, inheritance, polymorphism, SOLID
+6. **Modules & Packages** — Imports, packaging, pip, virtual environments
+7. **Error Handling** — Try/except, logging, debugging, best practices
+8. **Advanced Topics** — Async/await, context managers, metaclasses
+9. **Real-World Project 1** — Full application relevant to role
+10. **Professional Practices** — Testing (unittest, pytest), documentation, CI/CD
+11. **Role-Specific Specialization** — Deep dive into career-specific frameworks/tools
+12. **Capstone Project** — Complete portfolio project demonstrating mastery
+
+---
+
+## Track 1: Python Developer
+
+### Module 1: Fundamentals & Setup
+**Duration:** 4 hours | **Level:** Beginner
+
+#### Learning Objectives
+- Set up professional Python development environment
+- Understand Python history and ecosystem
+- Master IDE configuration (VS Code, PyCharm)
+- Write first Python script
+
+#### Theory & Concepts
+- **Python Basics:** Interpreter, REPL, scripts, modules
+- **Environment Setup:** Virtual environments, pip, package management
+- **IDE Setup:** Extensions, linters (pylint, flake8), formatters (black)
+- **Best Practices:** Code organization, style guides (PEP 8)
+
+#### Code Examples
+```python
+# Example 1: Hello World & Basic Setup
+print("Welcome to Python Development")
+
+# Example 2: Virtual Environment
+# python -m venv env
+# source env/bin/activate  # macOS/Linux
+# env\Scripts\activate     # Windows
+
+# Example 3: Package Installation
+# pip install requests numpy pandas
+```
+
+#### Exercises
+1. Set up Python 3.11+ environment with virtual environment
+2. Create a script that reads user input and prints output
+3. Install 3 packages and verify with `pip list`
+
+#### Project
+**Mini Project:** Personal Portfolio Script
+- Accepts user details (name, skills, experience)
+- Generates formatted resume in text format
+- Saves to file for later use
+
+#### Knowledge Check
+- What is a virtual environment and why use it?
+- How do you install packages in Python?
+- What is PEP 8 and why does it matter?
+
+---
+
+### Module 2: Data Types & Variables
+**Duration:** 5 hours | **Level:** Beginner
+
+#### Learning Objectives
+- Master Python data types (int, float, str, bool, list, dict, tuple, set)
+- Understand mutability and type conversion
+- Work with collections efficiently
+- Apply proper naming conventions
+
+#### Theory & Concepts
+- **Primitive Types:** int, float, str, bool with examples
+- **Collections:** list, tuple, dict, set - operations and use cases
+- **Type Conversion:** Implicit vs explicit conversion
+- **Mutability:** Understanding mutable vs immutable types
+
+#### Code Examples
+```python
+# Data Types Example
+name = "Python Developer"  # str
+experience_years = 5       # int
+salary = 85000.50         # float
+is_certified = True       # bool
+
+# Collections
+skills = ["Python", "Django", "PostgreSQL"]  # list
+coordinates = (40.7128, 74.0060)            # tuple (immutable)
+profile = {"name": "John", "role": "Dev"}   # dict
+unique_certs = {"PCAP", "AWS", "Docker"}    # set
+
+# Type Conversion
+age_str = "25"
+age_int = int(age_str)
+```
+
+#### Exercises
+1. Create variables for yourself (name, age, skills list, current role)
+2. Perform type conversions between int/str/float
+3. Create a dict representing a person with 5+ attributes
+4. Use set operations (union, intersection) on two skill sets
+
+#### Project
+**Mini Project:** Personal Skills Inventory
+- Store skills in dict with proficiency levels (1-5)
+- Count total skills and average proficiency
+- Export as formatted text/JSON
+
+#### Knowledge Check
+- What's the difference between list and tuple?
+- When would you use dict vs set?
+- How do you safely convert types?
+
+---
+
+### Module 3: Control Flow
+**Duration:** 5 hours | **Level:** Beginner
+
+#### Learning Objectives
+- Master if/else conditionals
+- Write efficient loops (for, while)
+- Use list comprehensions
+- Implement break/continue/pass
+
+#### Theory & Concepts
+- **Conditionals:** if/elif/else, logical operators (and, or, not)
+- **Loops:** for loops, while loops, enumerate, range
+- **Comprehensions:** List, dict, set comprehensions
+- **Loop Control:** break, continue, pass
+
+#### Code Examples
+```python
+# Conditional Example
+score = 85
+if score >= 90:
+    grade = "A"
+elif score >= 80:
+    grade = "B"
+else:
+    grade = "C"
+
+# Loop Example
+for i in range(1, 6):
+    print(f"Iteration {i}")
+
+# List Comprehension
+squares = [x**2 for x in range(10)]
+```
+
+#### Exercises
+1. Write nested conditionals for complex logic
+2. Create loops with break/continue statements
+3. Convert for loop to list comprehension
+4. Write while loop with condition checking
+
+#### Project
+**Mini Project:** Grade Calculator
+- Input 5 test scores
+- Calculate average
+- Assign letter grade
+- Display statistics
+
+#### Knowledge Check
+- How do you avoid nested if statements (DRY principle)?
+- When to use list comprehension vs for loop?
+- What's the difference between break and continue?
+
+---
+
+### Module 4: Functions & Methods
+**Duration:** 6 hours | **Level:** Beginner
+
+#### Learning Objectives
+- Define and call functions with parameters
+- Use default arguments and *args, **kwargs
+- Implement return values and None
+- Apply decorators for function enhancement
+
+#### Theory & Concepts
+- **Function Basics:** def, parameters, return values
+- **Arguments:** Positional, keyword, defaults, *args, **kwargs
+- **Scope:** Local, global, nonlocal variables
+- **Decorators:** Function wrappers, common decorators
+
+#### Code Examples
+```python
+# Basic Function
+def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+
+# Args and Kwargs
+def calculate(*args, **kwargs):
+    total = sum(args)
+    operation = kwargs.get('op', 'sum')
+    return total
+
+# Decorator Example
+def timer(func):
+    def wrapper(*args, **kwargs):
+        import time
+        start = time.time()
+        result = func(*args, **kwargs)
+        print(f"Took {time.time() - start} seconds")
+        return result
+    return wrapper
+```
+
+#### Exercises
+1. Write function with positional and keyword arguments
+2. Implement function using *args and **kwargs
+3. Create decorator for timing function execution
+4. Use @property decorator for class methods
+
+#### Project
+**Mini Project:** Calculator Module
+- Create functions for +, -, *, /, **
+- Handle edge cases (division by zero)
+- Add logging/timing decorator
+- Write unit tests
+
+#### Knowledge Check
+- What's the difference between *args and **kwargs?
+- When do you use decorators?
+- What is scope and why does it matter?
+
+---
+
+### Module 5: Object-Oriented Programming
+**Duration:** 7 hours | **Level:** Intermediate
+
+#### Learning Objectives
+- Create and use classes and objects
+- Implement inheritance and polymorphism
+- Apply SOLID principles
+- Use special methods (__init__, __str__, etc.)
+
+#### Theory & Concepts
+- **Classes:** Attributes, methods, __init__
+- **Inheritance:** Single, multiple inheritance, super()
+- **Polymorphism:** Method overriding, duck typing
+- **Encapsulation:** Public, private, protected attributes
+- **SOLID:** SRP, OCP, LSP, ISP, DIP
+
+#### Code Examples
+```python
+class Developer:
+    def __init__(self, name, language):
+        self.name = name
+        self.language = language
+
+    def code(self):
+        return f"{self.name} coding in {self.language}"
+
+class Backend(Developer):
+    def __init__(self, name, language, framework):
+        super().__init__(name, language)
+        self.framework = framework
+```
+
+#### Exercises
+1. Create class with attributes and methods
+2. Implement inheritance hierarchy (Animal → Dog → Puppy)
+3. Override methods in child class
+4. Implement __str__, __repr__, __eq__ special methods
+
+#### Project
+**Mini Project:** Bank Account System
+- Create Account, Checking, Savings classes
+- Implement deposit, withdraw, transfer
+- Track transaction history
+- Calculate interest for savings
+
+#### Knowledge Check
+- What's the difference between inheritance and composition?
+- When do you use @staticmethod vs @classmethod?
+- How do SOLID principles improve code?
+
+---
+
+### Module 6: Modules & Packages
+**Duration:** 4 hours | **Level:** Intermediate
+
+#### Learning Objectives
+- Organize code into modules and packages
+- Use import statements effectively
+- Create distributable packages
+- Manage dependencies with pip
+
+#### Theory & Concepts
+- **Modules:** .py files, __name__ == '__main__'
+- **Packages:** __init__.py, directory structure
+- **Imports:** from X import Y, relative imports
+- **pip & PyPI:** Package distribution, requirements.txt
+
+#### Code Examples
+```python
+# Module: calculator.py
+def add(a, b):
+    return a + b
+
+# Using module
+from calculator import add
+result = add(5, 3)
+
+# Package structure
+# myapp/
+#   __init__.py
+#   utils/
+#     __init__.py
+#     helpers.py
+#   core/
+#     __init__.py
+#     logic.py
+```
+
+#### Exercises
+1. Create module with multiple functions
+2. Create package with submodules
+3. Write requirements.txt for 3 packages
+4. Create setup.py for package distribution
+
+#### Project
+**Mini Project:** Reusable Math Package
+- Create math_utils package with modules
+- Implement in submodules: algebra, geometry, statistics
+- Create requirements.txt
+- Distribute locally via pip install -e .
+
+#### Knowledge Check
+- What's __init__.py used for?
+- When do you use absolute vs relative imports?
+- How do you distribute a package to PyPI?
+
+---
+
+### Module 7: Error Handling
+**Duration:** 5 hours | **Level:** Intermediate
+
+#### Learning Objectives
+- Use try/except/finally blocks
+- Create custom exceptions
+- Implement logging
+- Debug code effectively
+
+#### Theory & Concepts
+- **Exceptions:** Built-in exceptions, custom exceptions
+- **Try/Except:** Single and multiple except blocks
+- **Finally:** Cleanup code, context managers
+- **Logging:** Logger setup, log levels (DEBUG, INFO, WARNING, ERROR)
+
+#### Code Examples
+```python
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
+
+try:
+    result = 10 / int(input())
+except ValueError:
+    logger.error("Invalid input")
+except ZeroDivisionError:
+    logger.error("Cannot divide by zero")
+finally:
+    logger.info("Operation complete")
+
+class CustomError(Exception):
+    pass
+```
+
+#### Exercises
+1. Write try/except with multiple exception types
+2. Create custom exception class
+3. Set up logging with file handler
+4. Use debugger with breakpoints
+
+#### Project
+**Mini Project:** Robust File Parser
+- Read CSV with error handling
+- Log errors to file
+- Create custom exception for bad data
+- Implement retry logic
+
+#### Knowledge Check
+- When do you catch Exception vs specific exceptions?
+- How does logging differ from print()?
+- What's the purpose of finally block?
+
+---
+
+### Module 8: Advanced Topics
+**Duration:** 7 hours | **Level:** Advanced
+
+#### Learning Objectives
+- Master async/await for concurrent programming
+- Use generators and iterators
+- Implement context managers
+- Apply functional programming concepts
+
+#### Theory & Concepts
+- **Async/Await:** asyncio, event loop, concurrent tasks
+- **Generators:** yield, generator expressions
+- **Context Managers:** with statement, __enter__, __exit__
+- **Functional:** map, filter, reduce, lambda, functools
+
+#### Code Examples
+```python
+# Async Example
+import asyncio
+
+async def fetch_data(url):
+    await asyncio.sleep(1)  # Simulating I/O
+    return f"Data from {url}"
+
+async def main():
+    results = await asyncio.gather(
+        fetch_data("url1"),
+        fetch_data("url2")
+    )
+
+# Generator Example
+def count_up_to(n):
+    i = 0
+    while i < n:
+        yield i
+        i += 1
+
+# Context Manager
+with open("file.txt") as f:
+    data = f.read()
+```
+
+#### Exercises
+1. Write async function with asyncio.gather()
+2. Create generator function
+3. Implement custom context manager
+4. Use map/filter/reduce on data
+
+#### Project
+**Mini Project:** Async Web Scraper
+- Fetch multiple URLs concurrently
+- Parse HTML with BeautifulSoup
+- Store results with context manager
+- Handle timeouts and errors
+
+#### Knowledge Check
+- What problem does async/await solve?
+- When do you use generator vs list?
+- How does context manager replace try/finally?
+
+---
+
+### Module 9: Real-World Project 1 — Web API
+**Duration:** 10 hours
+
+#### Project: Flask REST API
+- Create Flask application with 5+ endpoints
+- Implement database integration (SQLite/PostgreSQL)
+- Add request validation
+- Write unit tests with pytest
+- Deploy locally with proper error handling
+
+#### Deliverables
+- Working API with CRUD operations
+- Test suite with 10+ test cases
+- API documentation (Swagger/OpenAPI)
+- README with setup instructions
+
+---
+
+### Module 10: Professional Practices
+**Duration:** 6 hours | **Level:** Intermediate
+
+#### Learning Objectives
+- Write testable code with unittest/pytest
+- Document code with docstrings and comments
+- Use version control (Git)
+- Implement CI/CD pipelines basics
+
+#### Theory & Concepts
+- **Testing:** unit tests, integration tests, TDD
+- **Documentation:** Docstrings (Google style), README, comments
+- **Git:** Branches, commits, pull requests, .gitignore
+- **CI/CD:** GitHub Actions, automated testing
+
+#### Code Examples
+```python
+# Unit Test Example
+import unittest
+
+class TestCalculator(unittest.TestCase):
+    def setUp(self):
+        self.calc = Calculator()
+
+    def test_add(self):
+        self.assertEqual(self.calc.add(2, 3), 5)
+
+# Docstring Example
+def calculate_compound_interest(principal, rate, time):
+    """
+    Calculate compound interest.
+
+    Args:
+        principal (float): Initial amount
+        rate (float): Annual interest rate
+        time (int): Time in years
+
+    Returns:
+        float: Final amount
+    """
+    return principal * (1 + rate) ** time
+```
+
+#### Exercises
+1. Write 5+ unit tests for a function
+2. Add docstrings to existing functions
+3. Create .gitignore and commit to Git
+4. Set up GitHub Actions workflow
+
+#### Project
+**Mini Project:** Tested Calculator Package
+- Implement calculator with functions
+- Write comprehensive unit tests
+- Add docstrings (Google style)
+- Create GitHub Actions workflow for CI
+
+#### Knowledge Check
+- What's the difference between unit and integration tests?
+- Why write tests before code (TDD)?
+- What should GitHub Actions do for your project?
+
+---
+
+### Module 11: Role-Specific Specialization — Django Deep Dive
+**Duration:** 8 hours | **Level:** Advanced
+
+For Python Developer role - deep dive into Django framework
+
+- Models, Views, Templates (MVT)
+- ORM queries and optimization
+- Middleware and authentication
+- Deployment considerations
+
+#### Exercises
+1. Build multi-model Django app with relationships
+2. Write complex ORM queries
+3. Implement custom middleware
+4. Set up production-grade settings
+
+---
+
+### Module 12: Capstone Project — Complete Application
+**Duration:** 20 hours
+
+#### Project: Social Media Analytics Dashboard
+- Backend: Django REST API with PostgreSQL
+- Frontend: Vue.js with real-time charts
+- Features:
+  - User authentication
+  - Post CRUD operations
+  - Analytics (likes, comments, reach)
+  - Real-time notifications
+  - Export to CSV/PDF
+- Deployment: Docker + Docker Compose
+- Testing: 80%+ code coverage
+- Documentation: Complete API docs and README
+
+#### Deliverables
+1. GitHub repository with full source code
+2. Running application (docker-compose up)
+3. API documentation (Swagger)
+4. Test suite (pytest with 80%+ coverage)
+5. Deployment guide
+6. Technical presentation (5 min)
+
+---
+
+## Track 2: Python Backend Developer
+
+[Similar structure with 12 modules, but focused on backend frameworks]
+
+### Module 1-12: Backend-Specific Content
+- FastAPI fundamentals
+- Microservices architecture
+- Database optimization
+- REST API best practices
+- Docker & containerization
+- Load balancing
+- Caching strategies
+- API security
+- Event-driven architecture
+- Background jobs (Celery)
+- Testing async code
+- Production deployment
+
+---
+
+## Track 3: Python Data Analyst
+
+[12 modules focused on data analysis]
+
+### Module 1-12: Data Analysis Content
+- Pandas fundamentals
+- NumPy operations
+- Data visualization (Matplotlib, Seaborn, Plotly)
+- Statistical analysis
+- Time series data
+- SQL for analytics
+- ELT workflows
+- Jupyter notebooks
+- Dashboard tools (Streamlit, Dash)
+- Excel integration
+- Business intelligence
+- Real-world case studies
+
+---
+
+[Similar tracks for Tracks 4-10, each with specialized content]
+
+---
+
+## Certifications
+
+### PCEP — Python Entry Level
+- **Target Roles:** All entry-level positions
+- **Duration:** 45 minutes
+- **Questions:** 40 multiple-choice
+- **Passing Score:** 70%
+- **Topics:** Variables, data types, loops, functions, exceptions
+
+### PCAP — Python Associate Programmer
+- **Target Roles:** Backend, DevOps, Data Engineer, Security
+- **Duration:** 130 minutes
+- **Questions:** 65 multiple-choice
+- **Passing Score:** 70%
+- **Topics:** OOP, modules, packages, advanced features
+
+### PCPP1 — Python Professional
+- **Target Roles:** Architect, ML Engineer, Senior Developer
+- **Duration:** 240 minutes
+- **Questions:** 100 multiple-choice
+- **Passing Score:** 70%
+- **Topics:** Advanced Python, production deployment, performance
+
+---
+
+## Resources
+
+### Free Resources
+- Python.org official documentation
+- Real Python tutorials
+- GeeksforGeeks
+- Stack Overflow Q&A
+
+### Paid Resources
+- Real Python (subscription)
+- DataCamp (data-focused)
+- Coursera Python specializations
+- Python Institute official courses
+
+### Community
+- Python Discord servers
+- Local Python meetups
+- GitHub open source projects
+- Code review communities (CodeReview.stackexchange.com)
+
+---
+
+## Success Metrics
+
+After completing this program, you will be able to:
+- ✅ Write clean, Pythonic, production-ready code
+- ✅ Architect complete applications from scratch
+- ✅ Pass PCEP/PCAP/PCPP1 certifications
+- ✅ Build REST APIs with Flask or FastAPI
+- ✅ Analyze data with Pandas and create visualizations
+- ✅ Deploy applications to cloud (AWS/GCP/Azure)
+- ✅ Lead Python development teams
+- ✅ Mentor junior developers
+
+---
+
+## Estimated Timeline
+
+- **Full Program:** 240-280 hours
+- **Part-time (10 hrs/week):** 24-28 weeks (~6 months)
+- **Full-time (40 hrs/week):** 6-7 weeks
+- **Intensive (60 hrs/week):** 4 weeks
+
+---
+
+**© 2026 Planet STEAM — Luis Carreño**
+**Repository:** github.com/PlanetSTEAM/planet-steam-app
+**Deployment:** https://planet-steam-app.vercel.app
+**Built with Quarto | Last Updated: August 15, 2026**

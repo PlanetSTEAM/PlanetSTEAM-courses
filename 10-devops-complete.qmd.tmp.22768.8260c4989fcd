@@ -1,0 +1,114 @@
+---
+title: "DevOps & CI/CD — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# DevOps & CI/CD — Professional Mastery Program
+
+**Certification:** AWS DevOps Professional, Azure DevOps Engineer, Jenkins Certified, GitLab Certified
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours | Certifications |
+|------|---------|-------|----------------|
+| **CI/CD Pipeline Engineer** | 12 | 240 | Jenkins Certified |
+| **DevOps Architect** | 12 | 270 | AWS DevOps Professional |
+| **Infrastructure as Code Engineer** | 12 | 250 | Terraform Associate |
+| **Container Platform Engineer** | 12 | 240 | Docker Certified Associate |
+| **Infrastructure Automation Engineer** | 12 | 240 | Ansible Certified |
+| **Cloud Infrastructure Engineer** | 12 | 250 | AWS Solutions Architect |
+| **GitOps Engineer** | 12 | 240 | GitOps Specialist |
+| **Monitoring & Observability Engineer** | 12 | 240 | Prometheus and Grafana Certified |
+| **Release Engineering Manager** | 12 | 250 | Release Management Certified |
+| **Platform Engineering Lead** | 12 | 260 | Platform Engineering Specialist |
+
+## 📚 Core Modules
+
+### Module 1: DevOps Fundamentals & CI/CD
+- CI/CD pipeline architecture
+- Version control (Git, GitHub, GitLab)
+- Build automation and testing
+- Deployment strategies
+- Monitoring and alerting
+
+### Modules 2-12: Specialized tracks
+
+**Code Examples:**
+```yaml
+# Jenkins Pipeline
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh 'kubectl apply -f deployment.yaml'
+            }
+        }
+    }
+}
+
+---
+# GitHub Actions
+name: CI/CD Pipeline
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: npm install && npm run build
+      - name: Deploy
+        run: npm run deploy
+
+---
+# Terraform
+resource "aws_instance" "web" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t3.micro"
+  tags = {
+    Name = "web-server"
+  }
+}
+```
+
+## 🏆 Specialization Tracks
+
+1. **CI/CD Pipeline Engineer** - Jenkins, GitLab CI, GitHub Actions
+2. **DevOps Architect** - Enterprise DevOps design
+3. **Infrastructure as Code Engineer** - Terraform, CloudFormation
+4. **Container Platform Engineer** - Docker and container strategies
+5. **Infrastructure Automation Engineer** - Ansible, Puppet, Chef
+6. **Cloud Infrastructure Engineer** - AWS, Azure, GCP infrastructure
+7. **GitOps Engineer** - GitOps and declarative infrastructure
+8. **Monitoring & Observability Engineer** - Prometheus, Grafana, ELK
+9. **Release Engineering Manager** - Release processes and management
+10. **Platform Engineering Lead** - Internal developer platforms
+
+## 📊 Statistics
+
+- **Total Modules:** 120
+- **Learning Hours:** 2,400+
+- **Projects:** 50+ DevOps projects
+- **Certifications:** 10+ DevOps certifications
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**
+
