@@ -111,37 +111,85 @@ async function openModule(moduleNum) {
     }
 
     try {
-        const modulePad = String(moduleNum).padStart(2, '0');
         const moduleName = coursesData.modules[moduleNum - 1];
 
-        // Convert module name to kebab-case for URL: "Best Practices & Architecture" → "Best-Practices-and-Architecture"
-        const kebabModuleName = moduleName
-            .replace(/\s+/g, '-')
-            .replace('&', 'and')
-            .trim();
+        // Convert folder to kebab-case: "04-AWS" → "04-aws-complete"
+        const courseFolder = currentCourseObj.folder.toLowerCase().replace(/\s+/g, '-');
+        const completeHtmlUrl = `/PlanetSTEAM-courses/courses/_output/${courseFolder}-complete.html`;
 
-        const quartoUrl = `/PlanetSTEAM-courses/courses/_output/${currentCourseObj.folder}/${currentTrackObj.folder}/M${modulePad}-${kebabModuleName}.html`;
-
-        // Attempt to fetch the module HTML
-        const response = await fetch(quartoUrl);
+        // Attempt to fetch the complete course HTML
+        const response = await fetch(completeHtmlUrl);
         if (response.ok) {
             const html = await response.text();
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, 'text/html');
-            const body = doc.body.innerHTML;
-            content.innerHTML = body;
+
+            // Search for h3 heading containing "Module X:"
+            const headings = doc.body.querySelectorAll('h3');
+            let moduleSection = null;
+
+            for (let heading of headings) {
+                if (heading.textContent.includes(`Module ${moduleNum}:`)) {
+                    moduleSection = heading;
+                    break;
+                }
+            }
+
+            // Extract module content and display
+            if (moduleSection) {
+                // Get text until next module section (h3)
+                let moduleContent = moduleSection.outerHTML;
+                let nextElement = moduleSection.nextElementSibling;
+
+                while (nextElement) {
+                    // Stop if we hit another Module heading
+                    if (nextElement.tagName === 'H3' && nextElement.textContent.includes('Module')) {
+                        break;
+                    }
+                    moduleContent += nextElement.outerHTML;
+                    nextElement = nextElement.nextElementSibling;
+                }
+
+                content.innerHTML = moduleContent;
+            } else {
+                // Module not found - show available modules
+                const availableModules = [];
+                const allHeadings = doc.body.querySelectorAll('h3');
+                allHeadings.forEach(h => {
+                    const match = h.textContent.match(/Module (\d+):/);
+                    if (match) {
+                        availableModules.push(match[0]);
+                    }
+                });
+
+                content.innerHTML = `
+                    <div style="padding: 40px; color: #cbd5e1; text-align: center;">
+                        <p>📚 ${moduleName}</p>
+                        <p style="margin-top: 20px; font-size: 14px; color: #f87171;">
+                            ⚠️ Module ${moduleNum} not available in this course
+                        </p>
+                        <p style="margin-top: 10px; font-size: 12px; color: #999;">
+                            ${currentCourseObj.name} → ${currentTrackObj.name}
+                        </p>
+                        ${availableModules.length > 0 ? `<p style="margin-top: 10px; font-size: 11px; color: #666;">Available: ${availableModules.join(', ')}</p>` : ''}
+                    </div>
+                `;
+            }
         } else {
-            throw new Error(`HTTP ${response.status}`);
+            throw new Error(`HTTP ${response.status} - File not found`);
         }
     } catch (e) {
         content.innerHTML = `
             <div style="padding: 40px; color: #cbd5e1; text-align: center;">
                 <p>📚 ${coursesData.modules[moduleNum - 1]}</p>
                 <p style="margin-top: 20px; font-size: 14px; color: #f87171;">
-                    ⚠️ Content not available yet
+                    ⚠️ Error loading content
                 </p>
                 <p style="margin-top: 10px; font-size: 12px; color: #999;">
                     ${currentCourseObj.name} → ${currentTrackObj.name}
+                </p>
+                <p style="margin-top: 10px; font-size: 11px; color: #666;">
+                    ${e.message}
                 </p>
             </div>
         `;
