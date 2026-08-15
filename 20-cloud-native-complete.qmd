@@ -1,0 +1,57 @@
+---
+title: "Cloud Native & Microservices — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Cloud Native & Microservices — Professional Mastery Program
+
+**Certification:** CNCF Certified, Microservices Architect, Service Mesh Expert
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours |
+|------|---------|-------|
+| **Microservices Architect** | 12 | 270 |
+| **Cloud Native Developer** | 12 | 250 |
+| **Service Mesh Specialist** | 12 | 260 |
+| **Container Orchestration Expert** | 12 | 260 |
+| **Observability Engineer** | 12 | 250 |
+| **API Gateway Architect** | 12 | 240 |
+| **Distributed Systems Engineer** | 12 | 270 |
+| **Event-Driven Architecture Specialist** | 12 | 260 |
+| **Serverless Architect** | 12 | 240 |
+| **Cloud Native Security Engineer** | 12 | 270 |
+
+## 📚 Core Modules
+
+### Module 1: Cloud Native Fundamentals
+- Microservices architecture
+- Container orchestration
+- Service mesh patterns
+- Distributed tracing
+- Event-driven systems
+
+### Modules 2-12: Specialized tracks
+
+## 🏆 Specialization Tracks
+
+1. **Microservices Architect** - Service design
+2. **Cloud Native Developer** - Cloud-native apps
+3. **Service Mesh Specialist** - Istio, Linkerd
+4. **Container Orchestration** - Kubernetes mastery
+5. **Observability Engineer** - Monitoring
+6. **API Gateway Architect** - API design
+7. **Distributed Systems** - System design
+8. **Event-Driven Architecture** - Event systems
+9. **Serverless Architect** - Serverless design
+10. **Cloud Native Security** - Security hardening
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**

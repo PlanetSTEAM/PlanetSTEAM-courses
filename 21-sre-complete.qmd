@@ -1,0 +1,55 @@
+---
+title: "Site Reliability Engineering — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Site Reliability Engineering — Professional Mastery Program
+
+**Certification:** Google SRE Certified, Reliability Engineer, Platform Engineer
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours |
+|------|---------|-------|
+| **Site Reliability Engineer** | 12 | 260 |
+| **Incident Response Manager** | 12 | 250 |
+| **Capacity Planning Engineer** | 12 | 240 |
+| **Disaster Recovery Specialist** | 12 | 270 |
+| **On-Call Rotation Manager** | 12 | 240 |
+| **Observability Architect** | 12 | 260 |
+| **Performance Optimization Specialist** | 12 | 250 |
+| **Chaos Engineering Specialist** | 12 | 260 |
+| **Platform Engineer** | 12 | 270 |
+| **SRE Manager** | 12 | 270 |
+
+## 📚 Core Modules
+
+### Module 1: SRE Fundamentals
+- SLOs and SLIs
+- Error budgets
+- Incident management
+- Observability
+- Runbooks and documentation
+
+## 🏆 Specialization Tracks
+
+1. **Site Reliability Engineer** - Core SRE
+2. **Incident Response** - Crisis management
+3. **Capacity Planning** - Resource planning
+4. **Disaster Recovery** - Business continuity
+5. **On-Call Management** - Rotation systems
+6. **Observability Architect** - Monitoring
+7. **Performance Specialist** - Optimization
+8. **Chaos Engineering** - Resilience testing
+9. **Platform Engineer** - Platform design
+10. **SRE Manager** - Team leadership
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**
