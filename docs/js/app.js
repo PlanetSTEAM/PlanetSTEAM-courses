@@ -115,7 +115,7 @@ async function openModule(moduleNum) {
 
         // Convert folder to kebab-case: "04-AWS" → "04-aws-complete"
         const courseFolder = currentCourseObj.folder.toLowerCase().replace(/\s+/g, '-');
-        const completeHtmlUrl = `/courses/_output/${courseFolder}-complete.html`;
+        const completeHtmlUrl = `/PlanetSTEAM-courses/courses/_output/${courseFolder}-complete.html`;
 
         // Attempt to fetch the complete course HTML
         const response = await fetch(completeHtmlUrl);
