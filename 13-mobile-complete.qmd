@@ -1,0 +1,55 @@
+---
+title: "Mobile Development — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Mobile Development — Professional Mastery Program
+
+**Certification:** iOS Developer, Android Developer, Flutter Expert, React Native Certified
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours |
+|------|---------|-------|
+| **iOS Developer** | 12 | 250 |
+| **Android Developer** | 12 | 250 |
+| **Flutter Developer** | 12 | 240 |
+| **React Native Developer** | 12 | 240 |
+| **Mobile DevOps Engineer** | 12 | 240 |
+| **Mobile Performance Engineer** | 12 | 250 |
+| **Cross-Platform Developer** | 12 | 240 |
+| **Mobile Security Engineer** | 12 | 260 |
+| **Game Mobile Developer** | 12 | 260 |
+| **Full-Stack Mobile Developer** | 12 | 250 |
+
+## 📚 Core Modules
+
+### Module 1: Mobile Development Fundamentals
+- Native vs cross-platform
+- UI/UX principles
+- Mobile architecture
+- Performance optimization
+- Testing strategies
+
+## 🏆 Specialization Tracks
+
+1. **iOS Developer** - Swift and Objective-C
+2. **Android Developer** - Kotlin and Java
+3. **Flutter Developer** - Google's framework
+4. **React Native Developer** - JavaScript framework
+5. **Mobile DevOps Engineer** - CI/CD for mobile
+6. **Mobile Performance Engineer** - Optimization
+7. **Cross-Platform Developer** - Multiple platforms
+8. **Mobile Security Engineer** - App security
+9. **Game Mobile Developer** - Game development
+10. **Full-Stack Mobile Developer** - Complete apps
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**

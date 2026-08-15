@@ -1,0 +1,55 @@
+---
+title: "UX/Design & No-Code — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# UX/Design & No-Code — Professional Mastery Program
+
+**Certification:** UX Designer Certified, Interaction Design, No-Code Specialist
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours |
+|------|---------|-------|
+| **UX Designer** | 12 | 240 |
+| **UI Designer** | 12 | 230 |
+| **Interaction Designer** | 12 | 240 |
+| **Design Systems Manager** | 12 | 250 |
+| **User Researcher** | 12 | 240 |
+| **Accessibility Specialist** | 12 | 220 |
+| **No-Code Developer** | 12 | 220 |
+| **Low-Code Developer** | 12 | 230 |
+| **Design Technologist** | 12 | 240 |
+| **Design Manager** | 12 | 250 |
+
+## 📚 Core Modules
+
+### Module 1: Design Fundamentals
+- User research methods
+- Wireframing and prototyping
+- Visual design principles
+- Accessibility (WCAG)
+- Design tools (Figma, Adobe XD)
+
+## 🏆 Specialization Tracks
+
+1. **UX Designer** - User experience
+2. **UI Designer** - User interface
+3. **Interaction Designer** - Interactions
+4. **Design Systems Manager** - Design systems
+5. **User Researcher** - Research methods
+6. **Accessibility Specialist** - A11y
+7. **No-Code Developer** - Webflow, Bubble
+8. **Low-Code Developer** - FlutterFlow, etc
+9. **Design Technologist** - Design + code
+10. **Design Manager** - Team leadership
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**

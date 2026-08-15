@@ -1,0 +1,63 @@
+---
+title: "Leadership & Architecture — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Leadership & Architecture — Professional Mastery Program
+
+**Certification:** Enterprise Architect, Technical Fellow, Certified Technical Leader
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours |
+|------|---------|-------|
+| **Engineering Manager** | 12 | 240 |
+| **Technical Lead** | 12 | 230 |
+| **Enterprise Architect** | 12 | 270 |
+| **Solutions Architect** | 12 | 260 |
+| **VP Engineering** | 12 | 250 |
+| **CTO Track** | 12 | 270 |
+| **System Architect** | 12 | 260 |
+| **Principal Engineer** | 12 | 270 |
+| **Technical Director** | 12 | 260 |
+| **C-Level Executive** | 12 | 280 |
+
+## 📚 Core Modules
+
+### Module 1: Leadership Fundamentals
+- Team management
+- Technical strategy
+- Decision making
+- Communication
+- Organizational design
+
+## 🏆 Specialization Tracks
+
+1. **Engineering Manager** - Team management
+2. **Technical Lead** - Technical leadership
+3. **Enterprise Architect** - Enterprise systems
+4. **Solutions Architect** - Solution design
+5. **VP Engineering** - Engineering leadership
+6. **CTO Track** - Chief Technology Officer
+7. **System Architect** - System design
+8. **Principal Engineer** - Principal level
+9. **Technical Director** - Director level
+10. **C-Level Executive** - CEO/CFO/COO
+
+## 📊 Program Statistics
+
+- **Total Modules:** 120
+- **Learning Hours:** 2,400+
+- **Projects:** 50+ leadership projects
+- **Case Studies:** 100+ real scenarios
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**
+**Last Updated:** August 15, 2026

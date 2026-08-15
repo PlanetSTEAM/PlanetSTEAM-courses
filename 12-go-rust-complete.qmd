@@ -1,0 +1,81 @@
+---
+title: "Go & Rust — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Go & Rust — Professional Mastery Program
+
+**Certification:** Go Certified Developer, Rust Specialist, Systems Programming Expert
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours |
+|------|---------|-------|
+| **Go Backend Developer** | 12 | 240 |
+| **Go DevOps Engineer** | 12 | 240 |
+| **Rust Systems Programmer** | 12 | 260 |
+| **Rust WebAssembly Developer** | 12 | 250 |
+| **Concurrent Systems Engineer** | 12 | 270 |
+| **Performance Engineer** | 12 | 250 |
+| **Go Microservices Architect** | 12 | 250 |
+| **Embedded Systems Developer** | 12 | 260 |
+| **Cloud Native Developer** | 12 | 240 |
+| **Security Systems Engineer** | 12 | 260 |
+
+## 📚 Core Modules
+
+### Module 1: Go/Rust Fundamentals
+- Syntax and semantics
+- Memory safety
+- Concurrency models
+- Error handling
+- Stdlib overview
+
+### Modules 2-12: Specialized tracks
+
+**Code Examples:**
+```go
+// Go HTTP Server
+package main
+import "net/http"
+
+func handler(w http.ResponseWriter, r *http.Request) {
+    w.Write([]byte("Hello, World!"))
+}
+
+func main() {
+    http.HandleFunc("/", handler)
+    http.ListenAndServe(":8080", nil)
+}
+
+// Rust Ownership System
+fn main() {
+    let s1 = String::from("hello");
+    let s2 = s1; // ownership moves
+    // println!("{}", s1); // error: s1 no longer owns the value
+    println!("{}", s2); // ok
+}
+```
+
+## 🏆 Specialization Tracks
+
+1. **Go Backend Developer** - High-performance servers
+2. **Go DevOps Engineer** - Infrastructure tools
+3. **Rust Systems Programmer** - Low-level systems
+4. **Rust WebAssembly Developer** - Browser and edge computing
+5. **Concurrent Systems Engineer** - Parallel processing
+6. **Performance Engineer** - Optimization
+7. **Go Microservices Architect** - Service design
+8. **Embedded Systems Developer** - IoT and embedded
+9. **Cloud Native Developer** - Containerized apps
+10. **Security Systems Engineer** - Secure systems
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**

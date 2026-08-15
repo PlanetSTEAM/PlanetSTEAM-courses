@@ -1,0 +1,55 @@
+---
+title: "Databases & SQL — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Databases & SQL — Professional Mastery Program
+
+**Certification:** MySQL Certified, PostgreSQL Certified, Oracle DBA, MongoDB Developer
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours |
+|------|---------|-------|
+| **SQL Developer** | 12 | 240 |
+| **Database Administrator** | 12 | 260 |
+| **NoSQL Specialist** | 12 | 250 |
+| **Database Architect** | 12 | 270 |
+| **Performance Tuning Specialist** | 12 | 250 |
+| **Data Warehouse Specialist** | 12 | 260 |
+| **PostgreSQL Specialist** | 12 | 240 |
+| **MongoDB Developer** | 12 | 240 |
+| **Graph Database Specialist** | 12 | 250 |
+| **Time-Series Database Engineer** | 12 | 240 |
+
+## 📚 Core Modules
+
+### Module 1: Database Fundamentals
+- SQL basics and advanced queries
+- ACID transactions
+- Indexing and optimization
+- Backup and recovery
+- Database design
+
+## 🏆 Specialization Tracks
+
+1. **SQL Developer** - Relational databases
+2. **Database Administrator** - DBA tasks
+3. **NoSQL Specialist** - Document databases
+4. **Database Architect** - System design
+5. **Performance Specialist** - Query optimization
+6. **Data Warehouse Specialist** - OLAP systems
+7. **PostgreSQL Specialist** - Advanced PostgreSQL
+8. **MongoDB Developer** - Document DB
+9. **Graph Specialist** - Neo4j and graph DBs
+10. **Time-Series Engineer** - InfluxDB, TimescaleDB
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**

@@ -1,0 +1,55 @@
+---
+title: "Cybersecurity — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Cybersecurity — Professional Mastery Program
+
+**Certification:** CISSP, CEH, CompTIA Security+, Cloud Security Engineer
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours |
+|------|---------|-------|
+| **Application Security Engineer** | 12 | 250 |
+| **Network Security Engineer** | 12 | 260 |
+| **Cloud Security Architect** | 12 | 270 |
+| **Penetration Tester** | 12 | 270 |
+| **Security Operations Center (SOC) Analyst** | 12 | 240 |
+| **Incident Response Specialist** | 12 | 250 |
+| **Identity & Access Manager** | 12 | 240 |
+| **Compliance & Governance Specialist** | 12 | 240 |
+| **Threat Intelligence Analyst** | 12 | 260 |
+| **Security Architect** | 12 | 270 |
+
+## 📚 Core Modules
+
+### Module 1: Security Fundamentals
+- CIA triad (Confidentiality, Integrity, Availability)
+- OWASP Top 10
+- Encryption and hashing
+- Authentication and authorization
+- Threat modeling
+
+## 🏆 Specialization Tracks
+
+1. **Application Security Engineer** - Secure coding
+2. **Network Security Engineer** - Network defense
+3. **Cloud Security Architect** - Cloud security
+4. **Penetration Tester** - Ethical hacking
+5. **SOC Analyst** - Threat monitoring
+6. **Incident Response Specialist** - Crisis management
+7. **Identity & Access Manager** - IAM systems
+8. **Compliance Specialist** - Regulations
+9. **Threat Intelligence Analyst** - Threat analysis
+10. **Security Architect** - Enterprise security
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**

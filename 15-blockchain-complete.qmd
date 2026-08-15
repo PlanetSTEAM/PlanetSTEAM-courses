@@ -1,0 +1,55 @@
+---
+title: "Blockchain & Web3 — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Blockchain & Web3 — Professional Mastery Program
+
+**Certification:** Ethereum Developer, Blockchain Architect, Web3 Specialist
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours |
+|------|---------|-------|
+| **Ethereum Developer** | 12 | 260 |
+| **Solidity Developer** | 12 | 250 |
+| **Smart Contract Auditor** | 12 | 270 |
+| **DeFi Engineer** | 12 | 260 |
+| **NFT Developer** | 12 | 240 |
+| **Web3 Full-Stack Developer** | 12 | 250 |
+| **Blockchain Architect** | 12 | 270 |
+| **Cryptocurrency Security Specialist** | 12 | 260 |
+| **Consensus Algorithm Specialist** | 12 | 260 |
+| **Enterprise Blockchain Developer** | 12 | 250 |
+
+## 📚 Core Modules
+
+### Module 1: Blockchain Fundamentals
+- Distributed ledger technology
+- Cryptography basics
+- Bitcoin and Ethereum
+- Smart contracts
+- Web3.js and Ethers.js
+
+## 🏆 Specialization Tracks
+
+1. **Ethereum Developer** - EVM development
+2. **Solidity Developer** - Smart contracts
+3. **Smart Contract Auditor** - Security review
+4. **DeFi Engineer** - Decentralized finance
+5. **NFT Developer** - Non-fungible tokens
+6. **Web3 Developer** - Decentralized apps
+7. **Blockchain Architect** - System design
+8. **Security Specialist** - Blockchain security
+9. **Consensus Specialist** - Consensus mechanisms
+10. **Enterprise Developer** - Hyperledger
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**

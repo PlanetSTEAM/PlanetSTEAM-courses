@@ -1,0 +1,55 @@
+---
+title: "Product Management — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Product Management — Professional Mastery Program
+
+**Certification:** Certified Product Manager, Agile Certified, Analytics Specialist
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours |
+|------|---------|-------|
+| **Product Manager** | 12 | 230 |
+| **Technical Product Manager** | 12 | 240 |
+| **Product Strategist** | 12 | 250 |
+| **Product Operations Manager** | 12 | 220 |
+| **Growth Product Manager** | 12 | 240 |
+| **Data Product Manager** | 12 | 240 |
+| **AI/ML Product Manager** | 12 | 250 |
+| **Enterprise Product Manager** | 12 | 240 |
+| **Monetization Specialist** | 12 | 230 |
+| **Chief Product Officer Track** | 12 | 260 |
+
+## 📚 Core Modules
+
+### Module 1: Product Management Fundamentals
+- Product lifecycle
+- User research and discovery
+- Competitive analysis
+- Metrics and analytics
+- Roadmap planning
+
+## 🏆 Specialization Tracks
+
+1. **Product Manager** - Core PM skills
+2. **Technical PM** - Engineering perspective
+3. **Product Strategist** - Long-term vision
+4. **Product Operations** - Process and tools
+5. **Growth PM** - User acquisition
+6. **Data PM** - Analytics-driven
+7. **AI/ML PM** - AI products
+8. **Enterprise PM** - B2B products
+9. **Monetization Specialist** - Revenue models
+10. **Chief Product Officer** - Leadership
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**

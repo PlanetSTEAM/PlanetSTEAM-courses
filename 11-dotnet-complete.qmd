@@ -1,0 +1,95 @@
+---
+title: ".NET & C# — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# .NET & C# — Professional Mastery Program
+
+**Certification:** Microsoft Certified: Azure Developer Associate, C# Specialist, ASP.NET Certified
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours | Certifications |
+|------|---------|-------|----------------|
+| **C# Developer** | 12 | 240 | C# Specialist |
+| **ASP.NET Core Developer** | 12 | 250 | Azure Developer Associate |
+| **.NET Enterprise Architect** | 12 | 270 | Enterprise Architect Certified |
+| **Blazor Web Developer** | 12 | 240 | Blazor Specialist |
+| **Entity Framework Specialist** | 12 | 240 | Data Access Certified |
+| **Microservices Architect** | 12 | 260 | Microservices Certified |
+| **.NET Performance Engineer** | 12 | 250 | Performance Certified |
+| **Unity Game Developer** | 12 | 260 | Game Development Certified |
+| **.NET DevOps Engineer** | 12 | 240 | DevOps Certified |
+| **Full-Stack .NET Developer** | 12 | 250 | Full-Stack Certified |
+
+## 📚 Core Modules
+
+### Module 1: C# Fundamentals & OOP
+- C# syntax and types
+- Object-oriented programming
+- LINQ and functional concepts
+- Async/await patterns
+- Dependency injection
+
+### Modules 2-12: Specialized tracks
+
+**Code Examples:**
+```csharp
+// C# Class with LINQ
+public class Order {
+    public int Id { get; set; }
+    public List<Item> Items { get; set; }
+}
+
+var totalPrice = orders
+    .Where(o => o.Date > DateTime.Now.AddMonths(-1))
+    .SelectMany(o => o.Items)
+    .Sum(i => i.Price);
+
+// ASP.NET Core API
+[ApiController]
+[Route("api/[controller]")]
+public class OrdersController : ControllerBase {
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Order>> GetOrder(int id) {
+        var order = await _context.Orders.FindAsync(id);
+        return Ok(order);
+    }
+}
+
+// Entity Framework Core
+var orders = await _context.Orders
+    .Include(o => o.Items)
+    .Where(o => o.Status == OrderStatus.Pending)
+    .ToListAsync();
+```
+
+## 🏆 Specialization Tracks
+
+1. **C# Developer** - Language mastery
+2. **ASP.NET Core Developer** - Web APIs
+3. **.NET Enterprise Architect** - Large-scale systems
+4. **Blazor Web Developer** - Interactive web apps
+5. **Entity Framework Specialist** - Data access
+6. **Microservices Architect** - Distributed systems
+7. **.NET Performance Engineer** - Optimization
+8. **Unity Game Developer** - Game development
+9. **.NET DevOps Engineer** - CI/CD and deployment
+10. **Full-Stack .NET Developer** - Complete applications
+
+## 📊 Statistics
+
+- **Total Modules:** 120
+- **Learning Hours:** 2,400+
+- **Projects:** 50+ .NET projects
+- **Certifications:** 10+ Microsoft certifications
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**
