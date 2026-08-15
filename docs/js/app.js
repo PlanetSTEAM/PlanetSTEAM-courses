@@ -111,62 +111,40 @@ async function openModule(moduleNum) {
     }
 
     try {
-        // Construct Quarto path: /PlanetSTEAM-courses/courses/_output/docs/courses/01-Python/T01-Python-Developer/M01-*.html
         const modulePad = String(moduleNum).padStart(2, '0');
-        const quartoPath = `/PlanetSTEAM-courses/courses/_output/docs/courses/${currentCourseObj.folder}/${currentTrackObj.folder}/M${modulePad}-`;
+        const moduleName = coursesData.modules[moduleNum - 1];
 
-        // Try to fetch the module HTML (we need to find the correct filename)
-        // For now, we'll show a message that content is loading
-        content.innerHTML = `
-            <div style="padding: 40px; color: #cbd5e1; text-align: center;">
-                <p>📚 Module ${modulePad}</p>
-                <p>${coursesData.modules[moduleNum - 1]}</p>
-                <p style="margin-top: 20px; font-size: 14px; color: #999;">
-                    ${currentCourseObj.name} → ${currentTrackObj.name}
-                </p>
-                <p style="margin-top: 40px; font-size: 13px;">Content loading...</p>
-            </div>
-        `;
+        // Convert module name to kebab-case for URL: "Best Practices & Architecture" → "Best-Practices-and-Architecture"
+        const kebabModuleName = moduleName
+            .replace(/\s+/g, '-')
+            .replace('&', 'and')
+            .trim();
 
-        // Attempt to load any HTML file starting with M0X in the folder
-        const testUrls = [
-            `${quartoPath}Fundamentals-and-Core-Concepts.html`,
-            `${quartoPath}Best-Practices-and-Architecture.html`,
-            `${quartoPath}APIs-and-Integration.html`,
-            `${quartoPath}Testing-and-Quality-Assurance.html`,
-            `${quartoPath}Security-and-Authentication.html`,
-            `${quartoPath}Performance-and-Optimization.html`,
-            `${quartoPath}Async-and-Concurrency.html`,
-            `${quartoPath}Deployment-and-DevOps.html`,
-            `${quartoPath}Monitoring-and-Observability.html`,
-            `${quartoPath}Real-world-Patterns.html`,
-            `${quartoPath}Advanced-Techniques.html`,
-            `${quartoPath}Interview-Prep-and-Portfolio-Building.html`
-        ];
+        const quartoUrl = `/PlanetSTEAM-courses/courses/_output/docs/courses/${currentCourseObj.folder}/${currentTrackObj.folder}/M${modulePad}-${kebabModuleName}.html`;
 
-        let loaded = false;
-        for (const url of testUrls) {
-            try {
-                const response = await fetch(url);
-                if (response.ok) {
-                    const html = await response.text();
-                    const parser = new DOMParser();
-                    const doc = parser.parseFromString(html, 'text/html');
-                    const body = doc.body.innerHTML;
-                    content.innerHTML = body;
-                    loaded = true;
-                    break;
-                }
-            } catch (e) {
-                // Try next URL
-            }
-        }
-
-        if (!loaded) {
-            content.innerHTML = `<div class="error">📖 Module content coming soon. Structure: ${currentCourseObj.folder}/${currentTrackObj.folder}/M${modulePad}-*</div>`;
+        // Attempt to fetch the module HTML
+        const response = await fetch(quartoUrl);
+        if (response.ok) {
+            const html = await response.text();
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const body = doc.body.innerHTML;
+            content.innerHTML = body;
+        } else {
+            throw new Error(`HTTP ${response.status}`);
         }
     } catch (e) {
-        content.innerHTML = `<div class="error">Error: ${e.message}</div>`;
+        content.innerHTML = `
+            <div style="padding: 40px; color: #cbd5e1; text-align: center;">
+                <p>📚 ${coursesData.modules[moduleNum - 1]}</p>
+                <p style="margin-top: 20px; font-size: 14px; color: #f87171;">
+                    ⚠️ Content not available yet
+                </p>
+                <p style="margin-top: 10px; font-size: 12px; color: #999;">
+                    ${currentCourseObj.name} → ${currentTrackObj.name}
+                </p>
+            </div>
+        `;
     }
 
     // Update navigation
