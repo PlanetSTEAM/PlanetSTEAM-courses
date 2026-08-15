@@ -120,7 +120,7 @@ async function openModule(moduleNum) {
             .replace('&', 'and')
             .trim();
 
-        const quartoUrl = `/PlanetSTEAM-courses/courses/_output/docs/courses/${currentCourseObj.folder}/${currentTrackObj.folder}/M${modulePad}-${kebabModuleName}.html`;
+        const quartoUrl = `/PlanetSTEAM-courses/courses/_output/${currentCourseObj.folder}/${currentTrackObj.folder}/M${modulePad}-${kebabModuleName}.html`;
 
         // Attempt to fetch the module HTML
         const response = await fetch(quartoUrl);
