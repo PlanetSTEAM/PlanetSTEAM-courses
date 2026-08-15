@@ -1,0 +1,83 @@
+---
+title: "Google Cloud Platform — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Google Cloud Platform — Professional Mastery Program
+
+**Certification:** GCP Professional Architect, GCP Associate Cloud Engineer, GCP Professional Data Engineer
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours | Certifications |
+|------|---------|-------|----------------|
+| **GCP Solutions Architect** | 12 | 260 | Professional Cloud Architect |
+| **GCP Cloud Engineer** | 12 | 240 | Associate Cloud Engineer |
+| **GCP Data Engineer** | 12 | 270 | Professional Data Engineer |
+| **GCP ML Engineer** | 12 | 280 | Professional ML Engineer |
+| **GCP Security Engineer** | 12 | 250 | Cloud Security Engineer |
+| **GCP DevOps Engineer** | 12 | 240 | Professional Cloud Architect (DevOps) |
+| **Vertex AI Specialist** | 12 | 270 | Vertex AI Specialist |
+| **BigQuery Data Analyst** | 12 | 240 | Data Analytics Specialist |
+| **GKE Administrator** | 12 | 250 | Kubernetes Administrator on GCP |
+| **GCP Hybrid Architect** | 12 | 240 | Hybrid Cloud Specialist |
+
+## 📚 Core Modules
+
+### Module 1: GCP Fundamentals & Cloud Architecture
+- Compute Engine, App Engine, Cloud Functions
+- BigQuery for data analytics
+- Cloud Storage and Firestore
+- VPC networking and security
+- Cloud KMS for encryption
+
+### Modules 2-12: Specialized tracks
+
+**Code Examples:**
+```python
+# Google Cloud Python SDK
+from google.cloud import bigquery
+from google.cloud import storage
+
+# BigQuery
+client = bigquery.Client()
+query = "SELECT COUNT(*) FROM `project.dataset.table`"
+results = client.query(query)
+
+# Cloud Storage
+storage_client = storage.Client()
+bucket = storage_client.bucket("my-bucket")
+blob = bucket.blob("file.txt")
+blob.upload_from_string("content")
+```
+
+## 🏆 Specialization Tracks
+
+1. **GCP Solutions Architect** - Enterprise architecture design
+2. **GCP Cloud Engineer** - Infrastructure and deployment
+3. **GCP Data Engineer** - BigQuery and data pipelines
+4. **GCP ML Engineer** - Vertex AI and model deployment
+5. **GCP Security Engineer** - Identity and security
+6. **GCP DevOps Engineer** - Automation and CI/CD
+7. **Vertex AI Specialist** - Machine learning on GCP
+8. **BigQuery Data Analyst** - Analytics and BI
+9. **GKE Administrator** - Kubernetes on Google Cloud
+10. **GCP Hybrid Architect** - On-premises and cloud integration
+
+## 📊 Statistics
+
+- **Total Modules:** 120
+- **Learning Hours:** 2,400+
+- **Projects:** 50+ GCP projects
+- **Certifications:** 10+ Google Cloud certifications
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**
+

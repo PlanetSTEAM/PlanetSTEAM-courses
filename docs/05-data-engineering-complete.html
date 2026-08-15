@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Planet STEAM">
+<meta name="author" content="Planet STEAM Academy">
 <meta name="dcterms.date" content="2026-08-15">
 
-<title>🛠️ DevOps/CI-CD – Planet STEAM — 22 Courses</title>
+<title>Data Engineering — Professional Mastery Program – Planet STEAM — 22 Courses</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -41,10 +76,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-c6070853b5fc0f07c03ed05933ca4b03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2c169b83e1fc2996b25bcc8774810429.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-686268d51343873696fef2ecfd50d61b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -98,55 +133,60 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#devopsci-cd" id="toc-devopsci-cd" class="nav-link active" data-scroll-target="#devopsci-cd">🛠️ DevOps/CI-CD</a>
+  <li><a href="#data-engineering-professional-mastery-program" id="toc-data-engineering-professional-mastery-program" class="nav-link active" data-scroll-target="#data-engineering-professional-mastery-program">Data Engineering — Professional Mastery Program</a>
   <ul class="collapse">
-  <li><a href="#module-1-fundamentals" id="toc-module-1-fundamentals" class="nav-link" data-scroll-target="#module-1-fundamentals">Module 1: Fundamentals</a>
+  <li><a href="#program-overview" id="toc-program-overview" class="nav-link" data-scroll-target="#program-overview">🎯 Program Overview</a></li>
+  <li><a href="#module-structure-each-module-4-8-hours" id="toc-module-structure-each-module-4-8-hours" class="nav-link" data-scroll-target="#module-structure-each-module-4-8-hours">📚 Module Structure (Each Module: 4-8 hours)</a>
   <ul class="collapse">
-  <li><a href="#theory" id="toc-theory" class="nav-link" data-scroll-target="#theory">Theory</a></li>
+  <li><a href="#module-1-data-engineering-fundamentals" id="toc-module-1-data-engineering-fundamentals" class="nav-link" data-scroll-target="#module-1-data-engineering-fundamentals">Module 1: Data Engineering Fundamentals</a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#module-1---fundamentals" id="toc-module-1---fundamentals" class="nav-link" data-scroll-target="#module-1---fundamentals">Module 1 - Fundamentals</a>
+  <li><a href="#specialization-tracks" id="toc-specialization-tracks" class="nav-link" data-scroll-target="#specialization-tracks">🏆 Specialization Tracks</a>
   <ul class="collapse">
-  <li><a href="#code-examples" id="toc-code-examples" class="nav-link" data-scroll-target="#code-examples">Code Examples</a></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
-  <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios</a>
-  <ul class="collapse">
-  <li><a href="#practical-project" id="toc-practical-project" class="nav-link" data-scroll-target="#practical-project">Practical Project</a></li>
+  <li><a href="#etl-developer-track" id="toc-etl-developer-track" class="nav-link" data-scroll-target="#etl-developer-track">1️⃣ ETL Developer Track</a></li>
+  <li><a href="#data-pipeline-architect-track" id="toc-data-pipeline-architect-track" class="nav-link" data-scroll-target="#data-pipeline-architect-track">2️⃣ Data Pipeline Architect Track</a></li>
+  <li><a href="#spark-engineer-track" id="toc-spark-engineer-track" class="nav-link" data-scroll-target="#spark-engineer-track">3️⃣ Spark Engineer Track</a></li>
+  <li><a href="#data-warehouse-engineer-track" id="toc-data-warehouse-engineer-track" class="nav-link" data-scroll-target="#data-warehouse-engineer-track">4️⃣ Data Warehouse Engineer Track</a></li>
+  <li><a href="#data-lake-architect-track" id="toc-data-lake-architect-track" class="nav-link" data-scroll-target="#data-lake-architect-track">5️⃣ Data Lake Architect Track</a></li>
+  <li><a href="#real-time-data-engineer-track" id="toc-real-time-data-engineer-track" class="nav-link" data-scroll-target="#real-time-data-engineer-track">6️⃣ Real-Time Data Engineer Track</a></li>
+  <li><a href="#dataops-engineer-track" id="toc-dataops-engineer-track" class="nav-link" data-scroll-target="#dataops-engineer-track">7️⃣ DataOps Engineer Track</a></li>
+  <li><a href="#cloud-data-engineer-track" id="toc-cloud-data-engineer-track" class="nav-link" data-scroll-target="#cloud-data-engineer-track">8️⃣ Cloud Data Engineer Track</a></li>
+  <li><a href="#data-quality-engineer-track" id="toc-data-quality-engineer-track" class="nav-link" data-scroll-target="#data-quality-engineer-track">9️⃣ Data Quality Engineer Track</a></li>
+  <li><a href="#ml-data-engineer-track" id="toc-ml-data-engineer-track" class="nav-link" data-scroll-target="#ml-data-engineer-track">🔟 ML Data Engineer Track</a></li>
   </ul></li>
-  <li><a href="#proyecto" id="toc-proyecto" class="nav-link" data-scroll-target="#proyecto">Proyecto</a>
-  <ul class="collapse">
-  <li><a href="#knowledge-check" id="toc-knowledge-check" class="nav-link" data-scroll-target="#knowledge-check">Knowledge Check</a></li>
-  </ul></li>
-  <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz">Quiz</a></li>
-  <li><a href="#modules-2-12" id="toc-modules-2-12" class="nav-link" data-scroll-target="#modules-2-12">Modules 2-12</a></li>
+  <li><a href="#program-statistics" id="toc-program-statistics" class="nav-link" data-scroll-target="#program-statistics">📊 Program Statistics</a></li>
+  <li><a href="#certifications-included" id="toc-certifications-included" class="nav-link" data-scroll-target="#certifications-included">🎓 Certifications Included</a></li>
   </ul></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">🛠️ DevOps/CI-CD</h1>
+<h1 class="title">Data Engineering — Professional Mastery Program</h1>
+<p class="subtitle lead">10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-right">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Planet STEAM </p>
+             <p>Planet STEAM Academy </p>
           </div>
   </div>
     
@@ -165,117 +205,249 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="devopsci-cd" class="level1">
-<h1>🛠️ DevOps/CI-CD</h1>
-<p><strong>4 levels • 48 modules • 235+ hours • 50+ projects • 3 certifications</strong></p>
-<section id="module-1-fundamentals" class="level2">
-<h2 class="anchored" data-anchor-id="module-1-fundamentals">Module 1: Fundamentals</h2>
-<section id="theory" class="level3">
-<h3 class="anchored" data-anchor-id="theory">Theory</h3>
-</section>
-</section>
-</section>
-<section id="module-1---fundamentals" class="level1">
-<h1>Module 1 - Fundamentals</h1>
-<p>Contenido teórico del módulo 1.</p>
-<section id="code-examples" class="level3">
-<h3 class="anchored" data-anchor-id="code-examples">Code Examples</h3>
-<p>\<br>
-# Ejemplo de código \<br>
-</p>
-</section>
-<section id="exercises" class="level3">
-<h3 class="anchored" data-anchor-id="exercises">Exercises</h3>
-</section>
-<section id="ejercicios" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicios">Ejercicios</h2>
-<p>Descripciones de ejercicios.</p>
-<section id="practical-project" class="level3">
-<h3 class="anchored" data-anchor-id="practical-project">Practical Project</h3>
-</section>
-</section>
-<section id="proyecto" class="level2">
-<h2 class="anchored" data-anchor-id="proyecto">Proyecto</h2>
-<p>Descripción del proyecto.</p>
-<section id="knowledge-check" class="level3">
-<h3 class="anchored" data-anchor-id="knowledge-check">Knowledge Check</h3>
-</section>
-</section>
-<section id="quiz" class="level2">
-<h2 class="anchored" data-anchor-id="quiz">Quiz</h2>
-<p>Preguntas de validación.</p>
-</section>
-<section id="modules-2-12" class="level2">
-<h2 class="anchored" data-anchor-id="modules-2-12">Modules 2-12</h2>
+<section id="data-engineering-professional-mastery-program" class="level1">
+<h1>Data Engineering — Professional Mastery Program</h1>
+<p><strong>Start Date:</strong> Immediately Available | <strong>Duration:</strong> 120-240 hours | <strong>Level:</strong> Junior → Lead <strong>Certification:</strong> Databricks Certified, AWS Certified Data Engineer, GCP Professional Data Engineer</p>
+<hr>
+<section id="program-overview" class="level2">
+<h2 class="anchored" data-anchor-id="program-overview">🎯 Program Overview</h2>
+<p>Master Data Engineering across 10 specialized roles:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 20%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 35%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Module</th>
-<th>Title</th>
-<th>Duration</th>
+<th>Role</th>
+<th>Modules</th>
+<th>Hours</th>
+<th>Focus</th>
+<th>Certifications</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>2</td>
-<td>Core Concepts</td>
-<td>12-15 hrs</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>Advanced Topics</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>Real-world Applications</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>Best Practices &amp; Patterns</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>Performance &amp; Optimization</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>Security &amp; Reliability</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>Testing &amp; Quality</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>Integration &amp; DevOps</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>Advanced Patterns</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>Production Deployment</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
+<td><strong>ETL Developer</strong></td>
 <td>12</td>
-<td>Capstone Project</td>
-<td>25-30 hrs</td>
+<td>240</td>
+<td>Extract-Transform-Load pipelines</td>
+<td>Talend Certified, Informatica</td>
+</tr>
+<tr class="even">
+<td><strong>Data Pipeline Architect</strong></td>
+<td>12</td>
+<td>260</td>
+<td>Data architecture, Design patterns</td>
+<td>AWS Certified Data Engineer</td>
+</tr>
+<tr class="odd">
+<td><strong>Spark Engineer</strong></td>
+<td>12</td>
+<td>250</td>
+<td>Apache Spark, Distributed computing</td>
+<td>Databricks Certified</td>
+</tr>
+<tr class="even">
+<td><strong>Data Warehouse Engineer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Snowflake, BigQuery, Redshift</td>
+<td>Snowflake University Certified</td>
+</tr>
+<tr class="odd">
+<td><strong>Data Lake Architect</strong></td>
+<td>12</td>
+<td>270</td>
+<td>Data lakes, Governance, Metadata</td>
+<td>AWS Certified Solutions Architect</td>
+</tr>
+<tr class="even">
+<td><strong>Real-Time Data Engineer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Kafka, Kinesis, Stream processing</td>
+<td>Confluent Certified</td>
+</tr>
+<tr class="odd">
+<td><strong>DataOps Engineer</strong></td>
+<td>12</td>
+<td>230</td>
+<td>Data infrastructure, CI/CD for data</td>
+<td>DataOps Certified</td>
+</tr>
+<tr class="even">
+<td><strong>Cloud Data Engineer</strong></td>
+<td>12</td>
+<td>250</td>
+<td>GCP BigQuery, Azure Synapse</td>
+<td>GCP Professional Data Engineer</td>
+</tr>
+<tr class="odd">
+<td><strong>Data Quality Engineer</strong></td>
+<td>12</td>
+<td>220</td>
+<td>Testing, Quality assurance, Validation</td>
+<td>Talend Data Quality Certified</td>
+</tr>
+<tr class="even">
+<td><strong>ML Data Engineer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Feature stores, ML pipelines, MLOps</td>
+<td>AWS Certified ML Specialty</td>
 </tr>
 </tbody>
 </table>
 <hr>
-<p><strong>Start Learning:</strong> <a href="https://planet-steam-app.vercel.app/academy/10-devops-ci-cd/junior/1">View in Module Player</a></p>
-<p>Built with Quarto | Planet STEAM</p>
+</section>
+<section id="module-structure-each-module-4-8-hours" class="level2">
+<h2 class="anchored" data-anchor-id="module-structure-each-module-4-8-hours">📚 Module Structure (Each Module: 4-8 hours)</h2>
+<section id="module-1-data-engineering-fundamentals" class="level3">
+<h3 class="anchored" data-anchor-id="module-1-data-engineering-fundamentals">Module 1: Data Engineering Fundamentals</h3>
+<p><strong>Learning Objectives:</strong> - Understand data pipeline architecture - Master ETL vs ELT concepts - Learn data quality and governance - Explore distributed computing basics</p>
+<p><strong>Theory &amp; Concepts:</strong></p>
+<pre><code>1. ETL/ELT Fundamentals
+   - Extract (data sources, APIs, databases)
+   - Transform (data cleaning, enrichment, aggregation)
+   - Load (data warehouses, data lakes)
+
+2. Distributed Systems
+   - MapReduce concepts
+   - Data partitioning and sharding
+   - Eventual consistency
+
+3. Data Quality &amp; Governance
+   - Data validation and cleansing
+   - Master data management
+   - Data lineage and metadata
+
+4. Architecture Patterns
+   - Batch processing
+   - Stream processing
+   - Lambda and Kappa architectures</code></pre>
+<p><strong>Code Examples:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Apache Spark Example</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> SparkSession</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>spark <span class="op">=</span> SparkSession.builder.appName(<span class="st">"DataPipeline"</span>).getOrCreate()</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Read data</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> spark.read.csv(<span class="st">"s3://bucket/data.csv"</span>, header<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Transform</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>df_clean <span class="op">=</span> df.dropna().<span class="bu">filter</span>(<span class="st">"age &gt; 18"</span>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>df_aggregated <span class="op">=</span> df_clean.groupBy(<span class="st">"category"</span>).count()</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Write</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>df_aggregated.write.mode(<span class="st">"overwrite"</span>).parquet(<span class="st">"s3://bucket/output/"</span>)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co"># SQL</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>df.createOrReplaceTempView(<span class="st">"users"</span>)</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> spark.sql(<span class="st">"SELECT category, COUNT(*) FROM users GROUP BY category"</span>)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Kafka Producer Example</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kafka <span class="im">import</span> KafkaProducer</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>producer <span class="op">=</span> KafkaProducer(</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    bootstrap_servers<span class="op">=</span>[<span class="st">'localhost:9092'</span>],</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    value_serializer<span class="op">=</span><span class="kw">lambda</span> v: json.dumps(v).encode(<span class="st">'utf-8'</span>)</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>producer.send(<span class="st">'transactions'</span>, {</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>    <span class="st">'user_id'</span>: <span class="dv">123</span>,</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    <span class="st">'amount'</span>: <span class="fl">99.99</span>,</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    <span class="st">'timestamp'</span>: <span class="st">'2026-08-15T10:30:00Z'</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Modules 2-12:</strong> SQL, Data Warehousing, Apache Spark, Kafka, Cloud platforms</p>
+<hr>
+</section>
+</section>
+<section id="specialization-tracks" class="level2">
+<h2 class="anchored" data-anchor-id="specialization-tracks">🏆 Specialization Tracks</h2>
+<section id="etl-developer-track" class="level3">
+<h3 class="anchored" data-anchor-id="etl-developer-track">1️⃣ ETL Developer Track</h3>
+<p><strong>Focus:</strong> Data extraction, transformation, and loading pipelines using tools like Talend, Informatica, Apache Airflow</p>
+<hr>
+</section>
+<section id="data-pipeline-architect-track" class="level3">
+<h3 class="anchored" data-anchor-id="data-pipeline-architect-track">2️⃣ Data Pipeline Architect Track</h3>
+<p><strong>Focus:</strong> Designing scalable, fault-tolerant data architectures for enterprise systems</p>
+<hr>
+</section>
+<section id="spark-engineer-track" class="level3">
+<h3 class="anchored" data-anchor-id="spark-engineer-track">3️⃣ Spark Engineer Track</h3>
+<p><strong>Focus:</strong> Apache Spark mastery for big data processing in PySpark and Scala</p>
+<hr>
+</section>
+<section id="data-warehouse-engineer-track" class="level3">
+<h3 class="anchored" data-anchor-id="data-warehouse-engineer-track">4️⃣ Data Warehouse Engineer Track</h3>
+<p><strong>Focus:</strong> Building and optimizing data warehouses (Snowflake, BigQuery, Redshift)</p>
+<hr>
+</section>
+<section id="data-lake-architect-track" class="level3">
+<h3 class="anchored" data-anchor-id="data-lake-architect-track">5️⃣ Data Lake Architect Track</h3>
+<p><strong>Focus:</strong> Designing data lakes with governance, metadata management, and scalability</p>
+<hr>
+</section>
+<section id="real-time-data-engineer-track" class="level3">
+<h3 class="anchored" data-anchor-id="real-time-data-engineer-track">6️⃣ Real-Time Data Engineer Track</h3>
+<p><strong>Focus:</strong> Streaming data platforms (Kafka, Kinesis, Flink, Spark Streaming)</p>
+<hr>
+</section>
+<section id="dataops-engineer-track" class="level3">
+<h3 class="anchored" data-anchor-id="dataops-engineer-track">7️⃣ DataOps Engineer Track</h3>
+<p><strong>Focus:</strong> Infrastructure, CI/CD, and automation for data platforms</p>
+<hr>
+</section>
+<section id="cloud-data-engineer-track" class="level3">
+<h3 class="anchored" data-anchor-id="cloud-data-engineer-track">8️⃣ Cloud Data Engineer Track</h3>
+<p><strong>Focus:</strong> GCP BigQuery, Azure Synapse, and AWS services for data engineering</p>
+<hr>
+</section>
+<section id="data-quality-engineer-track" class="level3">
+<h3 class="anchored" data-anchor-id="data-quality-engineer-track">9️⃣ Data Quality Engineer Track</h3>
+<p><strong>Focus:</strong> Testing, validation, and quality frameworks for data systems</p>
+<hr>
+</section>
+<section id="ml-data-engineer-track" class="level3">
+<h3 class="anchored" data-anchor-id="ml-data-engineer-track">🔟 ML Data Engineer Track</h3>
+<p><strong>Focus:</strong> Feature engineering, feature stores, and ML data pipelines</p>
+<hr>
+</section>
+</section>
+<section id="program-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="program-statistics">📊 Program Statistics</h2>
+<ul>
+<li><strong>Total Modules:</strong> 120 (12 modules × 10 roles)</li>
+<li><strong>Total Learning Hours:</strong> 2,400+ hours</li>
+<li><strong>Total Practical Projects:</strong> 50+ data engineering projects</li>
+<li><strong>Certifications Covered:</strong> 10+ certifications</li>
+<li><strong>Interview Q&amp;A:</strong> 720+ technical questions</li>
+<li><strong>Business Domains:</strong> Finance, Healthcare, E-commerce, Logistics, Analytics</li>
+</ul>
+<hr>
+</section>
+<section id="certifications-included" class="level2">
+<h2 class="anchored" data-anchor-id="certifications-included">🎓 Certifications Included</h2>
+<ol type="1">
+<li>Databricks Certified Data Engineer</li>
+<li>AWS Certified Data Engineer - Associate</li>
+<li>GCP Professional Data Engineer</li>
+<li>Snowflake University Certified</li>
+<li>Confluent Certified Developer</li>
+<li>Informatica Certified Professional</li>
+<li>Talend Data Certified</li>
+<li>Apache Spark Certified</li>
+<li>Cloud Native Data Engineer</li>
+<li>ML Data Engineering Specialist</li>
+</ol>
+<hr>
+<p><strong>Built with ❤️ by Planet STEAM Academy</strong> <strong>Last Updated:</strong> August 15, 2026</p>
 
 
 </section>

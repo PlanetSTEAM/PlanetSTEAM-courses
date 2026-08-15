@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Planet STEAM">
+<meta name="author" content="Planet STEAM Academy">
 <meta name="dcterms.date" content="2026-08-15">
 
-<title>🛠️ DevOps/CI-CD – Planet STEAM — 22 Courses</title>
+<title>Microsoft Azure — Professional Mastery Program – Planet STEAM — 22 Courses</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -76,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -100,43 +135,36 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#devopsci-cd" id="toc-devopsci-cd" class="nav-link active" data-scroll-target="#devopsci-cd">🛠️ DevOps/CI-CD</a>
+  <li><a href="#microsoft-azure-professional-mastery-program" id="toc-microsoft-azure-professional-mastery-program" class="nav-link active" data-scroll-target="#microsoft-azure-professional-mastery-program">Microsoft Azure — Professional Mastery Program</a>
   <ul class="collapse">
-  <li><a href="#module-1-fundamentals" id="toc-module-1-fundamentals" class="nav-link" data-scroll-target="#module-1-fundamentals">Module 1: Fundamentals</a>
+  <li><a href="#program-overview" id="toc-program-overview" class="nav-link" data-scroll-target="#program-overview">🎯 Program Overview</a></li>
+  <li><a href="#core-modules" id="toc-core-modules" class="nav-link" data-scroll-target="#core-modules">📚 Core Modules</a>
   <ul class="collapse">
-  <li><a href="#theory" id="toc-theory" class="nav-link" data-scroll-target="#theory">Theory</a></li>
+  <li><a href="#module-1-azure-fundamentals-cloud-architecture" id="toc-module-1-azure-fundamentals-cloud-architecture" class="nav-link" data-scroll-target="#module-1-azure-fundamentals-cloud-architecture">Module 1: Azure Fundamentals &amp; Cloud Architecture</a></li>
+  <li><a href="#modules-2-12-specialized-tracks" id="toc-modules-2-12-specialized-tracks" class="nav-link" data-scroll-target="#modules-2-12-specialized-tracks">Modules 2-12: Specialized tracks</a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#module-1---fundamentals" id="toc-module-1---fundamentals" class="nav-link" data-scroll-target="#module-1---fundamentals">Module 1 - Fundamentals</a>
-  <ul class="collapse">
-  <li><a href="#code-examples" id="toc-code-examples" class="nav-link" data-scroll-target="#code-examples">Code Examples</a></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
-  <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios</a>
-  <ul class="collapse">
-  <li><a href="#practical-project" id="toc-practical-project" class="nav-link" data-scroll-target="#practical-project">Practical Project</a></li>
-  </ul></li>
-  <li><a href="#proyecto" id="toc-proyecto" class="nav-link" data-scroll-target="#proyecto">Proyecto</a>
-  <ul class="collapse">
-  <li><a href="#knowledge-check" id="toc-knowledge-check" class="nav-link" data-scroll-target="#knowledge-check">Knowledge Check</a></li>
-  </ul></li>
-  <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz">Quiz</a></li>
-  <li><a href="#modules-2-12" id="toc-modules-2-12" class="nav-link" data-scroll-target="#modules-2-12">Modules 2-12</a></li>
+  <li><a href="#specialization-tracks" id="toc-specialization-tracks" class="nav-link" data-scroll-target="#specialization-tracks">🏆 Specialization Tracks</a></li>
+  <li><a href="#statistics" id="toc-statistics" class="nav-link" data-scroll-target="#statistics">📊 Statistics</a></li>
   </ul></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">🛠️ DevOps/CI-CD</h1>
+<h1 class="title">Microsoft Azure — Professional Mastery Program</h1>
+<p class="subtitle lead">10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours</p>
 </div>
 
 
@@ -146,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Planet STEAM </p>
+             <p>Planet STEAM Academy </p>
           </div>
   </div>
     
@@ -165,117 +193,144 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="devopsci-cd" class="level1">
-<h1>🛠️ DevOps/CI-CD</h1>
-<p><strong>4 levels • 48 modules • 235+ hours • 50+ projects • 3 certifications</strong></p>
-<section id="module-1-fundamentals" class="level2">
-<h2 class="anchored" data-anchor-id="module-1-fundamentals">Module 1: Fundamentals</h2>
-<section id="theory" class="level3">
-<h3 class="anchored" data-anchor-id="theory">Theory</h3>
-</section>
-</section>
-</section>
-<section id="module-1---fundamentals" class="level1">
-<h1>Module 1 - Fundamentals</h1>
-<p>Contenido teórico del módulo 1.</p>
-<section id="code-examples" class="level3">
-<h3 class="anchored" data-anchor-id="code-examples">Code Examples</h3>
-<p>\<br>
-# Ejemplo de código \<br>
-</p>
-</section>
-<section id="exercises" class="level3">
-<h3 class="anchored" data-anchor-id="exercises">Exercises</h3>
-</section>
-<section id="ejercicios" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicios">Ejercicios</h2>
-<p>Descripciones de ejercicios.</p>
-<section id="practical-project" class="level3">
-<h3 class="anchored" data-anchor-id="practical-project">Practical Project</h3>
-</section>
-</section>
-<section id="proyecto" class="level2">
-<h2 class="anchored" data-anchor-id="proyecto">Proyecto</h2>
-<p>Descripción del proyecto.</p>
-<section id="knowledge-check" class="level3">
-<h3 class="anchored" data-anchor-id="knowledge-check">Knowledge Check</h3>
-</section>
-</section>
-<section id="quiz" class="level2">
-<h2 class="anchored" data-anchor-id="quiz">Quiz</h2>
-<p>Preguntas de validación.</p>
-</section>
-<section id="modules-2-12" class="level2">
-<h2 class="anchored" data-anchor-id="modules-2-12">Modules 2-12</h2>
+<section id="microsoft-azure-professional-mastery-program" class="level1">
+<h1>Microsoft Azure — Professional Mastery Program</h1>
+<p><strong>Certification:</strong> Azure Solutions Architect Expert, Azure DevOps Engineer, Azure Data Engineer</p>
+<section id="program-overview" class="level2">
+<h2 class="anchored" data-anchor-id="program-overview">🎯 Program Overview</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 23%">
+<col style="width: 18%">
+<col style="width: 42%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Module</th>
-<th>Title</th>
-<th>Duration</th>
+<th>Role</th>
+<th>Modules</th>
+<th>Hours</th>
+<th>Certifications</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>2</td>
-<td>Core Concepts</td>
-<td>12-15 hrs</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>Advanced Topics</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>Real-world Applications</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>Best Practices &amp; Patterns</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>Performance &amp; Optimization</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>Security &amp; Reliability</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>Testing &amp; Quality</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>Integration &amp; DevOps</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>Advanced Patterns</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>Production Deployment</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
+<td><strong>Azure Solutions Architect</strong></td>
 <td>12</td>
-<td>Capstone Project</td>
-<td>25-30 hrs</td>
+<td>250</td>
+<td>Azure Architect Expert</td>
+</tr>
+<tr class="even">
+<td><strong>Azure Developer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Azure Developer Associate</td>
+</tr>
+<tr class="odd">
+<td><strong>Azure DevOps Engineer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Azure DevOps Engineer Expert</td>
+</tr>
+<tr class="even">
+<td><strong>Azure Data Engineer</strong></td>
+<td>12</td>
+<td>260</td>
+<td>Azure Data Engineer Associate</td>
+</tr>
+<tr class="odd">
+<td><strong>Azure Security Engineer</strong></td>
+<td>12</td>
+<td>250</td>
+<td>Azure Security Engineer Associate</td>
+</tr>
+<tr class="even">
+<td><strong>Azure Administrator</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Azure Administrator Associate</td>
+</tr>
+<tr class="odd">
+<td><strong>Azure AI Engineer</strong></td>
+<td>12</td>
+<td>270</td>
+<td>Azure AI Engineer Associate</td>
+</tr>
+<tr class="even">
+<td><strong>Azure Database Specialist</strong></td>
+<td>12</td>
+<td>250</td>
+<td>Azure Database Specialist</td>
+</tr>
+<tr class="odd">
+<td><strong>Dynamics 365 Developer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Dynamics 365 Developer Associate</td>
+</tr>
+<tr class="even">
+<td><strong>Azure Hybrid Engineer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Azure Hybrid Engineer Specialist</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="core-modules" class="level2">
+<h2 class="anchored" data-anchor-id="core-modules">📚 Core Modules</h2>
+<section id="module-1-azure-fundamentals-cloud-architecture" class="level3">
+<h3 class="anchored" data-anchor-id="module-1-azure-fundamentals-cloud-architecture">Module 1: Azure Fundamentals &amp; Cloud Architecture</h3>
+<ul>
+<li>Azure resource groups, subscriptions, management hierarchy</li>
+<li>Virtual machines, App Services, Container services</li>
+<li>Storage accounts, SQL databases, Cosmos DB</li>
+<li>Networking: VNets, subnets, security groups</li>
+<li>Monitoring and logging with Azure Monitor</li>
+</ul>
+</section>
+<section id="modules-2-12-specialized-tracks" class="level3">
+<h3 class="anchored" data-anchor-id="modules-2-12-specialized-tracks">Modules 2-12: Specialized tracks</h3>
+<p><strong>Code Examples:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Azure SDK for Python</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> azure.identity <span class="im">import</span> DefaultAzureCredential</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> azure.storage.blob <span class="im">import</span> BlobServiceClient</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Authentication</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>credential <span class="op">=</span> DefaultAzureCredential()</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>client <span class="op">=</span> BlobServiceClient(<span class="st">"https://&lt;account&gt;.blob.core.windows.net"</span>, credential)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Upload blob</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>container <span class="op">=</span> client.get_container_client(<span class="st">"data"</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">"file.txt"</span>, <span class="st">"rb"</span>) <span class="im">as</span> data:</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    container.upload_blob(<span class="st">"file.txt"</span>, data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="specialization-tracks" class="level2">
+<h2 class="anchored" data-anchor-id="specialization-tracks">🏆 Specialization Tracks</h2>
+<ol type="1">
+<li><strong>Azure Solutions Architect</strong> - System design for enterprise</li>
+<li><strong>Azure Developer</strong> - Application development with Azure services</li>
+<li><strong>Azure DevOps Engineer</strong> - CI/CD pipelines, infrastructure automation</li>
+<li><strong>Azure Data Engineer</strong> - Data warehousing, ETL with Azure Synapse</li>
+<li><strong>Azure Security Engineer</strong> - Identity, encryption, compliance</li>
+<li><strong>Azure Administrator</strong> - Resource management and operations</li>
+<li><strong>Azure AI Engineer</strong> - Cognitive services, AI model deployment</li>
+<li><strong>Azure Database Specialist</strong> - Database optimization and management</li>
+<li><strong>Dynamics 365 Developer</strong> - Business applications development</li>
+<li><strong>Azure Hybrid Engineer</strong> - On-premises and Azure integration</li>
+</ol>
+</section>
+<section id="statistics" class="level2">
+<h2 class="anchored" data-anchor-id="statistics">📊 Statistics</h2>
+<ul>
+<li><strong>Total Modules:</strong> 120</li>
+<li><strong>Learning Hours:</strong> 2,400+</li>
+<li><strong>Projects:</strong> 50+ Azure projects</li>
+<li><strong>Certifications:</strong> 10+ Microsoft certifications</li>
+</ul>
 <hr>
-<p><strong>Start Learning:</strong> <a href="https://planet-steam-app.vercel.app/academy/10-devops-ci-cd/junior/1">View in Module Player</a></p>
-<p>Built with Quarto | Planet STEAM</p>
+<p><strong>Built with ❤️ by Planet STEAM Academy</strong></p>
 
 
 </section>

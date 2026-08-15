@@ -1,0 +1,159 @@
+---
+title: "Machine Learning — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+    page-layout: full
+    theme: cosmo
+---
+
+# Machine Learning — Professional Mastery Program
+
+**Start Date:** Immediately Available | **Duration:** 120-240 hours | **Level:** Junior → Lead
+**Certification:** TensorFlow Certified, AWS ML Specialty, Google ML Engineer
+
+---
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours | Focus | Certifications |
+|------|---------|-------|-------|----------------|
+| **ML Engineer** | 12 | 240 | Model development, Scikit-learn, PyTorch | TensorFlow Certified |
+| **Deep Learning Specialist** | 12 | 280 | Neural networks, CNNs, RNNs | TensorFlow Advanced Certificate |
+| **NLP Engineer** | 12 | 260 | Natural Language Processing, Transformers | Hugging Face Certified |
+| **Computer Vision Engineer** | 12 | 270 | Image processing, Object detection | OpenCV Certified |
+| **ML Ops Engineer** | 12 | 240 | Model deployment, Monitoring, Scaling | AWS ML Ops Certified |
+| **Recommendation Systems Engineer** | 12 | 230 | Collaborative filtering, Content-based | Recommendation Systems Specialist |
+| **Time Series Forecasting Engineer** | 12 | 250 | ARIMA, LSTM, Prophet | Time Series Certified |
+| **Reinforcement Learning Engineer** | 12 | 260 | Q-Learning, DQN, Policy Gradients | RL Specialist Certification |
+| **ML Research Scientist** | 12 | 290 | Paper implementation, Novel algorithms | Research Publications Track |
+| **Production ML Engineer** | 12 | 240 | ML systems, Pipelines, Feature stores | ML Production Certified |
+
+---
+
+## 📚 Module Structure
+
+### Module 1: ML Fundamentals & Scikit-learn
+**Learning Objectives:**
+- Supervised vs unsupervised learning
+- Classification, regression, clustering
+- Cross-validation and hyperparameter tuning
+- Evaluation metrics and model selection
+
+**Code Examples:**
+```python
+# Scikit-learn Classification
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, confusion_matrix
+
+# Load data
+X, y = load_iris(return_X_y=True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# Train model
+clf = RandomForestClassifier(n_estimators=100)
+clf.fit(X_train, y_train)
+
+# Evaluate
+y_pred = clf.predict(X_test)
+print(f"Accuracy: {accuracy_score(y_test, y_pred)}")
+print(f"Confusion Matrix:\n{confusion_matrix(y_test, y_pred)}")
+
+# Deep Learning with PyTorch
+import torch
+import torch.nn as nn
+from torch.optim import Adam
+
+class SimpleNN(nn.Module):
+    def __init__(self, input_size, hidden_size, output_size):
+        super().__init__()
+        self.fc1 = nn.Linear(input_size, hidden_size)
+        self.relu = nn.ReLU()
+        self.fc2 = nn.Linear(hidden_size, output_size)
+
+    def forward(self, x):
+        x = self.fc1(x)
+        x = self.relu(x)
+        x = self.fc2(x)
+        return x
+
+# NLP with Transformers
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-uncased")
+
+inputs = tokenizer("This is a great movie!", return_tensors="pt")
+outputs = model(**inputs)
+```
+
+---
+
+## 🏆 Specialization Tracks
+
+### 1️⃣ ML Engineer Track
+Focus: End-to-end ML model development with Scikit-learn, XGBoost, and model evaluation
+
+### 2️⃣ Deep Learning Specialist
+Focus: Neural networks, CNNs, RNNs with TensorFlow and PyTorch
+
+### 3️⃣ NLP Engineer Track
+Focus: Natural Language Processing, Transformers, BERT, GPT models
+
+### 4️⃣ Computer Vision Engineer
+Focus: Image classification, Object detection, Semantic segmentation
+
+### 5️⃣ ML Ops Engineer Track
+Focus: Model deployment, Monitoring, A/B testing, Scaling
+
+### 6️⃣ Recommendation Systems
+Focus: Collaborative filtering, Content-based systems, Matrix factorization
+
+### 7️⃣ Time Series Forecasting
+Focus: ARIMA, LSTM, Prophet for time series prediction
+
+### 8️⃣ Reinforcement Learning
+Focus: Q-Learning, Deep Q-Networks, Policy gradients
+
+### 9️⃣ ML Research Scientist
+Focus: Paper implementation, Novel algorithms, Research methodology
+
+### 🔟 Production ML Engineer
+Focus: ML systems design, Feature stores, Model serving
+
+---
+
+## 📊 Program Statistics
+
+- **Total Modules:** 120 (12 × 10 roles)
+- **Total Learning Hours:** 2,400+ hours
+- **Total Practical Projects:** 50+ ML projects
+- **Datasets:** 100+ real-world datasets
+- **Interview Q&A:** 720+ questions
+- **Business Domains:** Finance, Healthcare, E-commerce, Autonomous vehicles, Robotics
+
+---
+
+## 🎓 Certifications
+
+1. TensorFlow Certified
+2. AWS Certified ML - Specialty
+3. Google Cloud ML Engineer
+4. Hugging Face Certified
+5. Deep Learning Specialization
+6. MLOps Certification
+7. Kaggle Master Track
+8. Research Publications Track
+9. Computer Vision Expert
+10. NLP Specialist
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**
+

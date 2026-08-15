@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Planet STEAM">
+<meta name="author" content="Planet STEAM Academy">
 <meta name="dcterms.date" content="2026-08-15">
 
-<title>🛠️ DevOps/CI-CD – Planet STEAM — 22 Courses</title>
+<title>Machine Learning — Professional Mastery Program – Planet STEAM — 22 Courses</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -76,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -98,55 +133,60 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#devopsci-cd" id="toc-devopsci-cd" class="nav-link active" data-scroll-target="#devopsci-cd">🛠️ DevOps/CI-CD</a>
+  <li><a href="#machine-learning-professional-mastery-program" id="toc-machine-learning-professional-mastery-program" class="nav-link active" data-scroll-target="#machine-learning-professional-mastery-program">Machine Learning — Professional Mastery Program</a>
   <ul class="collapse">
-  <li><a href="#module-1-fundamentals" id="toc-module-1-fundamentals" class="nav-link" data-scroll-target="#module-1-fundamentals">Module 1: Fundamentals</a>
+  <li><a href="#program-overview" id="toc-program-overview" class="nav-link" data-scroll-target="#program-overview">🎯 Program Overview</a></li>
+  <li><a href="#module-structure" id="toc-module-structure" class="nav-link" data-scroll-target="#module-structure">📚 Module Structure</a>
   <ul class="collapse">
-  <li><a href="#theory" id="toc-theory" class="nav-link" data-scroll-target="#theory">Theory</a></li>
+  <li><a href="#module-1-ml-fundamentals-scikit-learn" id="toc-module-1-ml-fundamentals-scikit-learn" class="nav-link" data-scroll-target="#module-1-ml-fundamentals-scikit-learn">Module 1: ML Fundamentals &amp; Scikit-learn</a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#module-1---fundamentals" id="toc-module-1---fundamentals" class="nav-link" data-scroll-target="#module-1---fundamentals">Module 1 - Fundamentals</a>
+  <li><a href="#specialization-tracks" id="toc-specialization-tracks" class="nav-link" data-scroll-target="#specialization-tracks">🏆 Specialization Tracks</a>
   <ul class="collapse">
-  <li><a href="#code-examples" id="toc-code-examples" class="nav-link" data-scroll-target="#code-examples">Code Examples</a></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
-  <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios</a>
-  <ul class="collapse">
-  <li><a href="#practical-project" id="toc-practical-project" class="nav-link" data-scroll-target="#practical-project">Practical Project</a></li>
+  <li><a href="#ml-engineer-track" id="toc-ml-engineer-track" class="nav-link" data-scroll-target="#ml-engineer-track">1️⃣ ML Engineer Track</a></li>
+  <li><a href="#deep-learning-specialist" id="toc-deep-learning-specialist" class="nav-link" data-scroll-target="#deep-learning-specialist">2️⃣ Deep Learning Specialist</a></li>
+  <li><a href="#nlp-engineer-track" id="toc-nlp-engineer-track" class="nav-link" data-scroll-target="#nlp-engineer-track">3️⃣ NLP Engineer Track</a></li>
+  <li><a href="#computer-vision-engineer" id="toc-computer-vision-engineer" class="nav-link" data-scroll-target="#computer-vision-engineer">4️⃣ Computer Vision Engineer</a></li>
+  <li><a href="#ml-ops-engineer-track" id="toc-ml-ops-engineer-track" class="nav-link" data-scroll-target="#ml-ops-engineer-track">5️⃣ ML Ops Engineer Track</a></li>
+  <li><a href="#recommendation-systems" id="toc-recommendation-systems" class="nav-link" data-scroll-target="#recommendation-systems">6️⃣ Recommendation Systems</a></li>
+  <li><a href="#time-series-forecasting" id="toc-time-series-forecasting" class="nav-link" data-scroll-target="#time-series-forecasting">7️⃣ Time Series Forecasting</a></li>
+  <li><a href="#reinforcement-learning" id="toc-reinforcement-learning" class="nav-link" data-scroll-target="#reinforcement-learning">8️⃣ Reinforcement Learning</a></li>
+  <li><a href="#ml-research-scientist" id="toc-ml-research-scientist" class="nav-link" data-scroll-target="#ml-research-scientist">9️⃣ ML Research Scientist</a></li>
+  <li><a href="#production-ml-engineer" id="toc-production-ml-engineer" class="nav-link" data-scroll-target="#production-ml-engineer">🔟 Production ML Engineer</a></li>
   </ul></li>
-  <li><a href="#proyecto" id="toc-proyecto" class="nav-link" data-scroll-target="#proyecto">Proyecto</a>
-  <ul class="collapse">
-  <li><a href="#knowledge-check" id="toc-knowledge-check" class="nav-link" data-scroll-target="#knowledge-check">Knowledge Check</a></li>
-  </ul></li>
-  <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz">Quiz</a></li>
-  <li><a href="#modules-2-12" id="toc-modules-2-12" class="nav-link" data-scroll-target="#modules-2-12">Modules 2-12</a></li>
+  <li><a href="#program-statistics" id="toc-program-statistics" class="nav-link" data-scroll-target="#program-statistics">📊 Program Statistics</a></li>
+  <li><a href="#certifications" id="toc-certifications" class="nav-link" data-scroll-target="#certifications">🎓 Certifications</a></li>
   </ul></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">🛠️ DevOps/CI-CD</h1>
+<h1 class="title">Machine Learning — Professional Mastery Program</h1>
+<p class="subtitle lead">10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-right">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Planet STEAM </p>
+             <p>Planet STEAM Academy </p>
           </div>
   </div>
     
@@ -165,117 +205,230 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="devopsci-cd" class="level1">
-<h1>🛠️ DevOps/CI-CD</h1>
-<p><strong>4 levels • 48 modules • 235+ hours • 50+ projects • 3 certifications</strong></p>
-<section id="module-1-fundamentals" class="level2">
-<h2 class="anchored" data-anchor-id="module-1-fundamentals">Module 1: Fundamentals</h2>
-<section id="theory" class="level3">
-<h3 class="anchored" data-anchor-id="theory">Theory</h3>
-</section>
-</section>
-</section>
-<section id="module-1---fundamentals" class="level1">
-<h1>Module 1 - Fundamentals</h1>
-<p>Contenido teórico del módulo 1.</p>
-<section id="code-examples" class="level3">
-<h3 class="anchored" data-anchor-id="code-examples">Code Examples</h3>
-<p>\<br>
-# Ejemplo de código \<br>
-</p>
-</section>
-<section id="exercises" class="level3">
-<h3 class="anchored" data-anchor-id="exercises">Exercises</h3>
-</section>
-<section id="ejercicios" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicios">Ejercicios</h2>
-<p>Descripciones de ejercicios.</p>
-<section id="practical-project" class="level3">
-<h3 class="anchored" data-anchor-id="practical-project">Practical Project</h3>
-</section>
-</section>
-<section id="proyecto" class="level2">
-<h2 class="anchored" data-anchor-id="proyecto">Proyecto</h2>
-<p>Descripción del proyecto.</p>
-<section id="knowledge-check" class="level3">
-<h3 class="anchored" data-anchor-id="knowledge-check">Knowledge Check</h3>
-</section>
-</section>
-<section id="quiz" class="level2">
-<h2 class="anchored" data-anchor-id="quiz">Quiz</h2>
-<p>Preguntas de validación.</p>
-</section>
-<section id="modules-2-12" class="level2">
-<h2 class="anchored" data-anchor-id="modules-2-12">Modules 2-12</h2>
+<section id="machine-learning-professional-mastery-program" class="level1">
+<h1>Machine Learning — Professional Mastery Program</h1>
+<p><strong>Start Date:</strong> Immediately Available | <strong>Duration:</strong> 120-240 hours | <strong>Level:</strong> Junior → Lead <strong>Certification:</strong> TensorFlow Certified, AWS ML Specialty, Google ML Engineer</p>
+<hr>
+<section id="program-overview" class="level2">
+<h2 class="anchored" data-anchor-id="program-overview">🎯 Program Overview</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 20%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 35%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Module</th>
-<th>Title</th>
-<th>Duration</th>
+<th>Role</th>
+<th>Modules</th>
+<th>Hours</th>
+<th>Focus</th>
+<th>Certifications</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>2</td>
-<td>Core Concepts</td>
-<td>12-15 hrs</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>Advanced Topics</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>Real-world Applications</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>Best Practices &amp; Patterns</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>Performance &amp; Optimization</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>Security &amp; Reliability</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>Testing &amp; Quality</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>Integration &amp; DevOps</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>Advanced Patterns</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>Production Deployment</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
+<td><strong>ML Engineer</strong></td>
 <td>12</td>
-<td>Capstone Project</td>
-<td>25-30 hrs</td>
+<td>240</td>
+<td>Model development, Scikit-learn, PyTorch</td>
+<td>TensorFlow Certified</td>
+</tr>
+<tr class="even">
+<td><strong>Deep Learning Specialist</strong></td>
+<td>12</td>
+<td>280</td>
+<td>Neural networks, CNNs, RNNs</td>
+<td>TensorFlow Advanced Certificate</td>
+</tr>
+<tr class="odd">
+<td><strong>NLP Engineer</strong></td>
+<td>12</td>
+<td>260</td>
+<td>Natural Language Processing, Transformers</td>
+<td>Hugging Face Certified</td>
+</tr>
+<tr class="even">
+<td><strong>Computer Vision Engineer</strong></td>
+<td>12</td>
+<td>270</td>
+<td>Image processing, Object detection</td>
+<td>OpenCV Certified</td>
+</tr>
+<tr class="odd">
+<td><strong>ML Ops Engineer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Model deployment, Monitoring, Scaling</td>
+<td>AWS ML Ops Certified</td>
+</tr>
+<tr class="even">
+<td><strong>Recommendation Systems Engineer</strong></td>
+<td>12</td>
+<td>230</td>
+<td>Collaborative filtering, Content-based</td>
+<td>Recommendation Systems Specialist</td>
+</tr>
+<tr class="odd">
+<td><strong>Time Series Forecasting Engineer</strong></td>
+<td>12</td>
+<td>250</td>
+<td>ARIMA, LSTM, Prophet</td>
+<td>Time Series Certified</td>
+</tr>
+<tr class="even">
+<td><strong>Reinforcement Learning Engineer</strong></td>
+<td>12</td>
+<td>260</td>
+<td>Q-Learning, DQN, Policy Gradients</td>
+<td>RL Specialist Certification</td>
+</tr>
+<tr class="odd">
+<td><strong>ML Research Scientist</strong></td>
+<td>12</td>
+<td>290</td>
+<td>Paper implementation, Novel algorithms</td>
+<td>Research Publications Track</td>
+</tr>
+<tr class="even">
+<td><strong>Production ML Engineer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>ML systems, Pipelines, Feature stores</td>
+<td>ML Production Certified</td>
 </tr>
 </tbody>
 </table>
 <hr>
-<p><strong>Start Learning:</strong> <a href="https://planet-steam-app.vercel.app/academy/10-devops-ci-cd/junior/1">View in Module Player</a></p>
-<p>Built with Quarto | Planet STEAM</p>
+</section>
+<section id="module-structure" class="level2">
+<h2 class="anchored" data-anchor-id="module-structure">📚 Module Structure</h2>
+<section id="module-1-ml-fundamentals-scikit-learn" class="level3">
+<h3 class="anchored" data-anchor-id="module-1-ml-fundamentals-scikit-learn">Module 1: ML Fundamentals &amp; Scikit-learn</h3>
+<p><strong>Learning Objectives:</strong> - Supervised vs unsupervised learning - Classification, regression, clustering - Cross-validation and hyperparameter tuning - Evaluation metrics and model selection</p>
+<p><strong>Code Examples:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Scikit-learn Classification</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.datasets <span class="im">import</span> load_iris</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, confusion_matrix</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Load data</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>X, y <span class="op">=</span> load_iris(return_X_y<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Train model</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>clf <span class="op">=</span> RandomForestClassifier(n_estimators<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>clf.fit(X_train, y_train)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> clf.predict(X_test)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Accuracy: </span><span class="sc">{</span>accuracy_score(y_test, y_pred)<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Confusion Matrix:</span><span class="ch">\n</span><span class="sc">{</span>confusion_matrix(y_test, y_pred)<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Deep Learning with PyTorch</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.nn <span class="im">as</span> nn</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch.optim <span class="im">import</span> Adam</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> SimpleNN(nn.Module):</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, input_size, hidden_size, output_size):</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>        <span class="bu">super</span>().<span class="fu">__init__</span>()</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc1 <span class="op">=</span> nn.Linear(input_size, hidden_size)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.relu <span class="op">=</span> nn.ReLU()</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc2 <span class="op">=</span> nn.Linear(hidden_size, output_size)</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> forward(<span class="va">self</span>, x):</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="va">self</span>.fc1(x)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="va">self</span>.relu(x)</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="va">self</span>.fc2(x)</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> x</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="co"># NLP with Transformers</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> AutoTokenizer, AutoModelForSequenceClassification</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(<span class="st">"distilbert-base-uncased"</span>)</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> AutoModelForSequenceClassification.from_pretrained(<span class="st">"distilbert-base-uncased"</span>)</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>inputs <span class="op">=</span> tokenizer(<span class="st">"This is a great movie!"</span>, return_tensors<span class="op">=</span><span class="st">"pt"</span>)</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>outputs <span class="op">=</span> model(<span class="op">**</span>inputs)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="specialization-tracks" class="level2">
+<h2 class="anchored" data-anchor-id="specialization-tracks">🏆 Specialization Tracks</h2>
+<section id="ml-engineer-track" class="level3">
+<h3 class="anchored" data-anchor-id="ml-engineer-track">1️⃣ ML Engineer Track</h3>
+<p>Focus: End-to-end ML model development with Scikit-learn, XGBoost, and model evaluation</p>
+</section>
+<section id="deep-learning-specialist" class="level3">
+<h3 class="anchored" data-anchor-id="deep-learning-specialist">2️⃣ Deep Learning Specialist</h3>
+<p>Focus: Neural networks, CNNs, RNNs with TensorFlow and PyTorch</p>
+</section>
+<section id="nlp-engineer-track" class="level3">
+<h3 class="anchored" data-anchor-id="nlp-engineer-track">3️⃣ NLP Engineer Track</h3>
+<p>Focus: Natural Language Processing, Transformers, BERT, GPT models</p>
+</section>
+<section id="computer-vision-engineer" class="level3">
+<h3 class="anchored" data-anchor-id="computer-vision-engineer">4️⃣ Computer Vision Engineer</h3>
+<p>Focus: Image classification, Object detection, Semantic segmentation</p>
+</section>
+<section id="ml-ops-engineer-track" class="level3">
+<h3 class="anchored" data-anchor-id="ml-ops-engineer-track">5️⃣ ML Ops Engineer Track</h3>
+<p>Focus: Model deployment, Monitoring, A/B testing, Scaling</p>
+</section>
+<section id="recommendation-systems" class="level3">
+<h3 class="anchored" data-anchor-id="recommendation-systems">6️⃣ Recommendation Systems</h3>
+<p>Focus: Collaborative filtering, Content-based systems, Matrix factorization</p>
+</section>
+<section id="time-series-forecasting" class="level3">
+<h3 class="anchored" data-anchor-id="time-series-forecasting">7️⃣ Time Series Forecasting</h3>
+<p>Focus: ARIMA, LSTM, Prophet for time series prediction</p>
+</section>
+<section id="reinforcement-learning" class="level3">
+<h3 class="anchored" data-anchor-id="reinforcement-learning">8️⃣ Reinforcement Learning</h3>
+<p>Focus: Q-Learning, Deep Q-Networks, Policy gradients</p>
+</section>
+<section id="ml-research-scientist" class="level3">
+<h3 class="anchored" data-anchor-id="ml-research-scientist">9️⃣ ML Research Scientist</h3>
+<p>Focus: Paper implementation, Novel algorithms, Research methodology</p>
+</section>
+<section id="production-ml-engineer" class="level3">
+<h3 class="anchored" data-anchor-id="production-ml-engineer">🔟 Production ML Engineer</h3>
+<p>Focus: ML systems design, Feature stores, Model serving</p>
+<hr>
+</section>
+</section>
+<section id="program-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="program-statistics">📊 Program Statistics</h2>
+<ul>
+<li><strong>Total Modules:</strong> 120 (12 × 10 roles)</li>
+<li><strong>Total Learning Hours:</strong> 2,400+ hours</li>
+<li><strong>Total Practical Projects:</strong> 50+ ML projects</li>
+<li><strong>Datasets:</strong> 100+ real-world datasets</li>
+<li><strong>Interview Q&amp;A:</strong> 720+ questions</li>
+<li><strong>Business Domains:</strong> Finance, Healthcare, E-commerce, Autonomous vehicles, Robotics</li>
+</ul>
+<hr>
+</section>
+<section id="certifications" class="level2">
+<h2 class="anchored" data-anchor-id="certifications">🎓 Certifications</h2>
+<ol type="1">
+<li>TensorFlow Certified</li>
+<li>AWS Certified ML - Specialty</li>
+<li>Google Cloud ML Engineer</li>
+<li>Hugging Face Certified</li>
+<li>Deep Learning Specialization</li>
+<li>MLOps Certification</li>
+<li>Kaggle Master Track</li>
+<li>Research Publications Track</li>
+<li>Computer Vision Expert</li>
+<li>NLP Specialist</li>
+</ol>
+<hr>
+<p><strong>Built with ❤️ by Planet STEAM Academy</strong></p>
 
 
 </section>

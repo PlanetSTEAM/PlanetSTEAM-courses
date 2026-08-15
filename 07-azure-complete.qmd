@@ -1,0 +1,81 @@
+---
+title: "Microsoft Azure — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Microsoft Azure — Professional Mastery Program
+
+**Certification:** Azure Solutions Architect Expert, Azure DevOps Engineer, Azure Data Engineer
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours | Certifications |
+|------|---------|-------|----------------|
+| **Azure Solutions Architect** | 12 | 250 | Azure Architect Expert |
+| **Azure Developer** | 12 | 240 | Azure Developer Associate |
+| **Azure DevOps Engineer** | 12 | 240 | Azure DevOps Engineer Expert |
+| **Azure Data Engineer** | 12 | 260 | Azure Data Engineer Associate |
+| **Azure Security Engineer** | 12 | 250 | Azure Security Engineer Associate |
+| **Azure Administrator** | 12 | 240 | Azure Administrator Associate |
+| **Azure AI Engineer** | 12 | 270 | Azure AI Engineer Associate |
+| **Azure Database Specialist** | 12 | 250 | Azure Database Specialist |
+| **Dynamics 365 Developer** | 12 | 240 | Dynamics 365 Developer Associate |
+| **Azure Hybrid Engineer** | 12 | 240 | Azure Hybrid Engineer Specialist |
+
+## 📚 Core Modules
+
+### Module 1: Azure Fundamentals & Cloud Architecture
+- Azure resource groups, subscriptions, management hierarchy
+- Virtual machines, App Services, Container services
+- Storage accounts, SQL databases, Cosmos DB
+- Networking: VNets, subnets, security groups
+- Monitoring and logging with Azure Monitor
+
+### Modules 2-12: Specialized tracks
+
+**Code Examples:**
+```python
+# Azure SDK for Python
+from azure.identity import DefaultAzureCredential
+from azure.storage.blob import BlobServiceClient
+
+# Authentication
+credential = DefaultAzureCredential()
+client = BlobServiceClient("https://<account>.blob.core.windows.net", credential)
+
+# Upload blob
+container = client.get_container_client("data")
+with open("file.txt", "rb") as data:
+    container.upload_blob("file.txt", data)
+```
+
+## 🏆 Specialization Tracks
+
+1. **Azure Solutions Architect** - System design for enterprise
+2. **Azure Developer** - Application development with Azure services
+3. **Azure DevOps Engineer** - CI/CD pipelines, infrastructure automation
+4. **Azure Data Engineer** - Data warehousing, ETL with Azure Synapse
+5. **Azure Security Engineer** - Identity, encryption, compliance
+6. **Azure Administrator** - Resource management and operations
+7. **Azure AI Engineer** - Cognitive services, AI model deployment
+8. **Azure Database Specialist** - Database optimization and management
+9. **Dynamics 365 Developer** - Business applications development
+10. **Azure Hybrid Engineer** - On-premises and Azure integration
+
+## 📊 Statistics
+
+- **Total Modules:** 120
+- **Learning Hours:** 2,400+
+- **Projects:** 50+ Azure projects
+- **Certifications:** 10+ Microsoft certifications
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**
+

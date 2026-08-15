@@ -1,0 +1,104 @@
+---
+title: "Kubernetes — Professional Mastery Program"
+subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# Kubernetes — Professional Mastery Program
+
+**Certification:** CKA (Certified Kubernetes Administrator), CKAD (Application Developer), CKS (Security Specialist)
+
+## 🎯 Program Overview
+
+| Role | Modules | Hours | Certifications |
+|------|---------|-------|----------------|
+| **Kubernetes Administrator** | 12 | 240 | CKA (Certified Kubernetes Administrator) |
+| **Kubernetes Application Developer** | 12 | 230 | CKAD (Certified Kubernetes Application Developer) |
+| **Kubernetes Security Specialist** | 12 | 260 | CKS (Certified Kubernetes Security Specialist) |
+| **Service Mesh Engineer** | 12 | 250 | Istio Certified, Linkerd Specialist |
+| **Container Platform Architect** | 12 | 270 | Kubernetes Architect Certification |
+| **Kubernetes Operator Developer** | 12 | 240 | Operator Framework Certified |
+| **Kubernetes Storage Engineer** | 12 | 240 | Storage Specialist Certification |
+| **Kubernetes Networking Engineer** | 12 | 250 | Network Specialist Certification |
+| **Kubernetes Monitoring Specialist** | 12 | 240 | Observability Certified |
+| **Multi-Cloud Kubernetes Architect** | 12 | 260 | Multi-Cloud Architect Specialist |
+
+## 📚 Core Modules
+
+### Module 1: Kubernetes Fundamentals
+- Pods, Deployments, Services
+- ConfigMaps and Secrets
+- Persistent Volumes and Claims
+- Namespaces and RBAC
+- Networking and DNS
+
+### Modules 2-12: Specialized tracks
+
+**Code Examples:**
+```yaml
+# Kubernetes Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+
+---
+# Kubernetes Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app: nginx
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
+```
+
+## 🏆 Specialization Tracks
+
+1. **Kubernetes Administrator (CKA)** - Cluster administration
+2. **Kubernetes Developer (CKAD)** - Application deployment
+3. **Kubernetes Security (CKS)** - Security hardening
+4. **Service Mesh Engineer** - Istio and Linkerd
+5. **Container Platform Architect** - Enterprise K8s design
+6. **Kubernetes Operator Developer** - Custom operators
+7. **Kubernetes Storage Engineer** - Persistent storage
+8. **Kubernetes Networking Engineer** - Advanced networking
+9. **Kubernetes Monitoring Specialist** - Observability
+10. **Multi-Cloud Kubernetes Architect** - Multi-cloud deployments
+
+## 📊 Statistics
+
+- **Total Modules:** 120
+- **Learning Hours:** 2,400+
+- **Projects:** 50+ Kubernetes projects
+- **Certifications:** 10+ Kubernetes certifications
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**
+

@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Planet STEAM">
+<meta name="author" content="Planet STEAM Academy">
 <meta name="dcterms.date" content="2026-08-15">
 
-<title>🛠️ DevOps/CI-CD – Planet STEAM — 22 Courses</title>
+<title>Kubernetes — Professional Mastery Program – Planet STEAM — 22 Courses</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -76,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -100,43 +135,36 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#devopsci-cd" id="toc-devopsci-cd" class="nav-link active" data-scroll-target="#devopsci-cd">🛠️ DevOps/CI-CD</a>
+  <li><a href="#kubernetes-professional-mastery-program" id="toc-kubernetes-professional-mastery-program" class="nav-link active" data-scroll-target="#kubernetes-professional-mastery-program">Kubernetes — Professional Mastery Program</a>
   <ul class="collapse">
-  <li><a href="#module-1-fundamentals" id="toc-module-1-fundamentals" class="nav-link" data-scroll-target="#module-1-fundamentals">Module 1: Fundamentals</a>
+  <li><a href="#program-overview" id="toc-program-overview" class="nav-link" data-scroll-target="#program-overview">🎯 Program Overview</a></li>
+  <li><a href="#core-modules" id="toc-core-modules" class="nav-link" data-scroll-target="#core-modules">📚 Core Modules</a>
   <ul class="collapse">
-  <li><a href="#theory" id="toc-theory" class="nav-link" data-scroll-target="#theory">Theory</a></li>
+  <li><a href="#module-1-kubernetes-fundamentals" id="toc-module-1-kubernetes-fundamentals" class="nav-link" data-scroll-target="#module-1-kubernetes-fundamentals">Module 1: Kubernetes Fundamentals</a></li>
+  <li><a href="#modules-2-12-specialized-tracks" id="toc-modules-2-12-specialized-tracks" class="nav-link" data-scroll-target="#modules-2-12-specialized-tracks">Modules 2-12: Specialized tracks</a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#module-1---fundamentals" id="toc-module-1---fundamentals" class="nav-link" data-scroll-target="#module-1---fundamentals">Module 1 - Fundamentals</a>
-  <ul class="collapse">
-  <li><a href="#code-examples" id="toc-code-examples" class="nav-link" data-scroll-target="#code-examples">Code Examples</a></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
-  <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios</a>
-  <ul class="collapse">
-  <li><a href="#practical-project" id="toc-practical-project" class="nav-link" data-scroll-target="#practical-project">Practical Project</a></li>
-  </ul></li>
-  <li><a href="#proyecto" id="toc-proyecto" class="nav-link" data-scroll-target="#proyecto">Proyecto</a>
-  <ul class="collapse">
-  <li><a href="#knowledge-check" id="toc-knowledge-check" class="nav-link" data-scroll-target="#knowledge-check">Knowledge Check</a></li>
-  </ul></li>
-  <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz">Quiz</a></li>
-  <li><a href="#modules-2-12" id="toc-modules-2-12" class="nav-link" data-scroll-target="#modules-2-12">Modules 2-12</a></li>
+  <li><a href="#specialization-tracks" id="toc-specialization-tracks" class="nav-link" data-scroll-target="#specialization-tracks">🏆 Specialization Tracks</a></li>
+  <li><a href="#statistics" id="toc-statistics" class="nav-link" data-scroll-target="#statistics">📊 Statistics</a></li>
   </ul></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">🛠️ DevOps/CI-CD</h1>
+<h1 class="title">Kubernetes — Professional Mastery Program</h1>
+<p class="subtitle lead">10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours</p>
 </div>
 
 
@@ -146,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Planet STEAM </p>
+             <p>Planet STEAM Academy </p>
           </div>
   </div>
     
@@ -165,117 +193,167 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="devopsci-cd" class="level1">
-<h1>🛠️ DevOps/CI-CD</h1>
-<p><strong>4 levels • 48 modules • 235+ hours • 50+ projects • 3 certifications</strong></p>
-<section id="module-1-fundamentals" class="level2">
-<h2 class="anchored" data-anchor-id="module-1-fundamentals">Module 1: Fundamentals</h2>
-<section id="theory" class="level3">
-<h3 class="anchored" data-anchor-id="theory">Theory</h3>
-</section>
-</section>
-</section>
-<section id="module-1---fundamentals" class="level1">
-<h1>Module 1 - Fundamentals</h1>
-<p>Contenido teórico del módulo 1.</p>
-<section id="code-examples" class="level3">
-<h3 class="anchored" data-anchor-id="code-examples">Code Examples</h3>
-<p>\<br>
-# Ejemplo de código \<br>
-</p>
-</section>
-<section id="exercises" class="level3">
-<h3 class="anchored" data-anchor-id="exercises">Exercises</h3>
-</section>
-<section id="ejercicios" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicios">Ejercicios</h2>
-<p>Descripciones de ejercicios.</p>
-<section id="practical-project" class="level3">
-<h3 class="anchored" data-anchor-id="practical-project">Practical Project</h3>
-</section>
-</section>
-<section id="proyecto" class="level2">
-<h2 class="anchored" data-anchor-id="proyecto">Proyecto</h2>
-<p>Descripción del proyecto.</p>
-<section id="knowledge-check" class="level3">
-<h3 class="anchored" data-anchor-id="knowledge-check">Knowledge Check</h3>
-</section>
-</section>
-<section id="quiz" class="level2">
-<h2 class="anchored" data-anchor-id="quiz">Quiz</h2>
-<p>Preguntas de validación.</p>
-</section>
-<section id="modules-2-12" class="level2">
-<h2 class="anchored" data-anchor-id="modules-2-12">Modules 2-12</h2>
+<section id="kubernetes-professional-mastery-program" class="level1">
+<h1>Kubernetes — Professional Mastery Program</h1>
+<p><strong>Certification:</strong> CKA (Certified Kubernetes Administrator), CKAD (Application Developer), CKS (Security Specialist)</p>
+<section id="program-overview" class="level2">
+<h2 class="anchored" data-anchor-id="program-overview">🎯 Program Overview</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 23%">
+<col style="width: 18%">
+<col style="width: 42%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Module</th>
-<th>Title</th>
-<th>Duration</th>
+<th>Role</th>
+<th>Modules</th>
+<th>Hours</th>
+<th>Certifications</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>2</td>
-<td>Core Concepts</td>
-<td>12-15 hrs</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>Advanced Topics</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>Real-world Applications</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>Best Practices &amp; Patterns</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>Performance &amp; Optimization</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>Security &amp; Reliability</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>Testing &amp; Quality</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>Integration &amp; DevOps</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>Advanced Patterns</td>
-<td>20-25 hrs</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>Production Deployment</td>
-<td>15-20 hrs</td>
-</tr>
-<tr class="odd">
+<td><strong>Kubernetes Administrator</strong></td>
 <td>12</td>
-<td>Capstone Project</td>
-<td>25-30 hrs</td>
+<td>240</td>
+<td>CKA (Certified Kubernetes Administrator)</td>
+</tr>
+<tr class="even">
+<td><strong>Kubernetes Application Developer</strong></td>
+<td>12</td>
+<td>230</td>
+<td>CKAD (Certified Kubernetes Application Developer)</td>
+</tr>
+<tr class="odd">
+<td><strong>Kubernetes Security Specialist</strong></td>
+<td>12</td>
+<td>260</td>
+<td>CKS (Certified Kubernetes Security Specialist)</td>
+</tr>
+<tr class="even">
+<td><strong>Service Mesh Engineer</strong></td>
+<td>12</td>
+<td>250</td>
+<td>Istio Certified, Linkerd Specialist</td>
+</tr>
+<tr class="odd">
+<td><strong>Container Platform Architect</strong></td>
+<td>12</td>
+<td>270</td>
+<td>Kubernetes Architect Certification</td>
+</tr>
+<tr class="even">
+<td><strong>Kubernetes Operator Developer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Operator Framework Certified</td>
+</tr>
+<tr class="odd">
+<td><strong>Kubernetes Storage Engineer</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Storage Specialist Certification</td>
+</tr>
+<tr class="even">
+<td><strong>Kubernetes Networking Engineer</strong></td>
+<td>12</td>
+<td>250</td>
+<td>Network Specialist Certification</td>
+</tr>
+<tr class="odd">
+<td><strong>Kubernetes Monitoring Specialist</strong></td>
+<td>12</td>
+<td>240</td>
+<td>Observability Certified</td>
+</tr>
+<tr class="even">
+<td><strong>Multi-Cloud Kubernetes Architect</strong></td>
+<td>12</td>
+<td>260</td>
+<td>Multi-Cloud Architect Specialist</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="core-modules" class="level2">
+<h2 class="anchored" data-anchor-id="core-modules">📚 Core Modules</h2>
+<section id="module-1-kubernetes-fundamentals" class="level3">
+<h3 class="anchored" data-anchor-id="module-1-kubernetes-fundamentals">Module 1: Kubernetes Fundamentals</h3>
+<ul>
+<li>Pods, Deployments, Services</li>
+<li>ConfigMaps and Secrets</li>
+<li>Persistent Volumes and Claims</li>
+<li>Namespaces and RBAC</li>
+<li>Networking and DNS</li>
+</ul>
+</section>
+<section id="modules-2-12-specialized-tracks" class="level3">
+<h3 class="anchored" data-anchor-id="modules-2-12-specialized-tracks">Modules 2-12: Specialized tracks</h3>
+<p><strong>Code Examples:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Kubernetes Deployment</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">apiVersion</span><span class="kw">:</span><span class="at"> apps/v1</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">kind</span><span class="kw">:</span><span class="at"> Deployment</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">metadata</span><span class="kw">:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">name</span><span class="kw">:</span><span class="at"> nginx-deployment</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">spec</span><span class="kw">:</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">replicas</span><span class="kw">:</span><span class="at"> </span><span class="dv">3</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">selector</span><span class="kw">:</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">matchLabels</span><span class="kw">:</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">app</span><span class="kw">:</span><span class="at"> nginx</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">template</span><span class="kw">:</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">metadata</span><span class="kw">:</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">labels</span><span class="kw">:</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">app</span><span class="kw">:</span><span class="at"> nginx</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">spec</span><span class="kw">:</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">containers</span><span class="kw">:</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> nginx</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">image</span><span class="kw">:</span><span class="at"> nginx:1.14.2</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">ports</span><span class="kw">:</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="kw">-</span><span class="at"> </span><span class="fu">containerPort</span><span class="kw">:</span><span class="at"> </span><span class="dv">80</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Kubernetes Service</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">apiVersion</span><span class="kw">:</span><span class="at"> v1</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">kind</span><span class="kw">:</span><span class="at"> Service</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">metadata</span><span class="kw">:</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">name</span><span class="kw">:</span><span class="at"> nginx-service</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">spec</span><span class="kw">:</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">selector</span><span class="kw">:</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">app</span><span class="kw">:</span><span class="at"> nginx</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">ports</span><span class="kw">:</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">protocol</span><span class="kw">:</span><span class="at"> TCP</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">port</span><span class="kw">:</span><span class="at"> </span><span class="dv">80</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">targetPort</span><span class="kw">:</span><span class="at"> </span><span class="dv">80</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> LoadBalancer</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="specialization-tracks" class="level2">
+<h2 class="anchored" data-anchor-id="specialization-tracks">🏆 Specialization Tracks</h2>
+<ol type="1">
+<li><strong>Kubernetes Administrator (CKA)</strong> - Cluster administration</li>
+<li><strong>Kubernetes Developer (CKAD)</strong> - Application deployment</li>
+<li><strong>Kubernetes Security (CKS)</strong> - Security hardening</li>
+<li><strong>Service Mesh Engineer</strong> - Istio and Linkerd</li>
+<li><strong>Container Platform Architect</strong> - Enterprise K8s design</li>
+<li><strong>Kubernetes Operator Developer</strong> - Custom operators</li>
+<li><strong>Kubernetes Storage Engineer</strong> - Persistent storage</li>
+<li><strong>Kubernetes Networking Engineer</strong> - Advanced networking</li>
+<li><strong>Kubernetes Monitoring Specialist</strong> - Observability</li>
+<li><strong>Multi-Cloud Kubernetes Architect</strong> - Multi-cloud deployments</li>
+</ol>
+</section>
+<section id="statistics" class="level2">
+<h2 class="anchored" data-anchor-id="statistics">📊 Statistics</h2>
+<ul>
+<li><strong>Total Modules:</strong> 120</li>
+<li><strong>Learning Hours:</strong> 2,400+</li>
+<li><strong>Projects:</strong> 50+ Kubernetes projects</li>
+<li><strong>Certifications:</strong> 10+ Kubernetes certifications</li>
+</ul>
 <hr>
-<p><strong>Start Learning:</strong> <a href="https://planet-steam-app.vercel.app/academy/10-devops-ci-cd/junior/1">View in Module Player</a></p>
-<p>Built with Quarto | Planet STEAM</p>
+<p><strong>Built with ❤️ by Planet STEAM Academy</strong></p>
 
 
 </section>
