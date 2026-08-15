@@ -1,0 +1,156 @@
+{
+  "courses": [
+    {
+      "id": "01-python",
+      "name": "Python",
+      "emoji": "🐍",
+      "description": "Master Python programming from fundamentals to advanced patterns",
+      "tracks": [
+        {"id": "T01", "name": "Python Developer"},
+        {"id": "T02", "name": "Backend Developer"},
+        {"id": "T03", "name": "Data Engineer"},
+        {"id": "T04", "name": "ML Engineer"},
+        {"id": "T05", "name": "FastAPI Dev"},
+        {"id": "T06", "name": "Django Dev"},
+        {"id": "T07", "name": "Automation Engineer"},
+        {"id": "T08", "name": "Scraper Dev"},
+        {"id": "T09", "name": "ETL Developer"},
+        {"id": "T10", "name": "AI-LLM Engineer"}
+      ]
+    },
+    {
+      "id": "02-java",
+      "name": "Java / JVM",
+      "emoji": "☕",
+      "description": "Enterprise Java development and JVM ecosystem mastery",
+      "tracks": [
+        {"id": "T01", "name": "Java Developer"},
+        {"id": "T02", "name": "Backend Developer"},
+        {"id": "T03", "name": "Spring Boot Dev"},
+        {"id": "T04", "name": "Microservices Dev"},
+        {"id": "T05", "name": "Full Stack Dev"},
+        {"id": "T06", "name": "Kotlin Developer"},
+        {"id": "T07", "name": "Scala Developer"},
+        {"id": "T08", "name": "QA Automation"},
+        {"id": "T09", "name": "Security Engineer"},
+        {"id": "T10", "name": "Integration Dev"}
+      ]
+    },
+    {
+      "id": "03-javascript",
+      "name": "JavaScript / TypeScript",
+      "emoji": "🟨",
+      "description": "Full-stack JavaScript and modern web development",
+      "tracks": [
+        {"id": "T01", "name": "Frontend Developer"},
+        {"id": "T02", "name": "React Developer"},
+        {"id": "T03", "name": "Next.js Developer"},
+        {"id": "T04", "name": "Node.js Developer"},
+        {"id": "T05", "name": "Full Stack Dev"},
+        {"id": "T06", "name": "Vue.js Developer"},
+        {"id": "T07", "name": "Angular Developer"},
+        {"id": "T08", "name": "TypeScript Specialist"},
+        {"id": "T09", "name": "NestJS Dev"},
+        {"id": "T10", "name": "Performance Engineer"},
+        {"id": "T11", "name": "Mobile Web Dev"},
+        {"id": "T12", "name": "WebAssembly Dev"}
+      ]
+    },
+    {
+      "id": "04-aws",
+      "name": "AWS",
+      "emoji": "☁️",
+      "description": "Amazon Web Services cloud infrastructure and DevOps",
+      "tracks": [
+        {"id": "T01", "name": "AWS Developer"},
+        {"id": "T02", "name": "Cloud Engineer"},
+        {"id": "T03", "name": "Solutions Architect"},
+        {"id": "T04", "name": "DevOps Engineer"},
+        {"id": "T05", "name": "Data Engineer"},
+        {"id": "T06", "name": "ML Engineer"},
+        {"id": "T07", "name": "Security Engineer"},
+        {"id": "T08", "name": "Serverless Architect"},
+        {"id": "T09", "name": "FinOps Engineer"},
+        {"id": "T10", "name": "Platform Engineer"}
+      ]
+    },
+    {
+      "id": "05-azure",
+      "name": "Azure",
+      "emoji": "🔷",
+      "description": "Microsoft Azure cloud platform and enterprise solutions",
+      "tracks": [
+        {"id": "T01", "name": "Azure Developer"},
+        {"id": "T02", "name": "Azure Architect"},
+        {"id": "T03", "name": "AI Engineer"},
+        {"id": "T04", "name": "Data Engineer"},
+        {"id": "T05", "name": "DevOps Engineer"},
+        {"id": "T06", "name": "Security Engineer"},
+        {"id": "T07", "name": "Solutions Expert"},
+        {"id": "T08", "name": "Enterprise Architect"}
+      ]
+    },
+    {
+      "id": "06-gcp",
+      "name": "Google Cloud",
+      "emoji": "📊",
+      "description": "Google Cloud Platform and data analytics",
+      "tracks": [
+        {"id": "T01", "name": "GCP Developer"},
+        {"id": "T02", "name": "Cloud Architect"},
+        {"id": "T03", "name": "BigQuery Specialist"},
+        {"id": "T04", "name": "Data Engineer"},
+        {"id": "T05", "name": "ML Engineer"},
+        {"id": "T06", "name": "DevOps Engineer"}
+      ]
+    },
+    {
+      "id": "07-data-engineering",
+      "name": "Data Engineering",
+      "emoji": "📈",
+      "description": "Modern data pipelines and engineering practices",
+      "tracks": [
+        {"id": "T01", "name": "Data Engineer"},
+        {"id": "T02", "name": "ETL Developer"},
+        {"id": "T03", "name": "Pipeline Architect"},
+        {"id": "T04", "name": "Spark Developer"},
+        {"id": "T05", "name": "Lakehouse Engineer"},
+        {"id": "T06", "name": "Quality Engineer"},
+        {"id": "T07", "name": "Streaming Engineer"},
+        {"id": "T08", "name": "Analytics Engineer"},
+        {"id": "T09", "name": "dbt Developer"},
+        {"id": "T10", "name": "Data Ops"}
+      ]
+    },
+    {
+      "id": "08-devops",
+      "name": "DevOps / Platform / SRE",
+      "emoji": "🛠️",
+      "description": "Infrastructure, automation, and reliability engineering",
+      "tracks": [
+        {"id": "T01", "name": "DevOps Engineer"},
+        {"id": "T02", "name": "Platform Engineer"},
+        {"id": "T03", "name": "SRE Engineer"},
+        {"id": "T04", "name": "Kubernetes Engineer"},
+        {"id": "T05", "name": "CI-CD Specialist"},
+        {"id": "T06", "name": "Infrastructure Engineer"},
+        {"id": "T07", "name": "Security Engineer"},
+        {"id": "T08", "name": "Observability Engineer"}
+      ]
+    }
+  ],
+  "modules": [
+    "Fundamentals & Core Concepts",
+    "Best Practices & Architecture",
+    "APIs & Integration",
+    "Testing & Quality Assurance",
+    "Security & Authentication",
+    "Performance & Optimization",
+    "Async & Concurrency",
+    "Deployment & DevOps",
+    "Monitoring & Observability",
+    "Real-world Patterns",
+    "Advanced Techniques",
+    "Interview Prep & Portfolio Building"
+  ]
+}

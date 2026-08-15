@@ -1,7 +1,7 @@
 project:
   type: website
   title: "Planet STEAM"
-  output-dir: _output
+  output-dir: docs/courses/_output
 
 website:
   title: "Planet STEAM — 22 Courses"
@@ -14,3 +14,4 @@ format:
     theme: cosmo
     code-copy: true
     toc: true
+

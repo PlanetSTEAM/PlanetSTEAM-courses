@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet STEAM Academy - Interactive Learning Platform</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar: Courses & Navigation -->
+        <div class="sidebar">
+            <div class="sidebar-header">🚀</div>
+            <div class="sidebar-title">Planet STEAM Academy</div>
+            <div id="courses-container"></div>
+        </div>
+
+        <!-- Right Panel: Content & Learning -->
+        <div class="content-panel" id="content-panel">
+            <!-- Header -->
+            <div class="panel-header" id="panel-header">
+                <div class="breadcrumb">
+                    <span>Select a track to begin learning</span>
+                </div>
+                <h2>Welcome to Planet STEAM</h2>
+                <p class="track-info">22 Professional Courses • 100+ Specialized Tracks • 1,200+ Modules</p>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="panel-body">
+                <!-- Modules List (Left) -->
+                <div class="modules-list" id="modules-list"></div>
+
+                <!-- Content Display (Right) -->
+                <div class="content-display" id="content-display">
+                    <div style="text-align: center; padding: 60px 20px; color: #cbd5e1;">
+                        <p style="font-size: 16px; margin-bottom: 20px;">👈 Select a module from the list to start learning</p>
+                        <p style="font-size: 13px;">Each module includes theory, code examples, exercises, and interview preparation</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Navigation -->
+            <div class="panel-footer">
+                <div class="nav-buttons">
+                    <button id="prev-module" onclick="previousModule()">← Previous</button>
+                    <button id="next-module" onclick="nextModule()">Next →</button>
+                </div>
+                <button class="close-btn" onclick="closePanel()">← Back to Courses</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
