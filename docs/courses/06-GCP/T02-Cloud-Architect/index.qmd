@@ -1,0 +1,76 @@
+---
+title: "Google Cloud → Cloud Architect"
+subtitle: "12 Professional Learning Modules | ~240 Hours of Content"
+author: "Planet STEAM Academy"
+date: "2026-08-15"
+format:
+  html:
+    theme: darkly
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    code-summary: "Show Code"
+    highlight-style: github
+---
+
+# {COURSE} → {TRACK}
+
+## 🎯 Learning Path Overview
+
+**Track:** {TRACK}
+**Course:** {COURSE}
+**Modules:** 12
+**Estimated Time:** 240+ hours
+**Difficulty:** Beginner to Advanced
+
+---
+
+## 📚 Module Structure
+
+Each module includes:
+- ✅ **Theory & Concepts** - Core learning materials
+- ✅ **Code Examples** - Real-world code with execution
+- ✅ **Exercises** - Hands-on practice problems
+- ✅ **Projects** - Capstone projects
+- ✅ **Interview Prep** - Interview questions & answers
+
+---
+
+## 🚀 Ready to Start?
+
+Click on a module below to dive into the content. Each module is self-contained and builds upon previous knowledge.
+
+**Module 1:** Fundamentals & Core Concepts
+**Module 2:** Best Practices & Architecture
+**Module 3:** APIs & Integration
+**Module 4:** Testing & Quality Assurance
+**Module 5:** Security & Authentication
+**Module 6:** Performance & Optimization
+**Module 7:** Async & Concurrency
+**Module 8:** Deployment & DevOps
+**Module 9:** Monitoring & Observability
+**Module 10:** Real-world Patterns
+**Module 11:** Advanced Techniques
+**Module 12:** Interview Prep & Portfolio Building
+
+---
+
+## 📖 Full Content
+
+*Content from compiled modules will appear here when Quarto renders this file.*
+
+---
+
+## 🎓 How to Use This Track
+
+1. **Start with Module 1** and progress sequentially
+2. **Complete exercises** at the end of each module
+3. **Build projects** to apply learning
+4. **Review interview prep** before job searching
+5. **Reference concepts** as needed in your work
+
+---
+
+**Built with ❤️ by Planet STEAM Academy**
+**Last Updated:** 2026-08-15
+**Version:** MVP-1.3
