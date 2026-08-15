@@ -162,9 +162,12 @@
             text-align: center;
             cursor: pointer;
             transition: all 0.2s;
+            text-decoration: none;
+            display: block;
         }
         .track-item:hover {
             background: rgba(245, 166, 35, 0.1);
+            text-decoration: underline;
         }
         .section-title {
             font-size: 24px;
@@ -499,9 +502,11 @@
                     <div class="expand-icon">▼</div>
                 </div>
                 <div class="tracks-list">
-                    ${course.tracks.map((track, i) =>
-                        `<div class="track-item">Track ${i+1}: ${track}</div>`
-                    ).join('')}
+                    ${course.tracks.map((track, i) => {
+                        const courseId = id.split('-')[0];
+                        const trackPath = `courses/${id}/T${(i+1).toString().padStart(2, '0')}-${track.replace(/\s+/g, '-')}/`;
+                        return `<a href="${trackPath}" class="track-item" target="_blank">Track ${i+1}: ${track}</a>`;
+                    }).join('')}
                 </div>
             `;
 
