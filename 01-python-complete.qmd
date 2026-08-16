@@ -1,12 +1,18 @@
 ---
-# Sin title/subtitle/author: el visor de la app ya muestra la cabecera.
-# Evita duplicar el título dentro del iframe.
+# Sin title/subtitle/author/date: el visor de la app ya muestra la cabecera
+# y así no se duplica el título ni aparece el bloque AUTHOR / PUBLISHED.
 format:
   html:
     theme: cosmo
+    # Índice lateral navegable
     toc: true
-    toc-depth: 4
+    toc-depth: 3
     toc-location: left
+    toc-title: "On this page"
+    toc-expand: true
+    # Oculta el botón "</> Code" y el apéndice "Source Code" con el .qmd
+    code-tools: false
+    code-link: false
 ---
 
 # 📚 🐍 Python — Professional Mastery Program
