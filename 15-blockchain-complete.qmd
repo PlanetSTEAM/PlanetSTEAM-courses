@@ -1,11 +1,13 @@
 ---
-title: "Blockchain & Web3 — Professional Mastery Program"
-subtitle: "10 Specialized Tracks × 12 Modules = 120 Complete Learning Hours"
-author: "Planet STEAM Academy"
-date: "2026-08-15"
+# Sin title/subtitle/author/date: el visor de la app ya muestra la cabecera
 format:
   html:
     toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    toc-expand: true
+    code-tools: false
+    code-link: false
     toc-location: left
 ---
 
