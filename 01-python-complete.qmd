@@ -1,12 +1,12 @@
 ---
-title: "📚 🐍 Python Professional Mastery Program"
-subtitle: "Complete Bootcamp - 10 Specialization Tracks, 12 Modules Per Role, 240+ Hours"
-author: "Planet STEAM"
-date: today
+# Sin title/subtitle/author: el visor de la app ya muestra la cabecera.
+# Evita duplicar el título dentro del iframe.
 format:
   html:
+    theme: cosmo
     toc: true
     toc-depth: 4
+    toc-location: left
 ---
 
 # 📚 🐍 Python — Professional Mastery Program
