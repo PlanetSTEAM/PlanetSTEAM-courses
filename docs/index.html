@@ -503,9 +503,19 @@
                 </div>
                 <div class="tracks-list">
                     ${course.tracks.map((track, i) => {
-                        const courseId = id.split('-')[0];
-                        const trackPath = `courses/${id}/T${(i+1).toString().padStart(2, '0')}-${track.replace(/\s+/g, '-')}/`;
-                        return `<a href="${trackPath}" class="track-item" target="_blank">Track ${i+1}: ${track}</a>`;
+                        // Map course ID to compiled Quarto HTML files
+                        const courseFileMap = {
+                            '01-Python': '01-python-complete.html',
+                            '02-Java': '02-java-complete.html',
+                            '03-JavaScript': '03-javascript-complete.html',
+                            '04-AWS': '04-aws-complete.html',
+                            '05-Azure': '07-azure-complete.html',
+                            '06-GCP': '08-gcp-complete.html',
+                            '07-DataEngineering': '05-data-engineering-complete.html',
+                            '08-DevOps': '10-devops-complete.html'
+                        };
+                        const courseFile = courseFileMap[id] || id.toLowerCase() + '-complete.html';
+                        return `<a href="${courseFile}" class="track-item" target="_blank">📖 ${track}</a>`;
                     }).join('')}
                 </div>
             `;
