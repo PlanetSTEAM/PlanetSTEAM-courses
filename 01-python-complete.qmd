@@ -17,7 +17,29 @@ format:
 
 # 📚 🐍 Python — Professional Mastery Program
 
-**Status:** COMPLETE STRUCTURE | 10 SPECIALIZATION TRACKS | 120 MODULES | 240+ HOURS | 50+ PROJECTS
+::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 16px; margin: 24px 0;"}
+
+::: {style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; color: white; text-align: center;"}
+**120**
+Modules
+:::
+
+::: {style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; color: white; text-align: center;"}
+**240+**
+Hours
+:::
+
+::: {style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; color: white; text-align: center;"}
+**50+**
+Projects
+:::
+
+::: {style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; color: white; text-align: center;"}
+**10**
+Tracks
+:::
+
+:::
 
 ## Overview
 
@@ -25,57 +47,61 @@ Master 🐍 Python with a comprehensive, industry-aligned bootcamp spanning 10 s
 
 ---
 
-## Specialization Tracks (10)
+## 📋 Specialization Tracks (10)
 
-### 1. Python Developer
-**Focus:** Full-stack Python development | **Duration:** 240 hours | **Projects:** 5 | **Certs:** PCEP, PCAP
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 20px 0;"}
 
-Pathway for professionals building complete Python applications from concept to production.
+::: {style="border: 2px solid #667eea; border-radius: 8px; padding: 16px; background: #f8f9ff;"}
+**1. Python Developer**
+Full-stack Python applications | 240h | 5 projects
+:::
 
-### 2. Python Backend Developer
-**Focus:** Server-side APIs and web services | **Duration:** 240 hours | **Projects:** 5 | **Certs:** PCAP, PCPP1
+::: {style="border: 2px solid #764ba2; border-radius: 8px; padding: 16px; background: #f8f7ff;"}
+**2. Backend Developer**
+APIs & web services | 240h | 5 projects
+:::
 
-Master Django, FastAPI, REST APIs, and microservices architecture.
+::: {style="border: 2px solid #f093fb; border-radius: 8px; padding: 16px; background: #fff8f9;"}
+**3. Data Analyst**
+Data analysis & visualization | 200h | 4 projects
+:::
 
-### 3. Python Data Analyst
-**Focus:** Data analysis and visualization | **Duration:** 200 hours | **Projects:** 4 | **Certs:** PCEP, Data Analysis
+::: {style="border: 2px solid #f5576c; border-radius: 8px; padding: 16px; background: #fff7f7;"}
+**4. Data Engineer**
+ETL & big data pipelines | 250h | 5 projects
+:::
 
-Specialize in pandas, numpy, matplotlib, and data-driven decision making.
+::: {style="border: 2px solid #4facfe; border-radius: 8px; padding: 16px; background: #f0f8ff;"}
+**5. ML/AI Engineer**
+Machine learning & AI | 280h | 6 projects
+:::
 
-### 4. Python Data Engineer
-**Focus:** ETL pipelines and big data | **Duration:** 250 hours | **Projects:** 5 | **Certs:** PCAP, Data Engineering
+::: {style="border: 2px solid #00f2fe; border-radius: 8px; padding: 16px; background: #f0ffff;"}
+**6. DevOps Engineer**
+Infrastructure automation | 220h | 5 projects
+:::
 
-Build scalable data pipelines with Airflow, Spark, and cloud platforms (AWS, GCP, Azure).
+::: {style="border: 2px solid #43e97b; border-radius: 8px; padding: 16px; background: #f0fff4;"}
+**7. Full-Stack Developer**
+Frontend + backend | 260h | 6 projects
+:::
 
-### 5. Python ML/AI Engineer
-**Focus:** Machine learning and AI systems | **Duration:** 280 hours | **Projects:** 6 | **Certs:** PCPP1, ML Specialist
+::: {style="border: 2px solid #38f9d7; border-radius: 8px; padding: 16px; background: #f0fffa;"}
+**8. Systems Engineer**
+System automation | 210h | 4 projects
+:::
 
-Master scikit-learn, TensorFlow, PyTorch, and LLM integrations.
+::: {style="border: 2px solid #fa709a; border-radius: 8px; padding: 16px; background: #fff5f7;"}
+**9. Security Engineer**
+Security & testing | 240h | 5 projects
+:::
 
-### 6. Python DevOps Engineer
-**Focus:** Infrastructure automation | **Duration:** 220 hours | **Projects:** 5 | **Certs:** PCAP, DevOps Specialist
+::: {style="border: 2px solid #fee140; border-radius: 8px; padding: 16px; background: #fffef0;"}
+**10. Solutions Architect**
+Design & leadership | 200h | 4 projects
+:::
 
-Automate infrastructure with Docker, Kubernetes, Terraform, and CI/CD pipelines.
-
-### 7. Python Full-Stack Developer
-**Focus:** Frontend + backend development | **Duration:** 260 hours | **Projects:** 6 | **Certs:** PCAP, Full-Stack
-
-Build complete applications with Flask/Django, JavaScript, and modern databases.
-
-### 8. Python Systems Engineer
-**Focus:** System administration automation | **Duration:** 210 hours | **Projects:** 4 | **Certs:** PCEP, Systems Admin
-
-Automate infrastructure, OS-level tasks, and server management.
-
-### 9. Python Security Engineer
-**Focus:** Security automation and testing | **Duration:** 240 hours | **Projects:** 5 | **Certs:** PCAP, Security Specialist
-
-Master cryptography, penetration testing, and secure coding practices.
-
-### 10. Python Solutions Architect
-**Focus:** Solution design and leadership | **Duration:** 200 hours | **Projects:** 4 | **Certs:** PCPP1, Architecture
-
-Design scalable solutions, lead technical teams, and mentor junior developers.
+:::
 
 ---
 
@@ -92,12 +118,59 @@ Design scalable solutions, lead technical teams, and mentor junior developers.
 
 ---
 
-## Module Structure (Per Role)
+## 📚 Module Structure (12 Modules Per Track)
 
-Each role contains 12 progressive modules:
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin: 20px 0;"}
 
-1. **Fundamentals & Setup** — Environment, basics, IDE configuration
-2. **Data Types & Variables** — Strings, numbers, collections, types
+::: {style="background: #667eea; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M01: Fundamentals & Setup
+:::
+
+::: {style="background: #764ba2; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M02: Data Types & Variables
+:::
+
+::: {style="background: #f093fb; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M03: Control Flow & Functions
+:::
+
+::: {style="background: #f5576c; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M04: Object-Oriented Programming
+:::
+
+::: {style="background: #4facfe; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M05: File I/O & Exception Handling
+:::
+
+::: {style="background: #00f2fe; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M06: Working with Libraries & APIs
+:::
+
+::: {style="background: #43e97b; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M07: Data Processing & Analysis
+:::
+
+::: {style="background: #38f9d7; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M08: Database Management
+:::
+
+::: {style="background: #fa709a; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M09: Web & API Development
+:::
+
+::: {style="background: #fee140; color: #333; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M10: Testing & Debugging
+:::
+
+::: {style="background: #30b0c0; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M11: Deployment & DevOps
+:::
+
+::: {style="background: #9b59b6; color: white; padding: 12px; border-radius: 6px; text-align: center; font-weight: 600;"}
+M12: Capstone & Real Projects
+:::
+
+:::
 3. **Control Flow** — If/else, loops, comprehensions, conditions
 4. **Functions & Methods** — Def, args, kwargs, decorators, generators
 5. **Object-Oriented Programming** — Classes, inheritance, polymorphism, SOLID

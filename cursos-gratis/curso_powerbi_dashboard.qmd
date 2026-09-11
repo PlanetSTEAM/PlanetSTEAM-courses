@@ -1,0 +1,59 @@
+---
+title: "Introducción a Power BI"
+subtitle: "Cómo incrustar un reporte dentro de un curso Quarto"
+author: "Luis Carreño"
+lang_curso: powerbi
+target_role: "Data Analyst / BI"
+level: "Básico"
+is_free_preview: true
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# 1. ¿Qué es Power BI?
+
+Power BI es la herramienta de Microsoft para construir dashboards y reportes interactivos a
+partir de datos. A diferencia de R/Python, aquí no se trata de código que Quarto ejecuta —
+se trata de incrustar un reporte ya publicado dentro de la página.
+
+# 2. Publicar tu reporte para incrustarlo
+
+En Power BI Desktop o Power BI Service: `Archivo → Publicar → Publicar en la Web`. Esto genera
+un link de incrustación público (sin login) — es exactamente lo que necesita este curso gratis.
+
+# 3. Incrustar el reporte
+
+Quarto no ejecuta esto, solo lo incluye tal cual mediante un bloque de HTML crudo:
+
+```{=html}
+<iframe title="Dashboard de ejemplo" width="100%" height="480"
+  src="https://app.powerbi.com/view?r=REEMPLAZA_CON_TU_ID"
+  frameborder="0" allowFullScreen="true"></iframe>
+```
+
+# 4. Alternativa: Tableau Public
+
+Mismo patrón, con el embed que genera Tableau Public al publicar una visualización:
+
+```{=html}
+<div class='tableauPlaceholder' style='width:100%;height:480px'>
+  <object class='tableauViz' width='100%' height='480'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='REEMPLAZA/REEMPLAZA' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+  </object>
+</div>
+```
+
+# 5. 🔴 Nota de seguridad — no usar este método con datos sensibles
+
+"Publicar en la Web" genera un link **públicamente accesible por cualquiera que lo tenga**, sin
+posibilidad de exigir login ni plan — perfecto para este curso de ejemplo (es gratis, no hay
+nada que proteger), pero **nunca uses este método con dashboards que muestren datos reales de
+usuarios, ventas o negocio**. Para eso existe Power BI Embedded con seguridad a nivel de fila
+(row-level security) — un tema de Fase 6+/Enterprise, fuera de alcance aquí.

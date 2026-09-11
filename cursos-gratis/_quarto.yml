@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Planet STEAM — Cursos Gratis"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: curso_python_intro.qmd
+        text: Python
+      - href: curso_r_intro.qmd
+        text: R
+      - href: curso_powerbi_dashboard.qmd
+        text: Power BI
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left

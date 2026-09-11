@@ -1,0 +1,64 @@
+---
+title: "R y RStudio — Introducción"
+subtitle: "Curso introductorio — vector, promedio y tu primer gráfico"
+author: "Luis Carreño"
+lang_curso: r
+target_role: "Data Analyst"
+level: "Básico"
+is_free_preview: true
+format:
+  html:
+    toc: true
+    toc-location: left
+---
+
+# 1. ¿Qué es R?
+
+R es un lenguaje de programación y un entorno de software libre, usado principalmente para
+computación estadística y gráficos. Tiene una vasta colección de paquetes que permiten desde
+regresiones simples hasta machine learning avanzado.
+
+# 2. ¿Qué es RStudio?
+
+RStudio es un Entorno de Desarrollo Integrado (IDE) para R. R es el motor que ejecuta el
+código; RStudio es el tablero de control que facilita escribirlo, organizarlo y visualizarlo.
+
+# 3. Instalar R y RStudio
+
+- R desde [CRAN](https://cran.r-project.org/).
+- RStudio Desktop (gratis) desde [posit.co](https://posit.co/download/rstudio-desktop/).
+
+# 4. Tu primer código
+
+```{r}
+# La suma más simple
+2 + 2
+```
+
+# 5. Vector y promedio
+
+```{r}
+ventas <- c(150, 200, 180, 250, 300, 220)
+promedio_ventas <- mean(ventas)
+print(paste("El promedio de ventas es:", promedio_ventas))
+```
+
+# 6. Tu primer gráfico
+
+```{r}
+nombres_meses <- c("Ene", "Feb", "Mar", "Abr", "May", "Jun")
+barplot(ventas,
+        names.arg = nombres_meses,
+        main = "Ventas mensuales",
+        xlab = "Meses",
+        ylab = "Ventas",
+        col = "#22D3EE")
+```
+
+# 7. Practica
+
+Sin instalar nada, puedes probar código R directo en el navegador en
+[mycompiler.io/es/new/r](https://www.mycompiler.io/es/new/r).
+
+> Curso completo con más de 30 librerías de ejemplo: `R_y_R_Studio.qmd` en el repo
+> `PlanetSTEAM-courses`. Esta versión es la plantilla corta para el área gratuita.

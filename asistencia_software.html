@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Asistencia - Ingeniería de Software</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4472C4 0%, #366092 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 25px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .search-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            font-size: 12px;
+            color: #333;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .form-group input {
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #4472C4;
+            box-shadow: 0 0 5px rgba(68, 114, 196, 0.3);
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        .btn-primary {
+            background: #4472C4;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #366092;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(68, 114, 196, 0.3);
+        }
+
+        .btn-secondary {
+            background: #70AD47;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a9136;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(112, 173, 71, 0.3);
+        }
+
+        .btn-danger {
+            background: #c00000;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #900000;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(192, 0, 0, 0.3);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .stat-box {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #4472C4;
+        }
+
+        .stat-box h3 {
+            font-size: 24px;
+            color: #4472C4;
+            margin-bottom: 5px;
+        }
+
+        .stat-box p {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        thead {
+            background: #f0f0f0;
+            position: sticky;
+            top: 0;
+        }
+
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: bold;
+            color: #333;
+            border-bottom: 2px solid #4472C4;
+            text-transform: uppercase;
+            font-size: 11px;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tbody tr:hover {
+            background: #f9f9f9;
+            transition: background 0.2s;
+        }
+
+        tbody tr.hidden {
+            display: none;
+        }
+
+        .checkbox-cell input {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: #4472C4;
+        }
+
+        .input-small {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 12px;
+            width: 100%;
+        }
+
+        .input-small:focus {
+            outline: none;
+            border-color: #4472C4;
+            box-shadow: 0 0 3px rgba(68, 114, 196, 0.3);
+        }
+
+        .group-badge {
+            background: #4472C4;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .present {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .footer {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-top: 1px solid #e0e0e0;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .search-container {
+                grid-template-columns: 1fr;
+            }
+
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            table {
+                font-size: 11px;
+            }
+
+            th, td {
+                padding: 8px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Control de Asistencia</h1>
+            <p>Curso de Ingeniería de Software - Ciclo 2024</p>
+        </div>
+
+        <div class="controls">
+            <div class="search-container">
+                <div class="form-group">
+                    <label>Buscar por Nombre:</label>
+                    <input type="text" id="searchName" placeholder="Ej: Luis Carreño">
+                </div>
+                <div class="form-group">
+                    <label>Buscar por Grupo:</label>
+                    <input type="number" id="searchGroup" placeholder="Ej: 1" min="1" max="32">
+                </div>
+                <div class="form-group">
+                    <label>Filtrar por Estado:</label>
+                    <input type="text" id="searchStatus" placeholder="Presentes o Ausentes">
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button class="btn btn-primary" onclick="filterTable()">🔍 Buscar</button>
+                <button class="btn btn-secondary" onclick="exportData()">📥 Descargar</button>
+                <button class="btn btn-danger" onclick="clearData()">🗑️ Limpiar Todo</button>
+            </div>
+
+            <div class="stats">
+                <div class="stat-box">
+                    <h3 id="totalStudents">126</h3>
+                    <p>Total Estudiantes</p>
+                </div>
+                <div class="stat-box">
+                    <h3 id="presentCount">0</h3>
+                    <p>Presentes</p>
+                </div>
+                <div class="stat-box">
+                    <h3 id="absentCount">126</h3>
+                    <p>Ausentes</p>
+                </div>
+                <div class="stat-box">
+                    <h3 id="attendancePercent">0%</h3>
+                    <p>Asistencia</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nro</th>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Grupo</th>
+                        <th>Presente</th>
+                        <th>Teléfono / Alias</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTable">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>💾 Los datos se guardan automáticamente en tu navegador • Última actualización: <span id="lastUpdate">Nunca</span></p>
+        </div>
+    </div>
+
+    <script>
+        // Datos de estudiantes
+        const students = [
+            {nro: 1, name: "FARIZ NAHUM ESCURRA CHAVEZ", email: "N00077916@upn.pe", group: 1},
+            {nro: 2, name: "JOSSELYN KAREN NAUPARI MELGAR", email: "N00196640@upn.pe", group: 2},
+            {nro: 3, name: "MAIDER ARAUJO ACUÑA", email: "N00206984@upn.pe", group: 3},
+            {nro: 4, name: "LUIS ANGEL TAFUR SAENZ", email: "N00242388@upn.pe", group: 4},
+            {nro: 5, name: "JOSE BERNARDO SALVATIERRA SOTO", email: "N00295690@upn.pe", group: 5},
+            {nro: 6, name: "GERMAN ALBERTO BERRIOS LOPEZ", email: "N00304377@upn.pe", group: 6},
+            {nro: 7, name: "OSCAR STYFF MORENO RIOS", email: "N00342930@upn.pe", group: 7},
+            {nro: 8, name: "EDISON HALANOCCA CCAHUATA", email: "N00344636@upn.pe", group: 8},
+            {nro: 9, name: "ANDREA ANTUANE ROJAS DELGADO", email: "N00358409@upn.pe", group: 9},
+            {nro: 10, name: "EDGAR IVAN ALVITES RODRIGUEZ", email: "N00367957@upn.pe", group: 10},
+            {nro: 11, name: "GIANMARCO VILCHEZ ISIDRO", email: "N00370876@upn.pe", group: 11},
+            {nro: 12, name: "JORDAN LUIS VASQUEZ SILVANO", email: "N00379005@upn.pe", group: 12},
+            {nro: 13, name: "DANIEL ROMERO QUISPE", email: "N00411663@upn.pe", group: 13},
+            {nro: 14, name: "WILLIAM ALBERTO SURCO FERNANDEZ", email: "N00416759@upn.pe", group: 14},
+            {nro: 15, name: "LURDES CONSUELO LOPEZ BARDALES", email: "N00421978@upn.pe", group: 15},
+            {nro: 16, name: "PEDRO VICENTE ESPINOZA LUJAN", email: "N00433134@upn.pe", group: 16},
+            {nro: 17, name: "ROLANDO ALEXANDER ROBLES HERNANDEZ", email: "N00515123@upn.pe", group: 17},
+            {nro: 18, name: "JOSEPH JEREMI DAVILA SUAREZ", email: "N00524759@upn.pe", group: 18},
+            {nro: 19, name: "KAROL MELISSA DAVILA CARDENAS", email: "N00525819@upn.pe", group: 19},
+            {nro: 20, name: "CARLOS JORDAN LEON BOBADILLA", email: "N00527125@upn.pe", group: 20},
+            {nro: 21, name: "JORGE LUIS RENTERIA MAURATE", email: "N00528584@upn.pe", group: 21},
+            {nro: 22, name: "DIANA MILAGROS ORIA MOLINA", email: "N00529176@upn.pe", group: 22},
+            {nro: 23, name: "RODRIGO ALEXANDER DIOSES NEYRA", email: "N00542275@upn.pe", group: 23},
+            {nro: 24, name: "OTTO MANUEL LLACZA ALTAMIRANO", email: "N00561336@upn.pe", group: 24},
+            {nro: 25, name: "ROSA PAOLA GUEVARA CAMPOS", email: "N00561548@upn.pe", group: 25},
+            {nro: 26, name: "DENILSON HILARIO CCOLQQUE", email: "N00561571@upn.pe", group: 26},
+            {nro: 27, name: "JOSEB ODEON HUAMAN ARENAS", email: "N00561725@upn.pe", group: 27},
+            {nro: 28, name: "MIGUEL ANGEL AYALA VALDERRAMA", email: "N00561737@upn.pe", group: 28},
+            {nro: 29, name: "ALDAIR EMERSON PERCY ALARCON CAMACHO", email: "N00561963@upn.pe", group: 29},
+            {nro: 30, name: "DEIVID GABRIEL SARMIENTO SUXO", email: "N00562715@upn.pe", group: 30},
+            {nro: 31, name: "MIGUEL ANTONY MENDOZA DIAZ", email: "N00562736@upn.pe", group: 1},
+            {nro: 32, name: "KATHERINE BRILLIT PUCHURI VELASQUEZ", email: "N00563013@upn.pe", group: 2},
+            {nro: 33, name: "BRYAN SEBASTIAN NARVAEZ RODRIGUEZ", email: "N00563193@upn.pe", group: 3},
+            {nro: 34, name: "MARIANO GEOVANNI SILVA RAMOS", email: "N00563246@upn.pe", group: 4},
+            {nro: 35, name: "MICHAEL LINO QUISPE RAMOS", email: "N00563683@upn.pe", group: 5},
+            {nro: 36, name: "ALEJANDRO DANIEL OBLEA FLORES", email: "N00564081@upn.pe", group: 6},
+            {nro: 37, name: "ISAC HOYOS CASTRO", email: "N00564739@upn.pe", group: 7},
+            {nro: 38, name: "WILLIAM BRAD ANTONY MONSALVE CABRERA", email: "N00564776@upn.pe", group: 8},
+            {nro: 39, name: "CRISTHIAN ALEXANDER QUISPE SICOS", email: "N00565598@upn.pe", group: 9},
+            {nro: 40, name: "TRACY DAYANA MERCADO GUTIERREZ", email: "N00565767@upn.pe", group: 31},
+            {nro: 41, name: "YAMIL ALEXANDER HERNANDEZ VICENTE", email: "N00566068@upn.pe", group: 10},
+            {nro: 42, name: "JOSE ELMER ZAMBRANO VASQUEZ", email: "N00566118@upn.pe", group: 11},
+            {nro: 43, name: "LUIS JESUS DIONICIO ZUÑIGA", email: "N00566213@upn.pe", group: 12},
+            {nro: 44, name: "JHON PAUL BAZAN TAYPE", email: "N00566230@upn.pe", group: 13},
+            {nro: 45, name: "CRISTIAN LEONARDO ORTIZ REVOLLAR", email: "N00566367@upn.pe", group: 14},
+            {nro: 46, name: "ADOLFO SILNER CABRERA PEDRAZA", email: "N00566604@upn.pe", group: 15},
+            {nro: 47, name: "KARLA ESTHER REYES PIUCA", email: "N00566653@upn.pe", group: 16},
+            {nro: 48, name: "IVAN FRANCISCO MIÑAN BANCES", email: "N00566893@upn.pe", group: 17},
+            {nro: 49, name: "JONH PAUL CASTELO SOLOAGA", email: "N00566911@upn.pe", group: 18},
+            {nro: 50, name: "JHOSSUE KASSIN SANTAMARIA PASCUAL", email: "N00567079@upn.pe", group: 19},
+            {nro: 51, name: "FERNANDO JOAQUIN ENEQUE NOVOA", email: "N00567339@upn.pe", group: 20},
+            {nro: 52, name: "FLOR ANGHIE TELLO FERNÁNDEZ", email: "N00567530@upn.pe", group: 21},
+            {nro: 53, name: "LEONARDO JAVIER NAMOC MANRIQUE", email: "N00567777@upn.pe", group: 22},
+            {nro: 54, name: "JOSELYN NICOL BENAVENTE BENAVENTE", email: "N00567827@upn.pe", group: 23},
+            {nro: 55, name: "ARMANDO SEGUNDO BARDALEZ MAFALDO", email: "N00567915@upn.pe", group: 24},
+            {nro: 56, name: "SERGIO DAVID JUAREZ ANGULO", email: "N00567977@upn.pe", group: 25},
+            {nro: 57, name: "CHRISTOPHER YOUSSHUA RICARDO GUERRERO HUARACHE", email: "N00568081@upn.pe", group: 26},
+            {nro: 58, name: "ELOY ANDERSON EDUARDO FLORES TANTAVILCA", email: "N00568114@upn.pe", group: 27},
+            {nro: 59, name: "ETSON NISERET EGOAVIL BALTAZAR", email: "N00568126@upn.pe", group: 28},
+            {nro: 60, name: "DENIS TINEO QUISPE", email: "N00568643@upn.pe", group: 29},
+            {nro: 61, name: "PEDRO FERNANDO CUMPA VIVANCO", email: "N00568849@upn.pe", group: 30},
+            {nro: 62, name: "GIANFRANCO MATIAS CHUYES SARMIENTO", email: "N00568920@upn.pe", group: 1},
+            {nro: 63, name: "LUIS ALBERTO CARREÑO YUNCAR", email: "N00569059@upn.pe", group: 31},
+            {nro: 64, name: "GUSTAVO ADOLFO CHOQUE JOVE", email: "N00569980@upn.pe", group: 2},
+            {nro: 65, name: "LUIS GERARDO GASPAR ESCATE", email: "N00570024@upn.pe", group: 3},
+            {nro: 66, name: "ARLENE PILAR CHAVEZ RUIZ", email: "N00570302@upn.pe", group: 4},
+            {nro: 67, name: "ODY DAVID SILVERA ABENIO", email: "N00570319@upn.pe", group: 5},
+            {nro: 68, name: "MATEO ISRAEL CANTARO JIMENO", email: "N00570815@upn.pe", group: 6},
+            {nro: 69, name: "KELLY ESMERALDA ALBINO CASTILLO", email: "N00570822@upn.pe", group: 7},
+            {nro: 70, name: "ANGIE LUCIA VALENZUELA VINCULA", email: "N00571435@upn.pe", group: 8},
+            {nro: 71, name: "MIGUEL ALONSO ANDRADE MARQUEZ", email: "N00571465@upn.pe", group: 9},
+            {nro: 72, name: "JHORDY BARRETO CRUZ", email: "N00571492@upn.pe", group: 10},
+            {nro: 73, name: "NILVER LEODAN CHAVARRY HERNANDEZ", email: "N00571651@upn.pe", group: 11},
+            {nro: 74, name: "WAGNERT MANGA MERCADO", email: "N00571782@upn.pe", group: 12},
+            {nro: 75, name: "VICTOR ALBERTO ALCOCER ACOSTA", email: "N00572129@upn.pe", group: 13},
+            {nro: 76, name: "LUIS ANTONIO PARIAHUAMAN HUATUCO", email: "N00572627@upn.pe", group: 14},
+            {nro: 77, name: "JORGE DAVID CEDRON PLASENCIA", email: "N00572669@upn.pe", group: 15},
+            {nro: 78, name: "LUIS ALBERTO CALDERON VERA", email: "N00572806@upn.pe", group: 16},
+            {nro: 79, name: "CARLOS DARIEL ARRIETA QUISPE", email: "N00573193@upn.pe", group: 17},
+            {nro: 80, name: "YULIANA PAOLA LLACHUA ESTELA", email: "N00573843@upn.pe", group: 18},
+            {nro: 81, name: "EMILIO MANUEL ARRIAGA ROMERO", email: "N00573890@upn.pe", group: 19},
+            {nro: 82, name: "RODRIGO MARCELO DIAZ FERNANDEZ", email: "N00573953@upn.pe", group: 20},
+            {nro: 83, name: "JUAN RAUL BECERRA SANCHEZ", email: "N00574093@upn.pe", group: 21},
+            {nro: 84, name: "CESAR AUGUSTO MENESES SULCA", email: "N00574137@upn.pe", group: 22},
+            {nro: 85, name: "DANY DANIEL GOYZUETA DURAND", email: "N00574175@upn.pe", group: 23},
+            {nro: 86, name: "RUBEN PALOMINO HUILLCA", email: "N00574238@upn.pe", group: 24},
+            {nro: 87, name: "DAVID TORRES CHARCA", email: "N00574422@upn.pe", group: 25},
+            {nro: 88, name: "GREGORY BRAYAN SINARAHUA VARGAS", email: "N00574473@upn.pe", group: 26},
+            {nro: 89, name: "IVAN RAMIRO ALANOCA ROJAS", email: "N00574521@upn.pe", group: 27},
+            {nro: 90, name: "HANZ NED AARON CHIHUA TORRES", email: "N00574946@upn.pe", group: 28},
+            {nro: 91, name: "SANDRO JESUS CHAVEZ MISAICO", email: "N00575120@upn.pe", group: 29},
+            {nro: 92, name: "THALIA MIRANDA VARGAS", email: "N00575182@upn.pe", group: 30},
+            {nro: 93, name: "MARITZA ROSALINDA QUISPE CERON", email: "N00575387@upn.pe", group: 1},
+            {nro: 94, name: "SEBASTIAN ORLANDO PEREYRA RIVAS", email: "N00575656@upn.pe", group: 2},
+            {nro: 95, name: "JASON GABRIEL RUIZ AUZA", email: "N00575741@upn.pe", group: 3},
+            {nro: 96, name: "JOSE LUIS PALOMINO RODRIGUEZ", email: "N00575871@upn.pe", group: 4},
+            {nro: 97, name: "LUIS ALBERTO CHECCANI BOCANEGRA", email: "N00575888@upn.pe", group: 5},
+            {nro: 98, name: "RUBEN ANTHONY RUIZ ALIAGA", email: "N00575943@upn.pe", group: 6},
+            {nro: 99, name: "STIVEN RIVER QUISPE MARCHENA", email: "N00576281@upn.pe", group: 7},
+            {nro: 100, name: "ROBERT PACHECO GONZALES", email: "N00576294@upn.pe", group: 8},
+            {nro: 101, name: "JOSE ARTURO QUIROZ AMAYA", email: "N00576511@upn.pe", group: 9},
+            {nro: 102, name: "MARLON HUBERTH ALIAGA MAYORCA", email: "N00576549@upn.pe", group: 10},
+            {nro: 103, name: "MAX ANDRE TSUKIASHI SANTA CRUZ", email: "N00576715@upn.pe", group: 11},
+            {nro: 104, name: "SALVADOR ALONSO TOBALA ZARATE", email: "N00576988@upn.pe", group: 12},
+            {nro: 105, name: "CHRISTIAN JUNIOR QUISPE MONTES", email: "N00577153@upn.pe", group: 13},
+            {nro: 106, name: "ALEXANDER DAVID GARCÍA GODOY", email: "N00577257@upn.pe", group: 14},
+            {nro: 107, name: "LINCOL BRAIS NUÑEZ CULQUI", email: "N00577355@upn.pe", group: 15},
+            {nro: 108, name: "FABIAN ELIAS DE LA CRUZ VERA", email: "N00577481@upn.pe", group: 16},
+            {nro: 109, name: "DEAN LESTER CERVANTES VILLAVICENCIO", email: "N00577789@upn.pe", group: 17},
+            {nro: 110, name: "JERY MIGUELINA URACO MURAYARI", email: "N00577833@upn.pe", group: 18},
+            {nro: 111, name: "BILLY JUNIOR SANTOS TRUCIOS", email: "N00577949@upn.pe", group: 19},
+            {nro: 112, name: "MARIA IDUVINA LLAMO ESQUEN", email: "N00578227@upn.pe", group: 20},
+            {nro: 113, name: "ELIAS RAFAEL PURISACA FLORES", email: "N00578507@upn.pe", group: 21},
+            {nro: 114, name: "JESUS DAVID RODRIGUEZ CHAVEZ", email: "N00579240@upn.pe", group: 22},
+            {nro: 115, name: "MARCOS ANTONIO QUISPE VASQUEZ", email: "N00579454@upn.pe", group: 23},
+            {nro: 116, name: "ALEXANDER ERICSON HILARION BERNAOLA", email: "N00579486@upn.pe", group: 24},
+            {nro: 117, name: "JORGE LUIS FLORES MERINO", email: "N00579531@upn.pe", group: 25},
+            {nro: 118, name: "MANUEL ENRIQUE FLORES PORTUGAL", email: "N00579536@upn.pe", group: 26},
+            {nro: 119, name: "JHONATAN ROBERT CABELLO SOLÓN", email: "N00579587@upn.pe", group: 27},
+            {nro: 120, name: "LUIS EDUARDO PINO MORENO", email: "N00579852@upn.pe", group: 28},
+            {nro: 121, name: "JHON ALEXANDER ZAVALETA SANCHEZ", email: "N00579956@upn.pe", group: 29},
+            {nro: 122, name: "ANJHELO JESUS CAMPOS CORONADO", email: "N00580222@upn.pe", group: 30},
+            {nro: 123, name: "IERALDINE ANDREA CARRERA ZEGARRA", email: "N00580506@upn.pe", group: 1},
+            {nro: 124, name: "RONALD CASTRO RIVERA", email: "N00580574@upn.pe", group: 2},
+            {nro: 125, name: "DIEGO ALONSO ALFARO ARCE", email: "N00580631@upn.pe", group: 3},
+            {nro: 126, name: "EVELYN IRMA TORRES RIVERA", email: "N00580646@upn.pe", group: 32}
+        ];
+
+        // Cargar datos al iniciar
+        window.addEventListener('load', function() {
+            renderTable();
+            updateStats();
+            updateLastUpdate();
+        });
+
+        function renderTable() {
+            const tbody = document.getElementById('studentTable');
+            tbody.innerHTML = '';
+
+            students.forEach(student => {
+                const row = document.createElement('tr');
+                const stored = getStudentData(student.nro);
+                
+                if (stored && stored.present) {
+                    row.classList.add('present');
+                }
+
+                row.innerHTML = `
+                    <td>${student.nro}</td>
+                    <td><strong>${student.name}</strong></td>
+                    <td style="font-size: 11px; color: #666;">${student.email}</td>
+                    <td><span class="group-badge">Grupo ${student.group}</span></td>
+                    <td class="checkbox-cell">
+                        <input type="checkbox" ${stored && stored.present ? 'checked' : ''} onchange="updateStudent(${student.nro}, this.checked, document.getElementById('phone-${student.nro}').value)">
+                    </td>
+                    <td>
+                        <input type="text" id="phone-${student.nro}" class="input-small" placeholder="Ej: 987654321" value="${stored && stored.phone ? stored.phone : ''}" onchange="updateStudent(${student.nro}, document.getElementById('checkbox-${student.nro}').checked, this.value)" onkeyup="updateStudent(${student.nro}, document.getElementById('checkbox-${student.nro}').checked, this.value)">
+                    </td>
+                `;
+
+                // Agregar id al checkbox
+                const checkbox = row.querySelector('input[type="checkbox"]');
+                checkbox.id = `checkbox-${student.nro}`;
+
+                tbody.appendChild(row);
+            });
+        }
+
+        function updateStudent(nro, present, phone) {
+            const data = {
+                present: present,
+                phone: phone
+            };
+            localStorage.setItem(`student_${nro}`, JSON.stringify(data));
+            updateStats();
+            updateLastUpdate();
+            
+            // Actualizar color de fila
+            const rows = document.querySelectorAll('tbody tr');
+            const index = students.findIndex(s => s.nro === nro);
+            if (index >= 0) {
+                if (present) {
+                    rows[index].classList.add('present');
+                } else {
+                    rows[index].classList.remove('present');
+                }
+            }
+        }
+
+        function getStudentData(nro) {
+            const data = localStorage.getItem(`student_${nro}`);
+            return data ? JSON.parse(data) : null;
+        }
+
+        function updateStats() {
+            let presentCount = 0;
+            students.forEach(student => {
+                const data = getStudentData(student.nro);
+                if (data && data.present) {
+                    presentCount++;
+                }
+            });
+
+            const absentCount = students.length - presentCount;
+            const percent = Math.round((presentCount / students.length) * 100);
+
+            document.getElementById('presentCount').textContent = presentCount;
+            document.getElementById('absentCount').textContent = absentCount;
+            document.getElementById('attendancePercent').textContent = percent + '%';
+        }
+
+        function filterTable() {
+            const searchName = document.getElementById('searchName').value.toUpperCase();
+            const searchGroup = document.getElementById('searchGroup').value;
+            const searchStatus = document.getElementById('searchStatus').value.toUpperCase();
+            const rows = document.querySelectorAll('tbody tr');
+
+            rows.forEach((row, index) => {
+                const student = students[index];
+                const data = getStudentData(student.nro);
+                const present = data && data.present;
+                let statusText = present ? 'PRESENTE' : 'AUSENTE';
+
+                let show = true;
+
+                if (searchName && !student.name.includes(searchName)) {
+                    show = false;
+                }
+
+                if (searchGroup && parseInt(searchGroup) !== student.group) {
+                    show = false;
+                }
+
+                if (searchStatus && !statusText.includes(searchStatus)) {
+                    show = false;
+                }
+
+                row.classList.toggle('hidden', !show);
+            });
+        }
+
+        function exportData() {
+            let csv = 'Nro,Nombre,Correo,Grupo,Presente,Teléfono\n';
+            
+            students.forEach(student => {
+                const data = getStudentData(student.nro);
+                const present = data && data.present ? 'Sí' : 'No';
+                const phone = data && data.phone ? data.phone : '-';
+                csv += `${student.nro},"${student.name}",${student.email},${student.group},${present},${phone}\n`;
+            });
+
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'asistencia_software.csv';
+            a.click();
+            window.URL.revokeObjectURL(url);
+        }
+
+        function clearData() {
+            if (confirm('¿Estás seguro de que deseas limpiar toda la asistencia? Esta acción no se puede deshacer.')) {
+                for (let i = 1; i <= students.length; i++) {
+                    localStorage.removeItem(`student_${i}`);
+                }
+                renderTable();
+                updateStats();
+                updateLastUpdate();
+            }
+        }
+
+        function updateLastUpdate() {
+            const now = new Date();
+            const time = now.toLocaleTimeString('es-PE');
+            const date = now.toLocaleDateString('es-PE');
+            document.getElementById('lastUpdate').textContent = `${date} a las ${time}`;
+        }
+
+        // Permitir búsqueda en tiempo real
+        document.getElementById('searchName').addEventListener('input', filterTable);
+        document.getElementById('searchGroup').addEventListener('input', filterTable);
+        document.getElementById('searchStatus').addEventListener('input', filterTable);
+    </script>
+</body>
+</html>
