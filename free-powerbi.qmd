@@ -1,0 +1,358 @@
+---
+title: "Introduction to Power BI"
+subtitle: "How to embed a report in a course"
+author: "Planet STEAM"
+date: 2026-09-22
+format: html
+---
+
+# 📈 Introduction to Power BI
+
+How to publish a Power BI report to the Web and embed it inside a course page — includes a Tableau Public alternative and an important security note on what data you should never publish this way.
+
+## Learning Objectives
+
+After this course, you will:
+- ✓ Understand Power BI's desktop → web publishing workflow
+- ✓ Create a simple dashboard in Power BI Desktop
+- ✓ Publish to Power BI Web Service
+- ✓ Generate an embed code for your course
+- ✓ Know which data is safe to share publicly
+
+---
+
+## Module 1: Power BI Fundamentals
+
+### 1.1 What is Power BI?
+
+**Power BI** is a business analytics tool by Microsoft that:
+
+1. **Connects** to your data sources (Excel, SQL, APIs, etc.)
+2. **Transforms** raw data into meaningful insights
+3. **Visualizes** data with interactive dashboards
+4. **Shares** reports with teams and public audiences
+
+**Compared to alternatives:**
+
+| Feature | Power BI | Tableau | Looker | Google Analytics |
+|---------|----------|--------|--------|-----------------|
+| **Cost** | $10-20/user/mo | $70/user/mo | $5K+/year | Free (limited) |
+| **Ease** | Medium | Medium | Hard | Easy |
+| **Integration** | Excel, Azure | Broad | GCP | Google only |
+| **Interactivity** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
+
+### 1.2 Power BI Architecture
+
+```
+Excel/CSV → Power BI Desktop → Publish → Power BI Web → Embed → Course
+                   ↓                          ↓
+            Transforms data         Share with teams
+```
+
+### 1.3 Key Concepts
+
+**Datasets**
+- Your data source (Excel, SQL Database, Web API)
+- Refreshed automatically or on-demand
+
+**Reports**
+- Visualizations of your data
+- Can contain multiple pages
+- Interactive filters and drill-down
+
+**Dashboards**
+- Collection of visuals from reports
+- Real-time updates
+- Shared with stakeholders
+
+---
+
+## Module 2: Creating Your First Dashboard
+
+### 2.1 Step-by-Step Workflow
+
+**Step 1: Get Data**
+```
+1. Open Power BI Desktop
+2. Click "Get Data"
+3. Select source (Excel, SQL, Web, etc.)
+4. Load your data
+```
+
+**Step 2: Transform Data (Power Query)**
+```
+1. Remove unnecessary columns
+2. Fix data types
+3. Create calculated columns
+4. Filter for relevant records
+```
+
+**Step 3: Create Visualizations**
+```
+1. Drag fields to visual area
+2. Choose visualization type (bar, line, card, etc.)
+3. Add filters and slicers
+4. Format colors and labels
+```
+
+**Step 4: Publish**
+```
+1. Click "Publish"
+2. Select workspace
+3. Wait for upload (1-5 minutes)
+4. Dashboard now live on Power BI Web
+```
+
+### 2.2 Example: Sales Dashboard
+
+**Data Preparation**
+```
+Source: Monthly sales by region
+
+Month    | Region | Sales | Target | Product
+---------|--------|-------|--------|----------
+Jan 2026 | North  | 45K   | 40K    | Software
+Jan 2026 | South  | 38K   | 45K    | Hardware
+Feb 2026 | North  | 52K   | 40K    | Software
+...
+```
+
+**Visualizations to Create**
+1. **KPI Card**: Total Sales ($)
+2. **Bar Chart**: Sales by Region
+3. **Line Chart**: Sales Trend Over Time
+4. **Pie Chart**: Sales by Product
+5. **Slicer**: Filter by Month
+
+---
+
+## Module 3: Publishing & Embedding
+
+### 3.1 Publish to Power BI Web
+
+**In Power BI Desktop:**
+```
+1. File → Publish
+2. Select workspace (typically "My workspace")
+3. Choose "Overwrite" or "Create new"
+4. Wait for confirmation (usually 1-2 minutes)
+```
+
+**After Publishing:**
+- Your report is now at powerbi.com
+- Can be accessed from web browsers
+- Mobile-friendly
+- Real-time data updates
+
+### 3.2 Generate Embed Code
+
+**To embed in a website/course:**
+
+```html
+<!-- Power BI Embed Code -->
+<iframe
+  width="100%"
+  height="600"
+  src="https://app.powerbi.com/reportEmbed?reportId=YOUR_REPORT_ID&autoAuth=true&ctid=YOUR_TENANT_ID"
+  frameborder="0"
+  allowFullScreen="true">
+</iframe>
+```
+
+**Steps:**
+1. Open your report on powerbi.com
+2. Click "Share" → "Embed code"
+3. Copy the iframe code
+4. Paste into your course HTML
+5. Adjust width/height as needed
+
+### 3.3 Security Considerations ⚠️
+
+**❌ DO NOT publish:**
+- Customer personal data (names, emails, phone numbers)
+- Financial data (account numbers, SSNs, salaries)
+- Medical/health information
+- Passwords or API keys
+- Location data (home addresses)
+
+**✅ SAFE to publish:**
+- Aggregated sales data (by region, product, date)
+- Performance metrics (KPIs, percentages)
+- Anonymized customer counts
+- Market trends and benchmarks
+- Public company data
+
+**Example - Safe Dashboard:**
+```
+Sales Summary (SAFE)
+├── Total Sales: $250,000
+├── Average Order Value: $500
+├── Sales by Region
+├── Top 5 Products
+└── Year-over-Year Growth: +15%
+
+Customer Data (UNSAFE)
+├── Customer Names ❌
+├── Email Addresses ❌
+├── Purchase Histories ❌
+└── Account Numbers ❌
+```
+
+---
+
+## Alternative: Tableau Public (Free Option)
+
+If you don't have Power BI Pro, use **Tableau Public**:
+
+### Setup
+```
+1. Download Tableau Public (free from tableau.com)
+2. Create account
+3. Open your Excel file
+4. Build visualizations
+5. Publish to Tableau Public
+6. Get embed code
+```
+
+### Embed Code for Tableau
+```html
+<div class='tableauPlaceholder' id='viz1234567890'>
+  <object class='tableauViz'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='report_name' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+  </object>
+</div>
+```
+
+**Advantages:**
+- Free tier available
+- Beautiful default styling
+- Large community and examples
+- Easy embeds
+
+**Disadvantages:**
+- All published data is public
+- No row-level security
+- Limited real-time updates
+
+---
+
+## Best Practices
+
+### 1. Design for Your Audience
+```
+Executive Dashboard (KPIs only)
+├── Revenue: $2.5M
+├── Growth: +18%
+└── Key Risks
+
+Operational Dashboard (Detailed)
+├── Sales by territory
+├── Customer satisfaction scores
+├── Inventory levels
+└── Order fulfillment rates
+```
+
+### 2. Keep Data Fresh
+- Set automatic refreshes (daily/hourly)
+- Monitor refresh history for failures
+- Document data latency (e.g., "Data refreshes at 6 AM")
+
+### 3. Make it Accessible
+- Use high-contrast colors for color-blind users
+- Provide text descriptions of charts
+- Include filters for common questions
+- Keep loading time < 3 seconds
+
+### 4. Document Everything
+```
+Dashboard Name: Quarterly Sales Review
+Last Updated: September 22, 2026
+Data Source: Sales database (SQL Server)
+Refresh Frequency: Daily (6 AM UTC)
+Owner: Analytics Team
+Contact: analytics@company.com
+```
+
+---
+
+## Exercises
+
+### Exercise 1: Plan Your Dashboard
+
+```
+Answer these questions:
+1. Who is your audience? (executives, team, public?)
+2. What story do you want to tell?
+3. What data is available?
+4. What decisions will this support?
+5. What's sensitive data that shouldn't be shared?
+```
+
+### Exercise 2: Create Sample Data
+
+Download sample data for practicing:
+- Sales data: 1,000+ transactions
+- Product categories: 50+ items
+- Time period: 24 months
+- Regions: North, South, East, West
+
+### Exercise 3: Build Visualizations
+
+For sample data, create:
+1. KPI card showing total sales
+2. Bar chart: Sales by region
+3. Line chart: Sales over time
+4. Pie chart: Top 5 products
+5. Slicer: Filter by month
+
+---
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Embed code shows "Access Denied" | Ensure report is published to Power BI Web, not just Desktop |
+| Chart looks cramped | Adjust iframe width/height ratio (try 16:9) |
+| Data not updating | Check refresh schedule in Power BI Service |
+| Slow loading | Reduce number of visuals, use aggregated data |
+| Won't embed on website | Check CORS settings and ensure Power BI URL is whitelisted |
+
+---
+
+## Key Takeaways
+
+1. **Power BI Desktop** is for creating; **Power BI Web** is for sharing
+2. **Embed codes** make reports part of your course
+3. **Security first** — never share personally identifiable data
+4. **Tableau Public** is a free alternative
+5. **Dashboard design matters** — focus on story, not data
+
+---
+
+## Resources
+
+- **Microsoft Power BI Docs**: https://docs.microsoft.com/power-bi/
+- **Power BI Learning Paths**: https://learn.microsoft.com/power-bi/
+- **Tableau Public Gallery**: https://public.tableau.com/
+- **DAX Formula Reference**: https://dax.guide/
+- **Power BI Community**: https://community.powerbi.com/
+
+---
+
+## Next Steps
+
+1. Download Power BI Desktop (free with Microsoft account)
+2. Create sample dashboard with your own data
+3. Publish to Power BI Web
+4. Get embed code
+5. Test embedding in Quarto or HTML
+6. Share with your course students
+
+---
+
+**Duration:** 4 hours | **Difficulty:** Beginner-Intermediate | **Certificate:** Free (upon completion)
